@@ -120,10 +120,32 @@ const PRODUCTS: Record<number, Product> = {
               ,'Vendidas em par (2 unidades)'
             ]
   },
+
+  125: {
+    name: 'Cama Queen Completa',
+    desc: 'O quarto do casal merece o melhor — sem pagar caro por isso. Queen completa, box duplo, colchão acolchoado e conservado.',
+    price: 850, oldPrice: null, cat: 'Camas',
+    imgs: ['queen-1.jpeg','queen-2.jpeg', 'queen-3.jpeg', 'queen-4.jpeg'],
+    details: ['Colchão acolchoado em ótimo estado'
+              ,'Pronta para retirada'
+              ,'Box duplo — estrutura sólida e durável'
+            ]
+  },
+
+   126: {
+    name: 'Cama Casal Completa',
+    desc: 'Precisa de uma cama de casal sem gastar muito? Colchão em bom estado, box funcional',
+    price: 450, oldPrice: null, cat: 'Camas',
+    imgs: ['casal.jpeg','casal2.jpeg', 'casal3.jpeg', 'casal4.jpeg'],
+    details: ['Ideal para quarto de hóspedes ou uso imediato'
+              ,'Tamanho Casal (138 x 188 cm)'
+              ,'Conjunto completo: box + colchão'
+            ]
+  },
   
 }
 
-const WA_NUMBER = '+554599995416' // ← TROQUE PELO SEU NÚMERO
+const WA_NUMBER = '+5545999541641' // ← TROQUE PELO SEU NÚMERO
 
 /* ─── HELPERS ─── */
 function fmt(v: number) {

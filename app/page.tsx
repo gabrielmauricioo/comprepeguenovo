@@ -38,9 +38,13 @@ const PRODUCTS: Product[] = [
   { id: 123, name: 'Espreguiçadeira Reclinável',          desc: 'Reclinável com múltiplas posições',     price: 199,    oldPrice: null , img: 'cadeiraR.jpeg',        cat: 'Poltronas', isNew: true },
 
   { id: 124, name: 'Par de Cadeiras Estofadas Cinza',          desc: 'Vendidas em par (2 unidades)',     price: 340,    oldPrice: null , img: 'cadeiracinza.jpeg',        cat: 'Poltronas', isNew: false },
+
+  { id: 125, name: 'Cama Queen Completa',       desc: 'Tamanho Queen (158 x 198 cm)',     price: 850,    oldPrice: null , img: 'queen-1.jpeg',        cat: 'Camas', isNew: true },
+
+  { id: 126, name: 'Cama Casal Completa',       desc: 'Tamanho Casal (138 x 188 cm)',     price: 450,    oldPrice: null , img: 'casal.jpeg',        cat: 'Camas', isNew: true },
 ]
 
-const WA_NUMBER = '5545999541641' // ← TROQUE PELO SEU NÚMERO
+const WA_NUMBER = '+5545999541641' // ← TROQUE PELO SEU NÚMERO
 
 /* ─── HELPERS ─── */
 function fmt(v: number) {
