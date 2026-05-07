@@ -69,7 +69,6 @@ const PRODUCTS: Record<number, Product> = {
               ,'Design barrel chair — moderno e atemporal'
             ],
   },
-
   120: {
     name: 'Máquina de Lavar Consul 10kg',
     desc: 'Cansado de lavar roupa na mão ou gastar na lavanderia? Máquina Consul 10kg por R$ 499 — resolve de vez e ainda sobra troco.',
@@ -79,11 +78,52 @@ const PRODUCTS: Record<number, Product> = {
               ,'Funcionamento perfeito, testada antes de anunciar'
               ,'Fácil instalação padrão'
             ]
-  }
+  },
+  121: {
+    name: 'Cama Solteirão Completa',
+    desc: 'Dormir bem não é luxo — é necessidade. Solteirão completo, colchão firme e conservado, box com rodinhas. Conforto real por R$ 599.',
+    price: 599, oldPrice: null, cat: 'Camas',
+    imgs: ['solteirão.jpeg','solteirão2.jpeg', 'solteirão3.jpeg', 'solteirão4.jpeg'],
+    details: ['Conjunto completo: box + colchão'
+              ,'Colchão em excelente estado de conservação'
+              ,'Pronto para retirada'
+            ]
+  },
+   122: {
+    name: 'Banco de Madeira Rústico',
+    desc: 'Aquele toque natural que transforma qualquer ambiente. Banco rústico em madeira maciça — perfeito para varanda, jardim ou entrada de casa.',
+    price: 199, oldPrice: 299, cat: 'Móveis',
+    imgs: ['banco.jpeg','banco2.jpeg', 'banco3.jpeg'],
+    details: ['Ideal para varanda, jardim ou corredor'
+              ,'Resistente e bem construído'
+              ,'Peça artesanal — design exclusivo'
+            ]
+  },
+   123: {
+    name: 'Cadeira Reclinável Espreguiçadeira',
+    desc: 'Seu momento de descanso merece uma cadeira à altura. Reclinável, leve e dobrável — perfeita para a varanda, quintal ou piscina.',
+    price: 199, oldPrice: null, cat: 'Poltronas',
+    imgs: ['cadeiraR.jpeg','cadeiraR2.jpeg', 'cadeiraR3.jpeg', 'cadeiraR4.jpeg'],
+    details: ['Ideal para varanda, jardim ou corredor'
+              ,'Resistente e bem construído'
+              ,'Peça artesanal — design exclusivo'
+            ]
+  },
+
+  124: {
+    name: 'Par de Cadeiras Estofadas Cinza',
+    desc: 'Design de hotel, preço de oportunidade. Par de cadeiras estofadas com tecido cinza mesclado e pés em madeira escura.',
+    price: 340, oldPrice: null, cat: 'Poltronas',
+    imgs: ['cadeiracinza.jpeg','cadeiracinza2.jpeg', 'cadeiracinza3.jpeg', 'cadeiracinza4.jpeg'],
+    details: ['Tecido cinza mesclado em ótimo estado'
+              ,'Ideais para sala de jantar, escritório ou quarto'
+              ,'Vendidas em par (2 unidades)'
+            ]
+  },
   
 }
 
-const WA_NUMBER = '55459995416' // ← TROQUE PELO SEU NÚMERO
+const WA_NUMBER = '+554599995416' // ← TROQUE PELO SEU NÚMERO
 
 /* ─── HELPERS ─── */
 function fmt(v: number) {

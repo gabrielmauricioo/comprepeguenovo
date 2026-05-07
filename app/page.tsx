@@ -25,11 +25,19 @@ const PRODUCTS: Product[] = [
   
   { id: 117, name: 'Cama Queen Bege Completa',          desc: 'Conforto para sua casa',            price: 850,    oldPrice: 1200, img: 'queen.jpeg',        cat: 'Camas', isNew: true  },
 
-  { id: 118, name: 'Vaso Sanitário Completo',          desc: 'Fácil instalação',            price: 299,    oldPrice: null, img: 'vaso.jpeg',        cat: 'Construção', isNew: true },
+  { id: 118, name: 'Vaso Sanitário Completo',          desc: 'Fácil instalação',     price: 299,    oldPrice: null, img: 'vaso.jpeg',        cat: 'Construção', isNew: true },
 
-  { id: 119, name: 'Par de Poltronas Bege',          desc: 'Duas unidades',            price: 499,    oldPrice: 600, img: 'poltrona.jpeg',        cat: 'Poltronas', isNew: false },
+  { id: 119, name: 'Par de Poltronas Bege',          desc: 'Duas unidades',       price: 499,    oldPrice: 600, img: 'poltrona.jpeg',        cat: 'Poltronas', isNew: false },
 
-  { id: 120, name: 'Máquina de Lavar Consul 10kg',          desc: 'Capacidade de 10kg',            price: 499,    oldPrice: null, img: 'maquina.jpeg',        cat: 'Eletrodomésticos', isNew: false },
+  { id: 120, name: 'Máquina de Lavar Consul 10kg',          desc: 'Capacidade de 10kg',       price: 499,    oldPrice: null, img: 'maquina.jpeg',        cat: 'Eletrodomésticos', isNew: false },
+
+  { id: 121, name: 'Cama Solteirão Completa',          desc: 'Tamanho Solteirão (96 x 203 cm)',      price: 599,    oldPrice: null, img: 'solteirão.jpeg',        cat: 'Camas', isNew: false },
+
+  { id: 122, name: 'Banco de Madeira Rústico',          desc: 'Madeira maciça com acabamento rústico',     price: 199,    oldPrice: 299 , img: 'banco.jpeg',        cat: 'Móveis', isNew: true },
+
+  { id: 123, name: 'Espreguiçadeira Reclinável',          desc: 'Reclinável com múltiplas posições',     price: 199,    oldPrice: null , img: 'cadeiraR.jpeg',        cat: 'Poltronas', isNew: true },
+
+  { id: 124, name: 'Par de Cadeiras Estofadas Cinza',          desc: 'Vendidas em par (2 unidades)',     price: 340,    oldPrice: null , img: 'cadeiracinza.jpeg',        cat: 'Poltronas', isNew: false },
 ]
 
 const WA_NUMBER = '5545999541641' // ← TROQUE PELO SEU NÚMERO
@@ -227,8 +235,8 @@ export default function Home() {
 
               <div className="hero-card hero-card-bottom float-a">
                 <div className="hero-card-label">Destaque</div>
-                <div className="hero-card-name">Geladeira Consul</div>
-                <div className="hero-card-price">R$&nbsp;1.600</div>
+                <div className="hero-card-name">Cama de Solteiro</div>
+                <div className="hero-card-price">R$&nbsp;550</div>
               </div>
             </div>
           </div>
