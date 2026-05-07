@@ -27,7 +27,9 @@ const PRODUCTS: Product[] = [
 
   { id: 118, name: 'Vaso Sanitário Completo',          desc: 'Fácil instalação',            price: 299,    oldPrice: null, img: 'vaso.jpeg',        cat: 'Construção', isNew: true },
 
-  { id: 119, name: 'Par de Poltronas Bege',          desc: 'Duas unidades',            price: 499,    oldPrice: null, img: 'poltrona.jpeg',        cat: 'Poltronas', isNew: false },
+  { id: 119, name: 'Par de Poltronas Bege',          desc: 'Duas unidades',            price: 499,    oldPrice: 600, img: 'poltrona.jpeg',        cat: 'Poltronas', isNew: false },
+
+  { id: 120, name: 'Máquina de Lavar Consul 10kg',          desc: 'Capacidade de 10kg',            price: 499,    oldPrice: null, img: 'maquina.jpeg',        cat: 'Eletrodomésticos', isNew: false },
 ]
 
 const WA_NUMBER = '5545999541641' // ← TROQUE PELO SEU NÚMERO

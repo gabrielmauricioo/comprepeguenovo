@@ -62,17 +62,28 @@ const PRODUCTS: Record<number, Product> = {
   119: {
     name: 'Par de Poltronas Bege',
     desc: 'Aquele cantinho aconchegante que falta na sua sala — por R$ 499 o par. Design arredondado, tecido claro, elegância imediata.',
-    price: 499, oldPrice: null, cat: 'Poltronas',
-    imgs: ['PoltronaBranca.jpeg','PoltronaBranca2.jpeg','PoltronaBranca3.jpeg','PoltronaBranca4.jpeg', ],
+    price: 499, oldPrice: 600, cat: 'Poltronas',
+    imgs: ['poltrona.jpeg','poltrona2.jpeg','poltrona3.jpeg','poltrona4.jpeg' ],
     details: ['Vendidas em par (2 unidades)'
               ,'Tecido na cor off-white conservado'
               ,'Design barrel chair — moderno e atemporal'
             ],
+  },
+
+  120: {
+    name: 'Máquina de Lavar Consul 10kg',
+    desc: 'Cansado de lavar roupa na mão ou gastar na lavanderia? Máquina Consul 10kg por R$ 499 — resolve de vez e ainda sobra troco.',
+    price: 499, oldPrice: null, cat: 'Eletrodomésticos',
+    imgs: ['maquina.jpeg','maquina2.jpeg', 'maquina3.jpeg'],
+    details: ['Consul 10kg — ideal para famílias'
+              ,'Funcionamento perfeito, testada antes de anunciar'
+              ,'Fácil instalação padrão'
+            ]
   }
   
 }
 
-const WA_NUMBER = '554599995416' // ← TROQUE PELO SEU NÚMERO
+const WA_NUMBER = '55459995416' // ← TROQUE PELO SEU NÚMERO
 
 /* ─── HELPERS ─── */
 function fmt(v: number) {
