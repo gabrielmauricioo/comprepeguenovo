@@ -142,7 +142,40 @@ const PRODUCTS: Record<number, Product> = {
               ,'Conjunto completo: box + colchão'
             ]
   },
-  
+
+  127: {
+    name: 'Par de Cadeiras Estiloso',
+    desc: 'Design atemporal que nunca sai de moda. Madeira maciça, encosto ripado e assento estofado branco — o tipo de cadeira que eleva qualquer sala de jantar.',
+    price: 380, oldPrice: null, cat: 'Poltronas',
+    imgs: ['cadeirabranca.jpeg','cadeirabranca2.jpeg', 'cadeirabranca3.jpeg', 'cadeirabranca4.jpeg'],
+    details: ['Estilo escandinavo — combina com tudo'
+              ,'Assento estofado confortável'
+              ,'Conservadas e prontas para uso'
+            ]
+  },
+
+  128: {
+    name: 'Espreguiçadeiras de Madeira',
+    desc: 'Estrutura sólida de madeira maciça.  Ótima oportunidade',
+    price: 350, oldPrice: null, cat: 'Poltronas',
+    imgs: ['espreguiçadeira.jpeg','espreguiçadeira2.jpeg', 'espreguiçadeira3.jpeg', 'espreguiçadeira4.jpeg'],
+    details: ['Madeira maciça em ripas — estrutura firme'
+              ,'Ideais para piscina, quintal ou varanda'
+              ,'Pronta para retirada'
+            ]
+  },
+
+  129: {
+    name: 'Cama Queen Pillow Top',
+    desc: 'Pillow top de verdade — aquela sensação de afundar na cama do hotel, toda noite, na sua casa. Queen completa, box duplo, colchão floral bordado. Qual o preço?',
+    price: 850, oldPrice: null, cat: 'Camas',
+    imgs: ['queencama.jpeg','queencama2.jpeg', 'queencama3.jpeg'],
+    details: ['Superfície macia e acolchoada'
+              ,'Visual premium — parece novo'
+              ,'Pronta para retirada'
+            ]
+  },
+
 }
 
 const WA_NUMBER = '+5545999541641' // ← TROQUE PELO SEU NÚMERO
