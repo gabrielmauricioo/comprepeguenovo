@@ -16,26 +16,24 @@ interface Product {
 }
 
 /* ─── DATA ─── */
-const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração', 'Poltronas']
+const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração', 'Poltronas', 'Enxoval']
 
 const PRODUCTS: Product[] = [
-  { id: 115, name: 'Cama Solteiro Premium',          desc: 'Referência em qualidade',            price: 550,    oldPrice: null, img: 'cama1.jpeg',        cat: 'Camas', isNew: false  },
+  { id: 130, name: 'TV Philips 32 Polegadas',       desc: 'Qualidade Sonora e Sonora',     price: 350,    oldPrice: 450 , img: 'tv.jpeg',    cat: 'Eletrodomésticos', isNew: false },
 
-  { id: 116, name: 'Cama Queen Completa',          desc: 'Conforto para sua casa',            price: 850,    oldPrice: 1200, img: 'camaqueen.jpeg',        cat: 'Camas', isNew: true  },
+  { id: 115, name: 'Cama Solteiro Premium',          desc: 'Referência em qualidade',            price: 550,    oldPrice: null, img: 'cama1.jpeg',        cat: 'Camas', isNew: false  },
   
   { id: 117, name: 'Cama Queen Bege Completa',          desc: 'Conforto para sua casa',            price: 850,    oldPrice: 1200, img: 'queen.jpeg',        cat: 'Camas', isNew: true  },
+
+  { id: 131, name: 'Cama Casal Ortobom Magnific',       desc: 'Marca Ortobom — referência nacional em colchões',     price: 450,    oldPrice: 550 , img: 'casalcama.jpeg',    cat: 'Camas', isNew: false },
 
   { id: 118, name: 'Vaso Sanitário Completo',          desc: 'Fácil instalação',     price: 299,    oldPrice: null, img: 'vaso.jpeg',        cat: 'Construção', isNew: true },
 
   { id: 119, name: 'Par de Poltronas Bege',          desc: 'Duas unidades',       price: 499,    oldPrice: 600, img: 'poltrona.jpeg',        cat: 'Poltronas', isNew: false },
 
-  { id: 120, name: 'Máquina de Lavar Consul 10kg',          desc: 'Capacidade de 10kg',       price: 499,    oldPrice: null, img: 'maquina.jpeg',        cat: 'Eletrodomésticos', isNew: false },
-
   { id: 121, name: 'Cama Solteirão Completa',          desc: 'Tamanho Solteirão (96 x 203 cm)',      price: 599,    oldPrice: null, img: 'solteirão.jpeg',        cat: 'Camas', isNew: false },
 
   { id: 122, name: 'Banco de Madeira Rústico',          desc: 'Madeira maciça com acabamento rústico',     price: 199,    oldPrice: 299 , img: 'banco.jpeg',        cat: 'Móveis', isNew: true },
-
-  { id: 123, name: 'Espreguiçadeira Reclinável',          desc: 'Reclinável com múltiplas posições',     price: 199,    oldPrice: null , img: 'cadeiraR.jpeg',        cat: 'Poltronas', isNew: true },
 
   { id: 124, name: 'Par de Cadeiras Estofadas Cinza',          desc: 'Vendidas em par (2 unidades)',     price: 340,    oldPrice: null , img: 'cadeiracinza.jpeg',        cat: 'Poltronas', isNew: false },
 
@@ -49,9 +47,7 @@ const PRODUCTS: Product[] = [
 
 { id: 129, name: 'Cama Queen Pillow Top',       desc: 'Tamanho Queen (158 x 198 cm)',     price: 850,    oldPrice: null , img: 'queencama.jpeg',    cat: 'Camas', isNew: false },
 
-
-
-
+{ id: 132, name: 'Cobreleito Queen',       desc: 'Tecido floral bordado',     price: 50,    oldPrice: null , img: 'cobreleito4.jpeg',    cat: 'Enxoval', isNew: true },
 
 
 ]

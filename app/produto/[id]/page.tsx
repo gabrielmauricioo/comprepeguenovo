@@ -29,16 +29,6 @@ const PRODUCTS: Record<number, Product> = {
     imgs: ['cama1.jpeg','cama2.jpeg','cama3.jpeg','cama4.jpeg', ],
     details: ['Qualidade', 'Conforto', 'Excelente estado'],
   },
-  116: {
-    name: 'Cama Queen Completa',
-    desc: 'A cama que todo casal merece — por uma fração do preço. Estrutura sólida, colchão em estado impecável. Poucas unidades.',
-    price: 850, oldPrice: 1200, cat: 'Camas',
-    imgs: ['camaqueen.jpeg','camaqueen2.jpeg','camaqueen3.jpeg','camaqueen4.jpeg', ],
-    details: ['Colchão em ótimo estado de conservação'
-              ,'Tamanho Queen (158 x 198 cm)'
-              ,'Pronta para retirada'
-            ],
-  },
   117: {
     name: 'Cama Queen Bege Completa',
     desc: 'A cama que todo casal merece — por uma fração do preço. Estrutura sólida, colchão em estado impecável. Poucas unidades.',
@@ -69,16 +59,6 @@ const PRODUCTS: Record<number, Product> = {
               ,'Design barrel chair — moderno e atemporal'
             ],
   },
-  120: {
-    name: 'Máquina de Lavar Consul 10kg',
-    desc: 'Cansado de lavar roupa na mão ou gastar na lavanderia? Máquina Consul 10kg por R$ 499 — resolve de vez e ainda sobra troco.',
-    price: 499, oldPrice: null, cat: 'Eletrodomésticos',
-    imgs: ['maquina.jpeg','maquina2.jpeg', 'maquina3.jpeg'],
-    details: ['Consul 10kg — ideal para famílias'
-              ,'Funcionamento perfeito, testada antes de anunciar'
-              ,'Fácil instalação padrão'
-            ]
-  },
   121: {
     name: 'Cama Solteirão Completa',
     desc: 'Dormir bem não é luxo — é necessidade. Solteirão completo, colchão firme e conservado, box com rodinhas. Conforto real por R$ 599.',
@@ -94,16 +74,6 @@ const PRODUCTS: Record<number, Product> = {
     desc: 'Aquele toque natural que transforma qualquer ambiente. Banco rústico em madeira maciça — perfeito para varanda, jardim ou entrada de casa.',
     price: 199, oldPrice: 299, cat: 'Móveis',
     imgs: ['banco.jpeg','banco2.jpeg', 'banco3.jpeg'],
-    details: ['Ideal para varanda, jardim ou corredor'
-              ,'Resistente e bem construído'
-              ,'Peça artesanal — design exclusivo'
-            ]
-  },
-   123: {
-    name: 'Cadeira Reclinável Espreguiçadeira',
-    desc: 'Seu momento de descanso merece uma cadeira à altura. Reclinável, leve e dobrável — perfeita para a varanda, quintal ou piscina.',
-    price: 199, oldPrice: null, cat: 'Poltronas',
-    imgs: ['cadeiraR.jpeg','cadeiraR2.jpeg', 'cadeiraR3.jpeg', 'cadeiraR4.jpeg'],
     details: ['Ideal para varanda, jardim ou corredor'
               ,'Resistente e bem construído'
               ,'Peça artesanal — design exclusivo'
@@ -173,6 +143,39 @@ const PRODUCTS: Record<number, Product> = {
     details: ['Superfície macia e acolchoada'
               ,'Visual premium — parece novo'
               ,'Pronta para retirada'
+            ]
+  },
+
+  130: {
+    name: 'TV Philips 32 Polegadas',
+    desc: 'Ligada, funcionando, imagem perfeita — a foto já prova. TV Philips 32" com controle original incluso. Resolve a sala, o quarto ou a cozinha.',
+    price: 350, oldPrice: 450, cat: 'Eletrodomésticos',
+    imgs: ['tv.jpeg','tv2.jpeg', 'tv3.jpeg', 'tv4.jpeg'],
+    details: ['Marca Philips — referência em qualidade'
+              ,'Controle remoto original incluso'
+              ,'Entrada HDMI'
+            ]
+  },
+
+  131: {
+    name: 'Cama Casal Ortobom Magnific',
+    desc: 'Preço honesto para quem quer qualidade sem pagar caro.',
+    price: 450, oldPrice: 550, cat: 'Camas',
+    imgs: ['casalcama.jpeg','casalcama2.jpeg', 'casalcama3.jpeg', 'casalcama4.jpeg'],
+    details: ['Tamanho Casal'
+              ,'Colchão Magnific — estrutura sem deformações'
+              ,'Frete Grátis'
+            ]
+  },
+
+   132: {
+    name: 'Cobreleito Queen',
+    desc: 'Ideal para quem precisa de uma opção funcional sem gastar.',
+    price: 50, oldPrice: null, cat: 'Enxoval',
+    imgs: ['cobreleito.jpeg','cobreleito2.jpeg', 'cobreleito3.jpeg', 'cobreleito4.jpeg'],
+    details: ['Tamanho Queen'
+              ,'Funcional e lavável'
+              ,'Pronto para retirada em Foz do Iguaçu'
             ]
   },
 
