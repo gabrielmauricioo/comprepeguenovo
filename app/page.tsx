@@ -45,8 +45,6 @@ const PRODUCTS: Product[] = [
 
 { id: 128, name: 'Espreguiçadeiras de Madeira',       desc: 'Cada Unidade',     price: 350,    oldPrice: null , img: 'espreguiçadeira.jpeg',        cat: 'Poltronas', isNew: false },
 
-{ id: 129, name: 'Cama Queen Pillow Top',       desc: 'Tamanho Queen (158 x 198 cm)',     price: 850,    oldPrice: null , img: 'queencama.jpeg',    cat: 'Camas', isNew: false },
-
 { id: 132, name: 'Cobreleito Queen',       desc: 'Tecido floral bordado',     price: 50,    oldPrice: null , img: 'cobreleito4.jpeg',    cat: 'Enxoval', isNew: true },
 
 

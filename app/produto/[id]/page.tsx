@@ -134,18 +134,7 @@ const PRODUCTS: Record<number, Product> = {
               ,'Pronta para retirada'
             ]
   },
-
-  129: {
-    name: 'Cama Queen Pillow Top',
-    desc: 'Pillow top de verdade — aquela sensação de afundar na cama do hotel, toda noite, na sua casa. Queen completa, box duplo, colchão floral bordado. Qual o preço?',
-    price: 850, oldPrice: null, cat: 'Camas',
-    imgs: ['queencama.jpeg','queencama2.jpeg', 'queencama3.jpeg'],
-    details: ['Superfície macia e acolchoada'
-              ,'Visual premium — parece novo'
-              ,'Pronta para retirada'
-            ]
-  },
-
+  
   130: {
     name: 'TV Philips 32 Polegadas',
     desc: 'Ligada, funcionando, imagem perfeita — a foto já prova. TV Philips 32" com controle original incluso. Resolve a sala, o quarto ou a cozinha.',
