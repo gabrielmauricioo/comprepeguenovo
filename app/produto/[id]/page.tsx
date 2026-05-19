@@ -22,13 +22,6 @@ interface Product {
    imgs: ['foto1.png', 'foto2.png', 'foto3.png']
 ───────────────────────────────────────────────────────────────── */
 const PRODUCTS: Record<number, Product> = {
-  115: {
-    name: 'Cama Solteiro Premium',
-    desc: 'Referência em qualidade. Produto em excelente estado de conservação. Ideal para o seu Lar.',
-    price: 550, oldPrice: null, cat: 'Camas',
-    imgs: ['cama1.jpeg','cama2.jpeg','cama3.jpeg','cama4.jpeg', ],
-    details: ['Qualidade', 'Conforto', 'Excelente estado'],
-  },
   117: {
     name: 'Cama Queen Bege Completa',
     desc: 'A cama que todo casal merece — por uma fração do preço. Estrutura sólida, colchão em estado impecável. Poucas unidades.',
@@ -146,16 +139,6 @@ const PRODUCTS: Record<number, Product> = {
             ]
   },
 
-  131: {
-    name: 'Cama Casal Ortobom Magnific',
-    desc: 'Preço honesto para quem quer qualidade sem pagar caro.',
-    price: 450, oldPrice: 550, cat: 'Camas',
-    imgs: ['casalcama.jpeg','casalcama2.jpeg', 'casalcama3.jpeg', 'casalcama4.jpeg'],
-    details: ['Tamanho Casal'
-              ,'Colchão Magnific — estrutura sem deformações'
-              ,'Frete Grátis'
-            ]
-  },
 
    132: {
     name: 'Cobreleito Queen',
@@ -167,6 +150,40 @@ const PRODUCTS: Record<number, Product> = {
               ,'Pronto para retirada em Foz do Iguaçu'
             ]
   },
+
+  133: {
+  name: 'Ar Condicionado Consul Inverter 12.000 BTUs',
+  desc: 'Consul Inverter — tecnologia que resfria rápido e economiza energia. 12.000 BTUs, conjunto completo com evaporadora e condensadora. Controle remoto original incluso. Oportunidade real por R$ 700.',
+  price: 700, oldPrice: null, cat: 'Eletrodomésticos',
+  imgs: ['ar.jpeg', 'ar2.jpeg', 'ar3.jpeg', 'ar4.jpeg', 'ar5.jpeg'],
+  details: [
+    'Marca Consul — referência em climatização',
+    'Tecnologia Inverter — economia de energia',
+    '12.000 BTUs — ideal para ambientes médios',
+    'Conjunto completo: evaporadora + condensadora',
+    'Controle remoto original incluso',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+134: {
+  name: 'Pia de Cozinha Inox com Escorredor',
+  desc: 'Reforma a cozinha sem obra e sem gastar muito. Pia em aço inox com cuba simples e escorredor dos dois lados — fácil de limpar, resistente e pronta para instalar.',
+  price: 150, oldPrice: null, cat: 'Construção',
+  imgs: ['inox.jpeg', 'inox2.jpeg', 'inox3.jpeg', 'inox4.jpeg'],
+  details: [
+    'Aço inox — resistente e fácil de limpar',
+    'Cuba simples com escorredor dos dois lados',
+    'Ideal para cozinha, área de serviço ou kitnet',
+    'Instalação padrão — encanador resolve rápido',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+
+  
 
 }
 

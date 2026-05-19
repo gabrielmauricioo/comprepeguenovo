@@ -21,11 +21,11 @@ const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móv
 const PRODUCTS: Product[] = [
   { id: 130, name: 'TV Philips 32 Polegadas',       desc: 'Qualidade Sonora e Sonora',     price: 350,    oldPrice: 450 , img: 'tv.jpeg',    cat: 'Eletrodomésticos', isNew: false },
 
-  { id: 115, name: 'Cama Solteiro Premium',          desc: 'Referência em qualidade',            price: 550,    oldPrice: null, img: 'cama1.jpeg',        cat: 'Camas', isNew: false  },
+  { id: 133, name: 'Ar Condicionado Consul', desc: 'Consul Inverter 12.000 BTUs', price: 700, oldPrice: 900, img: 'ar.jpeg', cat: 'Eletrodomésticos', isNew: false },
+
+  { id: 134, name: 'Pia de Cozinha Inox ', desc: 'Inox resistente, cuba simples com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'inox.jpeg', cat: 'Construção', isNew: false },
   
   { id: 117, name: 'Cama Queen Bege Completa',          desc: 'Conforto para sua casa',            price: 850,    oldPrice: 1200, img: 'queen.jpeg',        cat: 'Camas', isNew: true  },
-
-  { id: 131, name: 'Cama Casal Ortobom Magnific',       desc: 'Marca Ortobom — referência nacional em colchões',     price: 450,    oldPrice: 550 , img: 'casalcama.jpeg',    cat: 'Camas', isNew: false },
 
   { id: 118, name: 'Vaso Sanitário Completo',          desc: 'Fácil instalação',     price: 299,    oldPrice: null, img: 'vaso.jpeg',        cat: 'Construção', isNew: true },
 
