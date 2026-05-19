@@ -182,6 +182,38 @@ const PRODUCTS: Record<number, Product> = {
   ]
 },
 
+135: {
+  name: 'Mesa Redonda de Madeira Maciça',
+  desc: 'Madeira maciça envernizada, pé torneado estilo clássico — o tipo de peça que transforma qualquer ambiente. Sala de jantar, varanda ou escritório. Estilo real por R$ 450.',
+  price: 450, oldPrice: 600, cat: 'Móveis',
+  imgs: ['redonda3.jpeg', 'redonda2.jpeg', 'redonda.jpeg', 'redonda4.jpeg'],
+  details: [
+    'Madeira maciça — resistente e durável',
+    'Acabamento envernizado bem conservado',
+    'Pé torneado estilo clássico — muito elegante',
+    'Formato redondo — ideal para ambientes menores',
+    'Ideal para sala de jantar, varanda ou escritório',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+136: {
+  name: 'Arara de Madeira com Prateleiras',
+  desc: 'Chega de quarto bagunçado. Arara em madeira resistente com barra de metal para roupas e 2 prateleiras para sapatos e acessórios — organização completa por R$ 250.',
+  price: 250, oldPrice: null, cat: 'Móveis',
+  imgs: ['arara.jpeg', 'arara2.jpeg', 'arara3.jpeg', 'arara4.jpeg' ],
+  details: [
+    'Estrutura em madeira resistente',
+    'Barra de metal para pendurar roupas',
+    '2 prateleiras — ideal para sapatos e acessórios',
+    'Perfeita para quarto, closet ou loja',
+    'Funcional e bem conservada',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+}
+
 
   
 

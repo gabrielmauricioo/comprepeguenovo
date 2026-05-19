@@ -24,6 +24,10 @@ const PRODUCTS: Product[] = [
   { id: 133, name: 'Ar Condicionado Consul', desc: 'Consul Inverter 12.000 BTUs', price: 700, oldPrice: 900, img: 'ar.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
   { id: 134, name: 'Pia de Cozinha Inox ', desc: 'Inox resistente, cuba simples com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'inox.jpeg', cat: 'Construção', isNew: false },
+
+  { id: 135, name: 'Mesa Redonda Maciça', desc: 'Madeira maciça envernizada, pé torneado elegante.', price: 450, oldPrice: 600, img: 'redonda3.jpeg', cat: 'Móveis', isNew: true },
+
+  { id: 136, name: 'Arara de Madeira com Prateleiras', desc: 'Organização com estilo.', price: 250, oldPrice: null, img: 'arara3.jpeg', cat: 'Móveis', isNew: true },
   
   { id: 117, name: 'Cama Queen Bege Completa',          desc: 'Conforto para sua casa',            price: 850,    oldPrice: 1200, img: 'queen.jpeg',        cat: 'Camas', isNew: true  },
 
