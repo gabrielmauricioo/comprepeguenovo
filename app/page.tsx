@@ -25,7 +25,16 @@ const PRODUCTS: Product[] = [
 
   { id: 134, name: 'Pia de Cozinha Inox ', desc: 'Inox resistente, cuba simples com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'inox.jpeg', cat: 'Construção', isNew: false },
 
-  { id: 135, name: 'Mesa Redonda Maciça', desc: 'Madeira maciça envernizada, pé torneado elegante.', price: 450, oldPrice: 600, img: 'redonda3.jpeg', cat: 'Móveis', isNew: true },
+   // -------------------   ATUALIZAR E COLOCAR AS FOTOS --------------------------------------------
+
+  { id: 137, name: 'Mesa Redonda de Pinus', desc: 'Rústica, estável e cheia de charme.', price: 450, oldPrice: null, img: 'pinus.jpeg', cat: 'Móveis', isNew: false },
+
+  { id: 138, name: 'Cadeira Moderna', desc: 'Peça de design por R$ 200', price: 200, oldPrice: 300, img: 'cadeirasshell.jpeg', cat: 'Móveis', isNew: false },
+
+  { id: 139, name: 'Espelho Redondo com Moldura ', desc: 'Tendência em decoração por R$ 150.', price: 150, oldPrice: 250, img: 'espelho.jpeg', cat: 'Decoração', isNew: false },
+
+
+  // -------------------   ATUALIZAR E COLOCAR AS FOTOS --------------------------------------------
 
   { id: 136, name: 'Arara de Madeira com Prateleiras', desc: 'Organização com estilo.', price: 250, oldPrice: null, img: 'arara3.jpeg', cat: 'Móveis', isNew: true },
   

@@ -182,22 +182,6 @@ const PRODUCTS: Record<number, Product> = {
   ]
 },
 
-135: {
-  name: 'Mesa Redonda de Madeira Maciça',
-  desc: 'Madeira maciça envernizada, pé torneado estilo clássico — o tipo de peça que transforma qualquer ambiente. Sala de jantar, varanda ou escritório. Estilo real por R$ 450.',
-  price: 450, oldPrice: 600, cat: 'Móveis',
-  imgs: ['redonda3.jpeg', 'redonda2.jpeg', 'redonda.jpeg', 'redonda4.jpeg'],
-  details: [
-    'Madeira maciça — resistente e durável',
-    'Acabamento envernizado bem conservado',
-    'Pé torneado estilo clássico — muito elegante',
-    'Formato redondo — ideal para ambientes menores',
-    'Ideal para sala de jantar, varanda ou escritório',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
-
 136: {
   name: 'Arara de Madeira com Prateleiras',
   desc: 'Chega de quarto bagunçado. Arara em madeira resistente com barra de metal para roupas e 2 prateleiras para sapatos e acessórios — organização completa por R$ 250.',
@@ -212,7 +196,56 @@ const PRODUCTS: Record<number, Product> = {
     'Parcelo em até 3x sem juros',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
+},
+
+137: {
+  name: 'Mesa Redonda de Pinus',
+  desc: 'Charme rústico com muita estabilidade. Tampo em madeira de pinus envernizada e pé central em cruz — o tipo de peça que todo mundo pergunta de onde veio. Sala de jantar, varanda ou cozinha. R$ 450.',
+  price: 450, oldPrice: null, cat: 'Móveis',
+  imgs: ['pinus.jpeg', 'pinus2.jpeg', 'pinus3.jpeg', 'pinus5.jpeg'],
+  details: [
+    'Madeira de pinus maciça envernizada',
+    'Pé central em cruz — super estável',
+    'Formato redondo — perfeito para espaços menores',
+    'Estilo rústico — combina com qualquer decoração',
+    'Ideal para sala de jantar, varanda ou cozinha',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+138: {
+  name: 'Cadeira Moderna',
+  desc: 'O tipo de cadeira que vira o centro das atenções. Assento shell em couro sintético caramelo, base hairpin em metal preto — design que você encontra em lojas sofisticadas por muito mais. R$ 200.',
+  price: 200, oldPrice: 300, cat: 'Móveis',
+  imgs: ['cadeirasshell.jpeg', 'cadeirasshell2.jpeg', 'cadeirasshell3.jpeg'],
+  details: [
+    'Estilo shell — design moderno e atemporal',
+    'Assento em couro sintético caramelo',
+    'Base hairpin em metal preto — muito estilosa',
+    'Com apoio de braços — confortável e elegante',
+    'Ideal para sala, escritório ou quarto',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+139: {
+  name: 'Espelho Redondo com Moldura',
+  desc: 'Um espelho que decora antes mesmo de refletir. Moldura fina preta, formato redondo, 69cm de diâmetro — tendência que você vê em lojas de decoração por muito mais. R$ 150.',
+  price: 150, oldPrice: null, cat: 'Decoração',
+  imgs: ['espelho.jpeg', 'espelho2.jpeg', 'espelho3.jpeg', 'espelho4.jpeg'],
+  details: [
+    'Moldura fina preta — design moderno e atemporal',
+    '69cm de diâmetro — tamanho ideal para qualquer cômodo',
+    'Perfeito para sala, quarto, hall ou banheiro',
+    'Tendência em decoração — muito procurado',
+    'Leve e fácil de instalar',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
 }
+
 
 
   
