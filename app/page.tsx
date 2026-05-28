@@ -25,16 +25,12 @@ const PRODUCTS: Product[] = [
 
   { id: 134, name: 'Pia de Cozinha Inox ', desc: 'Inox resistente, cuba simples com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'inox.jpeg', cat: 'Construção', isNew: false },
 
-   // -------------------   ATUALIZAR E COLOCAR AS FOTOS --------------------------------------------
 
   { id: 137, name: 'Mesa Redonda de Pinus', desc: 'Rústica, estável e cheia de charme.', price: 450, oldPrice: null, img: 'pinus.jpeg', cat: 'Móveis', isNew: false },
 
   { id: 138, name: 'Cadeira Moderna', desc: 'Peça de design por R$ 200', price: 200, oldPrice: 300, img: 'cadeirasshell.jpeg', cat: 'Móveis', isNew: false },
 
   { id: 139, name: 'Espelho Redondo com Moldura ', desc: 'Tendência em decoração por R$ 150.', price: 150, oldPrice: 250, img: 'espelho.jpeg', cat: 'Decoração', isNew: false },
-
-
-  // -------------------   ATUALIZAR E COLOCAR AS FOTOS --------------------------------------------
 
   { id: 136, name: 'Arara de Madeira com Prateleiras', desc: 'Organização com estilo.', price: 250, oldPrice: null, img: 'arara3.jpeg', cat: 'Móveis', isNew: true },
   
@@ -60,7 +56,18 @@ const PRODUCTS: Product[] = [
 
 { id: 132, name: 'Cobreleito Queen',       desc: 'Tecido floral bordado',     price: 50,    oldPrice: null , img: 'cobreleito4.jpeg',    cat: 'Enxoval', isNew: true },
 
+  // -------------------   ATUALIZAR E COLOCAR AS FOTOS --------------------------------------------
 
+  { id: 140, name: 'Conjunto Mesa Industrial + Banco de Madeira', desc: 'Aquele cantinho estilo loft que você sempre quis.', price: 599, oldPrice: null, img: 'banco+ap.jpeg', cat: 'Móveis', isNew: true },
+
+  { id: 141, name: 'Espelho Retangular', desc: 'Aquele espelho de hotel que você sempre quis ter. Moldura fina preta, corpo inteiro.', price: 199, oldPrice: null, img: 'espelhor.jpeg', cat: 'Decoração', isNew: false },
+
+  { id: 142, name: 'Kit 3 Luminárias de Chão Industrial', desc: 'Aquele clima aconchegante das fotos de decoração — na sua casa por R$ 550. Kit completo com 3 luminárias em metal preto, cúpula direcional.', price: 550, oldPrice: 600, img: 'luminaria.jpeg', cat: 'Decoração', isNew: false },
+
+  { id: 143, name: 'Kit Banheiro — Vaso Sanitário + Pia com Coluna', desc: 'Reforma o banheiro completo por R$ 399. Vaso com tampa cinza + pia com coluna e torneira — louça branca impecável, kit completo.', price: 399, oldPrice: null, img: 'kitbanheiro.jpeg', cat: 'Construção', isNew: false },
+  
+
+// -------------------   ATUALIZAR E COLOCAR AS FOTOS --------------------------------------------
 ]
 
 const WA_NUMBER = '+5545999541641' // ← TROQUE PELO SEU NÚMERO

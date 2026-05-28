@@ -233,7 +233,7 @@ const PRODUCTS: Record<number, Product> = {
 139: {
   name: 'Espelho Redondo com Moldura',
   desc: 'Um espelho que decora antes mesmo de refletir. Moldura fina preta, formato redondo, 69cm de diâmetro — tendência que você vê em lojas de decoração por muito mais. R$ 150.',
-  price: 150, oldPrice: null, cat: 'Decoração',
+  price: 150, oldPrice: 250, cat: 'Decoração',
   imgs: ['espelho.jpeg', 'espelho2.jpeg', 'espelho3.jpeg', 'espelho4.jpeg'],
   details: [
     'Moldura fina preta — design moderno e atemporal',
@@ -244,7 +244,77 @@ const PRODUCTS: Record<number, Product> = {
     'Parcelo em até 3x sem juros',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
+},
+
+140: {
+  name: 'Mesa Industrial + Banco de Madeira',
+  desc: 'Só a mesa industrial assim numa loja de design custa R$ 1.200+. Aqui você leva o conjunto completo — mesa com estrutura em ferro preto e tampo em madeira + banco ripado rústico — por R$ 599. Decora hoje, gasta pouco.',
+  price: 599, oldPrice: null, cat: 'Móveis',
+  imgs: ['banco+ap.jpeg', 'banco+ap2.jpeg', 'banco+ap3.jpeg', 'banco+ap4.jpeg'],
+  details: [
+    'Conjunto completo: mesa + banco inclusos',
+    'Mesa estilo industrial — tampo em madeira com estrutura em ferro preto',
+    'Banco de madeira ripado — rústico e charmoso',
+    'Design industrial — tendência que não sai de moda',
+    'Ideal para sala de jantar, escritório, varanda ou home office',
+    'Economia de mais de R$ 600 vs loja de design',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+141: {
+  name: 'Espelho Retangular',
+  desc: 'Moldura fina preta e sem nenhuma trinca, sai por R$ 199. É só levar e apoiar — seu look nunca mais vai errar.',
+  price: 199, oldPrice: null, cat: 'Decoração',
+  imgs: ['espelhor.jpeg', 'espelhor2.jpeg', 'espelhor3.jpeg', 'espelhor4.jpeg' ],
+  details: [
+    'Espelho corpo inteiro — veja o look completo',
+    'Moldura fina preta — minimalista e sofisticado',
+    'Sem trincas ou defeitos — conservado',
+    'Amplia o ambiente e dá sensação de espaço',
+    'Ideal para quarto, closet, hall ou sala',
+    'Fácil de apoiar ou pendurar',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+142: {
+  name: 'Kit 3 Luminárias de Chão Industrial',
+  desc: 'Cada luminária dessa em loja de decoração sai por R$ 300+. Aqui você leva as 3 por R$ 550 — menos do que custaria uma única nova. Base e haste em metal preto, cúpula direcional. O ambiente que você sempre quis por muito menos.',
+  price: 550, oldPrice: 600, cat: 'Decoração',
+  imgs: ['luminaria.jpeg', 'luminaria2.jpeg', 'luminaria3.jpeg', 'luminaria4.jpeg'],
+  details: [
+    'Kit completo com 3 luminárias inclusas',
+    'Base e haste em metal preto — estilo industrial moderno',
+    'Cúpula direcional — ilumina onde você quiser',
+    'Ideal para sala, quarto, escritório ou varanda',
+    'Economia de mais de R$ 350 vs comprar novas',
+    'Ambiente sofisticado na hora',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+143: {
+  name: 'Kit Banheiro — Vaso Sanitário + Pia com Coluna',
+  desc: 'Cada peça separada numa loja de materiais sai por R$ 300, R$ 400+. Aqui você leva o kit completo — vaso com tampa cinza moderna e pia com coluna e torneira — por R$ 399. Louça branca impecável, reforma hoje.',
+  price: 399, oldPrice: null, cat: 'Eletrodomésticos',
+  imgs: ['kitbanheiro.jpeg', 'kitbanheiro2.jpeg', 'kitbanheiro3.jpeg', 'kitbanheiro4.jpeg'],
+  details: [
+    'Kit completo: vaso sanitário + pia com coluna',
+    'Vaso sanitário com tampa cinza moderna',
+    'Pia com coluna e torneira inclusas',
+    'Louça branca em ótimo estado — sem trincas',
+    'Economia de mais de R$ 300 vs comprar separado',
+    'Ideal para reforma de banheiro completa',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
 }
+
+
 
 
 
