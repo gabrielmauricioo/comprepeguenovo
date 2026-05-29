@@ -400,7 +400,7 @@ const PRODUCTS: Record<number, Product> = {
   desc: 'Chega de trânsito, combustível caro e ônibus lotado. Essa Milano Action Lady aro 26 entrega conforto, estilo e economia por apenas R$ 299.',
   price: 299,
   oldPrice: 400,
-  cat: 'Bicicletas',
+  cat: 'Outros',
   imgs: [
     'bicicletamilano.jpeg',
     'bicicletamilano3.jpeg',
@@ -423,7 +423,7 @@ const PRODUCTS: Record<number, Product> = {
   desc: 'Lustres rattan grandes como esse passam fácil dos R$ 700 nas lojas de decoração. Aqui você leva uma peça artesanal sofisticada, com iluminação aconchegante e visual de revista por apenas R$ 300.',
   price: 300,
   oldPrice: 899,
-  cat: 'Iluminação',
+  cat: 'Decoração',
   imgs: [
     'lustrerattansino.jpeg',
     'lustrerattansino2.jpeg',
