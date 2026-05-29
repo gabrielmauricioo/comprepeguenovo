@@ -19,55 +19,59 @@ interface Product {
 const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração', 'Poltronas', 'Enxoval']
 
 const PRODUCTS: Product[] = [
-  { id: 130, name: 'TV Philips 32 Polegadas',       desc: 'Qualidade Sonora e Sonora',     price: 350,    oldPrice: 450 , img: 'tv.jpeg',    cat: 'Eletrodomésticos', isNew: false },
+{ id: 146, name: 'Lustre Rattan Redondo Boho', desc: 'Rattan trançado natural, clima boho instantâneo.', price: 250, oldPrice: 600, img: 'lustrerattan.jpeg', cat: 'Decoração', isNew: true },
 
-  { id: 133, name: 'Ar Condicionado Consul', desc: 'Consul Inverter 12.000 BTUs', price: 700, oldPrice: 900, img: 'ar.jpeg', cat: 'Eletrodomésticos', isNew: false },
+{ id: 124, name: 'Par de Cadeiras Estofadas Cinza', desc: 'Vendidas em par, 2 unidades estofadas.', price: 340, oldPrice: null, img: 'cadeiracinza.jpeg', cat: 'Poltronas', isNew: false },
 
-  { id: 134, name: 'Pia de Cozinha Inox ', desc: 'Inox resistente, cuba simples com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'inox.jpeg', cat: 'Construção', isNew: false },
+{ id: 138, name: 'Cadeira Moderna', desc: 'Peça de design moderno e elegante.', price: 200, oldPrice: 300, img: 'cadeirasshell.jpeg', cat: 'Móveis', isNew: false },
+
+{ id: 117, name: 'Cama Queen Bege Completa', desc: 'Conforto e estilo para seu quarto.', price: 850, oldPrice: 1200, img: 'queen.jpeg', cat: 'Camas', isNew: true },
+
+{ id: 143, name: 'Kit Banheiro — Vaso Sanitário + Pia com Coluna', desc: 'Vaso com tampa + pia com coluna e torneira.', price: 399, oldPrice: null, img: 'kitbanheiro.jpeg', cat: 'Construção', isNew: false },
+
+{ id: 127, name: 'Par de Cadeiras Estiloso', desc: 'Estrutura em madeira maciça escura.', price: 380, oldPrice: null, img: 'cadeirabranca.jpeg', cat: 'Poltronas', isNew: true },
+
+{ id: 121, name: 'Cama Solteirão Completa', desc: 'Tamanho Solteirão, 96 x 203 cm.', price: 599, oldPrice: null, img: 'solteirão.jpeg', cat: 'Camas', isNew: false },
+
+{ id: 140, name: 'Conjunto Mesa Industrial + Banco de Madeira', desc: 'Estilo loft com mesa e banco combinando.', price: 599, oldPrice: null, img: 'banco+ap.jpeg', cat: 'Móveis', isNew: true },
+
+{ id: 133, name: 'Ar Condicionado Consul', desc: 'Consul Inverter 12.000 BTUs eficiente.', price: 700, oldPrice: 900, img: 'ar.jpeg', cat: 'Eletrodomésticos', isNew: false },
+
+{ id: 119, name: 'Par de Poltronas Bege', desc: 'Conforto e charme em duas unidades.', price: 499, oldPrice: 600, img: 'poltrona.jpeg', cat: 'Poltronas', isNew: false },
+
+{ id: 145, name: 'Conjunto Mesa Redonda + 2 Cadeiras Buenos Aires', desc: 'Mesa maciça com pé em cruz e 2 cadeiras.', price: 850, oldPrice: 1500, img: 'conjuntobuenos.jpeg', cat: 'Móveis', isNew: false },
+
+{ id: 134, name: 'Pia de Cozinha Inox', desc: 'Inox resistente com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'inox.jpeg', cat: 'Construção', isNew: false },
+
+{ id: 122, name: 'Banco de Madeira Rústico', desc: 'Madeira maciça com acabamento rústico.', price: 199, oldPrice: 299, img: 'banco.jpeg', cat: 'Móveis', isNew: true },
+
+{ id: 147, name: 'Espelho de Banheiro com Moldura Cromada', desc: 'Moldura prateada, resistente à umidade.', price: 99, oldPrice: null, img: 'espelhocromado.jpeg', cat: 'Decoração', isNew: false },
+
+{ id: 128, name: 'Espreguiçadeiras de Madeira', desc: 'Relaxe com estilo, vendida por unidade.', price: 350, oldPrice: null, img: 'espreguiçadeira.jpeg', cat: 'Poltronas', isNew: false },
+
+{ id: 139, name: 'Espelho Redondo com Moldura', desc: 'Tendência em decoração para sua casa.', price: 150, oldPrice: 250, img: 'espelho.jpeg', cat: 'Decoração', isNew: false },
+
+{ id: 130, name: 'TV Philips 32 Polegadas', desc: 'Imagem nítida e boa qualidade sonora.', price: 350, oldPrice: 450, img: 'tv.jpeg', cat: 'Eletrodomésticos', isNew: false },
+
+{ id: 144, name: 'Conjunto Mesa Redonda + 2 Cadeiras', desc: 'Mesa redonda e 2 cadeiras estofadas.', price: 550, oldPrice: 999, img: 'conjuntomesa.jpeg', cat: 'Móveis', isNew: false },
+
+{ id: 136, name: 'Arara de Madeira com Prateleiras', desc: 'Organização com estilo para seu espaço.', price: 250, oldPrice: null, img: 'arara3.jpeg', cat: 'Móveis', isNew: true },
+
+{ id: 125, name: 'Cama Queen Completa', desc: 'Tamanho Queen, 158 x 198 cm.', price: 850, oldPrice: null, img: 'queen-1.jpeg', cat: 'Camas', isNew: true },
+
+{ id: 118, name: 'Vaso Sanitário Completo', desc: 'Fácil instalação, louça branca impecável.', price: 299, oldPrice: null, img: 'vaso.jpeg', cat: 'Construção', isNew: true },
+
+{ id: 141, name: 'Espelho Retangular', desc: 'Moldura fina preta, estilo corpo inteiro.', price: 199, oldPrice: null, img: 'espelhor.jpeg', cat: 'Decoração', isNew: false },
+
+{ id: 132, name: 'Cobreleito Queen', desc: 'Tecido floral bordado para cama Queen.', price: 50, oldPrice: null, img: 'cobreleito4.jpeg', cat: 'Enxoval', isNew: true },
+
+{ id: 142, name: 'Kit 3 Luminárias de Chão Industrial', desc: 'Kit com 3 luminárias em metal preto.', price: 550, oldPrice: 600, img: 'luminaria.jpeg', cat: 'Decoração', isNew: false },
+
+{ id: 137, name: 'Mesa Redonda de Pinus', desc: 'Rústica, estável e cheia de charme.', price: 450, oldPrice: null, img: 'pinus.jpeg', cat: 'Móveis', isNew: false },
+
+{ id: 126, name: 'Cama Casal Completa', desc: 'Tamanho Casal, 138 x 188 cm.', price: 450, oldPrice: null, img: 'casal.jpeg', cat: 'Camas', isNew: false },
 
 
-  { id: 137, name: 'Mesa Redonda de Pinus', desc: 'Rústica, estável e cheia de charme.', price: 450, oldPrice: null, img: 'pinus.jpeg', cat: 'Móveis', isNew: false },
-
-  { id: 138, name: 'Cadeira Moderna', desc: 'Peça de design por R$ 200', price: 200, oldPrice: 300, img: 'cadeirasshell.jpeg', cat: 'Móveis', isNew: false },
-
-  { id: 139, name: 'Espelho Redondo com Moldura ', desc: 'Tendência em decoração por R$ 150.', price: 150, oldPrice: 250, img: 'espelho.jpeg', cat: 'Decoração', isNew: false },
-
-  { id: 136, name: 'Arara de Madeira com Prateleiras', desc: 'Organização com estilo.', price: 250, oldPrice: null, img: 'arara3.jpeg', cat: 'Móveis', isNew: true },
-  
-  { id: 117, name: 'Cama Queen Bege Completa',          desc: 'Conforto para sua casa',            price: 850,    oldPrice: 1200, img: 'queen.jpeg',        cat: 'Camas', isNew: true  },
-
-  { id: 118, name: 'Vaso Sanitário Completo',          desc: 'Fácil instalação',     price: 299,    oldPrice: null, img: 'vaso.jpeg',        cat: 'Construção', isNew: true },
-
-  { id: 119, name: 'Par de Poltronas Bege',          desc: 'Duas unidades',       price: 499,    oldPrice: 600, img: 'poltrona.jpeg',        cat: 'Poltronas', isNew: false },
-
-  { id: 121, name: 'Cama Solteirão Completa',          desc: 'Tamanho Solteirão (96 x 203 cm)',      price: 599,    oldPrice: null, img: 'solteirão.jpeg',        cat: 'Camas', isNew: false },
-
-  { id: 122, name: 'Banco de Madeira Rústico',          desc: 'Madeira maciça com acabamento rústico',     price: 199,    oldPrice: 299 , img: 'banco.jpeg',        cat: 'Móveis', isNew: true },
-
-  { id: 124, name: 'Par de Cadeiras Estofadas Cinza',          desc: 'Vendidas em par (2 unidades)',     price: 340,    oldPrice: null , img: 'cadeiracinza.jpeg',        cat: 'Poltronas', isNew: false },
-
-  { id: 125, name: 'Cama Queen Completa',       desc: 'Tamanho Queen (158 x 198 cm)',     price: 850,    oldPrice: null , img: 'queen-1.jpeg',        cat: 'Camas', isNew: true },
-
-  { id: 126, name: 'Cama Casal Completa',       desc: 'Tamanho Casal (138 x 188 cm)',     price: 450,    oldPrice: null , img: 'casal.jpeg',        cat: 'Camas', isNew: false },
-
-  { id: 127, name: 'Par de Cadeiras Estiloso',       desc: 'Estrutura em madeira maciça escura',     price: 380,    oldPrice: null , img: 'cadeirabranca.jpeg',        cat: 'Poltronas', isNew: true },
-
-{ id: 128, name: 'Espreguiçadeiras de Madeira',       desc: 'Cada Unidade',     price: 350,    oldPrice: null , img: 'espreguiçadeira.jpeg',        cat: 'Poltronas', isNew: false },
-
-{ id: 132, name: 'Cobreleito Queen',       desc: 'Tecido floral bordado',     price: 50,    oldPrice: null , img: 'cobreleito4.jpeg',    cat: 'Enxoval', isNew: true },
-
-  // -------------------   ATUALIZAR E COLOCAR AS FOTOS --------------------------------------------
-
-  { id: 140, name: 'Conjunto Mesa Industrial + Banco de Madeira', desc: 'Aquele cantinho estilo loft que você sempre quis.', price: 599, oldPrice: null, img: 'banco+ap.jpeg', cat: 'Móveis', isNew: true },
-
-  { id: 141, name: 'Espelho Retangular', desc: 'Aquele espelho de hotel que você sempre quis ter. Moldura fina preta, corpo inteiro.', price: 199, oldPrice: null, img: 'espelhor.jpeg', cat: 'Decoração', isNew: false },
-
-  { id: 142, name: 'Kit 3 Luminárias de Chão Industrial', desc: 'Aquele clima aconchegante das fotos de decoração — na sua casa por R$ 550. Kit completo com 3 luminárias em metal preto, cúpula direcional.', price: 550, oldPrice: 600, img: 'luminaria.jpeg', cat: 'Decoração', isNew: false },
-
-  { id: 143, name: 'Kit Banheiro — Vaso Sanitário + Pia com Coluna', desc: 'Reforma o banheiro completo por R$ 399. Vaso com tampa cinza + pia com coluna e torneira — louça branca impecável, kit completo.', price: 399, oldPrice: null, img: 'kitbanheiro.jpeg', cat: 'Construção', isNew: false },
-  
-
-// -------------------   ATUALIZAR E COLOCAR AS FOTOS --------------------------------------------
 ]
 
 const WA_NUMBER = '+5545999541641' // ← TROQUE PELO SEU NÚMERO

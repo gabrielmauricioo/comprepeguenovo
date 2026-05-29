@@ -312,6 +312,74 @@ const PRODUCTS: Record<number, Product> = {
     'Parcelo em até 3x sem juros',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
+},
+
+144: {
+  name: 'Conjunto Mesa Redonda + 2 Cadeiras',
+  desc: 'Conjunto assim numa loja de móveis sai por R$ 1.500+. Aqui você leva tudo — mesa redonda em madeira + 2 cadeiras com assento estofado bege — por R$ 550. Compacto, charmoso e pronto pra uso.',
+  price: 550, oldPrice: 999, cat: 'Móveis',
+  imgs: ['conjuntomesa.jpeg', 'conjuntomesa2.jpeg', 'conjuntomesa3.jpeg', 'conjuntomesa4.jpeg', 'conjuntomesa5.jpeg'],
+  details: [
+    'Conjunto completo: mesa redonda + 2 cadeiras',
+    'Mesa em madeira — tampo liso e bem conservado',
+    '2 cadeiras de madeira com assento estofado bege',
+    'Tamanho compacto — cabe em qualquer espaço',
+    'Ideal para cozinha, varanda, kitnet ou sala pequena',
+    'Economia de mais de R$ 950 vs loja de móveis',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+145: {
+  name: 'Conjunto Mesa Redonda + 2 Cadeiras Buenos Aires',
+  desc: 'Só a mesa de madeira maciça numa loja custa R$ 800+. Aqui você leva o conjunto completo — mesa com tampo em madeira e pé central em cruz + 2 cadeiras estofadas em tecido cinza com base em metal preto — por R$ 850. Monta o espaço hoje.',
+  price: 850, oldPrice: 1500, cat: 'Móveis',
+  imgs: ['conjuntobuenos.jpeg', 'conjuntobuenos2.jpeg', 'conjuntobuenos3.jpeg', 'conjuntobuenos4.jpeg', 'conjuntobuenos5.jpeg'],
+  details: [
+    'Conjunto completo: mesa redonda + 2 cadeiras',
+    'Mesa em madeira maciça — tampo com pé central em cruz',
+    '2 cadeiras estofadas em tecido cinza',
+    'Base das cadeiras em metal preto — estilo contemporâneo',
+    'Combinação harmoniosa e pronta pra uso',
+    'Ideal para sala de jantar, cozinha ou varanda',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+146: {
+  name: 'Lustre Rattan Redondo Boho',
+  desc: 'Lustres rattan assim em loja de decoração custam R$ 600, R$ 800+. Aqui você transforma sua casa por R$ 250 — rattan trançado natural escuro, luz que atravessa o trançado criando sombras incríveis nas paredes. É só levar e pendurar.',
+  price: 250, oldPrice: 600, cat: 'Decoração',
+  imgs: ['lustrerattan.jpeg', 'lustrerattan2.jpeg', 'lustrerattan3.jpeg','lustrerattan4.jpeg'],
+  details: [
+    'Rattan artesanal trançado natural escuro',
+    'Formato redondo — design boho atemporal',
+    'Luz que cria sombras incríveis nas paredes',
+    'Já instalado e funcionando — só levar e pendurar',
+    'Ideal para sala de jantar, cozinha, varanda ou quarto',
+    'Economia de mais de R$ 350 vs loja de decoração',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+147: {
+  name: 'Espelho de Banheiro com Moldura Cromada',
+  desc: 'Aqui você renova o banheiro por R$ 99 — moldura em metal prateado elegante, resistente à umidade e conservado. É só chegar e pendurar.',
+  price: 99, oldPrice: null, cat: 'Decoração',
+  imgs: ['espelhocromado.jpeg', 'espelhocromado2.jpeg', 'espelhocromado3.jpeg', 'espelhocromado4.jpeg' ],
+  details: [
+    'Espelho retangular com moldura cromada',
+    'Moldura em metal prateado — elegante e resistente à umidade',
+    'Tamanho ideal para banheiro ou lavabo',
+    'Combina com qualquer estilo de decoração',
+    'Conservado e pronto para uso — só pendurar',
+    'Economia de mais de R$ 100 vs loja de materiais',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
 }
 
 
