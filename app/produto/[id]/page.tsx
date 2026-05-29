@@ -380,6 +380,67 @@ const PRODUCTS: Record<number, Product> = {
     'Parcelo em até 3x sem juros',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
+},
+
+148: {
+  name: 'Maca Profissional de Madeira',
+  desc: 'Maca nova dessa qualidade custa R$ 1.200+ — aqui você equipa seu espaço pela metade do preço e atende hoje!',
+  price: 550, oldPrice: null, cat: 'Móveis',
+  imgs: ['maca.jpeg', 'maca2.jpeg', 'maca3.jpeg', 'maca4.jpeg' ],
+  details: [
+    'Ideal pra massagem, estética, fisioterapia ou pilates',
+    'Estrutura robusta e super resistente',
+    'Tampo em madeira — fácil de limpar e higienizar',
+    'Parcelo em até 3x sem juros',
+  ]
+},
+
+149: {
+  name: 'Bicicleta Milano Action Lady Aro 26',
+  desc: 'Chega de trânsito, combustível caro e ônibus lotado. Essa Milano Action Lady aro 26 entrega conforto, estilo e economia por apenas R$ 299.',
+  price: 299,
+  oldPrice: 400,
+  cat: 'Bicicletas',
+  imgs: [
+    'bicicletamilano.jpeg',
+    'bicicletamilano3.jpeg',
+    'bicicletamilano4.jpeg',
+    'bicicletamilano5.jpeg',
+    'bicicletamilano6.jpeg',
+  ],
+  details: [
+    'Bicicleta feminina Milano Action Lady',
+    'Quadro feminino rosa — moderno e estiloso',
+    'Aro 26 resistente com pneus todo-terreno',
+    'Câmbio traseiro ideal para diferentes terrenos',
+    'Freios dianteiro e traseiro para mais segurança',
+    'Bike revisada e pronta pra uso'
+  ]
+},
+
+150: {
+  name: 'Lustre Rattan Artesanal Formato Sino',
+  desc: 'Lustres rattan grandes como esse passam fácil dos R$ 700 nas lojas de decoração. Aqui você leva uma peça artesanal sofisticada, com iluminação aconchegante e visual de revista por apenas R$ 300.',
+  price: 300,
+  oldPrice: 899,
+  cat: 'Iluminação',
+  imgs: [
+    'lustrerattansino.jpeg',
+    'lustrerattansino2.jpeg',
+    'lustrerattansino3.jpeg',
+    'lustrerattansino4.jpeg',
+  ],
+  details: [
+    'Lustre artesanal em rattan formato sino',
+    'Tamanho grande e visual imponente',
+    'Trançado natural dourado sofisticado',
+    'Iluminação aconchegante com efeito decorativo incrível',
+    'Ideal para sala de jantar, cozinha, varanda ou quarto',
+    'Estilo boho chic moderno e elegante',
+    'Já instalado e funcionando — pronto pra uso',
+    'Economia de mais de R$ 500 comparado às lojas',
+    'Parcelamento em até 3x sem juros',
+  ]
 }
 
 

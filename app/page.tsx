@@ -16,7 +16,7 @@ interface Product {
 }
 
 /* ─── DATA ─── */
-const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração', 'Poltronas', 'Enxoval']
+const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração', 'Poltronas', 'Enxoval', 'Outros']
 
 const PRODUCTS: Product[] = [
 { id: 146, name: 'Lustre Rattan Redondo Boho', desc: 'Rattan trançado natural, clima boho instantâneo.', price: 250, oldPrice: 600, img: 'lustrerattan.jpeg', cat: 'Decoração', isNew: true },
@@ -71,6 +71,11 @@ const PRODUCTS: Product[] = [
 
 { id: 126, name: 'Cama Casal Completa', desc: 'Tamanho Casal, 138 x 188 cm.', price: 450, oldPrice: null, img: 'casal.jpeg', cat: 'Camas', isNew: false },
 
+{ id: 148, name: 'Maca Profissional de Madeira', desc: 'Estrutura robusta e super resistente', price: 550, oldPrice: null, img: 'maca.jpeg', cat: 'Móveis', isNew: false },
+
+{ id: 149, name: 'Bicicleta Milano Action Lady Aro 26', desc: 'Pedale com estilo e economize no dia a dia.', price: 299, oldPrice: 400, img: 'bicicletamilano.jpeg', cat: 'Outros', isNew: false},
+
+{ id: 150, name: 'Lustre Rattan Artesanal Formato Sino', desc: 'Transforme qualquer ambiente com um lustre rattan grande.', price: 300, oldPrice: 899, img: 'lustrerattansino.jpeg', cat: 'Decoração', isNew: true},
 
 ]
 
