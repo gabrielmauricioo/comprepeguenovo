@@ -49,7 +49,7 @@ const PRODUCTS: Product[] = [
 
 { id: 128, name: 'Espreguiçadeiras de Madeira', desc: 'Relaxe com estilo, vendida por unidade.', price: 350, oldPrice: null, img: 'espreguiçadeira.jpeg', cat: 'Poltronas', isNew: false },
 
-{ id: 139, name: 'Espelho Redondo com Moldura', desc: 'Tendência em decoração para sua casa.', price: 150, oldPrice: 250, img: 'espelho.jpeg', cat: 'Decoração', isNew: false },
+{ id: 139, name: 'Espelho Redondo com Moldura', desc: 'Tendência em decoração para sua casa.', price: 169, oldPrice: 250, img: 'espelho.jpeg', cat: 'Decoração', isNew: false },
 
 { id: 130, name: 'TV Philips 32 Polegadas', desc: 'Imagem nítida e boa qualidade sonora.', price: 350, oldPrice: 450, img: 'tv.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
