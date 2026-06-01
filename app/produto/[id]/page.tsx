@@ -233,7 +233,7 @@ const PRODUCTS: Record<number, Product> = {
 139: {
   name: 'Espelho Redondo com Moldura',
   desc: 'Um espelho que decora antes mesmo de refletir. Moldura fina preta, formato redondo, 69cm de diâmetro — tendência que você vê em lojas de decoração por muito mais. R$ 150.',
-  price: 150, oldPrice: 250, cat: 'Decoração',
+  price: 169, oldPrice: 250, cat: 'Decoração',
   imgs: ['espelho.jpeg', 'espelho2.jpeg', 'espelho3.jpeg', 'espelho4.jpeg'],
   details: [
     'Moldura fina preta — design moderno e atemporal',
