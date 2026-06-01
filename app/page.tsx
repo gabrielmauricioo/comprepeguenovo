@@ -77,6 +77,9 @@ const PRODUCTS: Product[] = [
 
 { id: 150, name: 'Lustre Rattan Artesanal Formato Sino', desc: 'Transforme qualquer ambiente com um lustre rattan grande.', price: 300, oldPrice: 899, img: 'lustrerattansino.jpeg', cat: 'Decoração', isNew: true},
 
+{ id: 151, name: 'Lustre Rattan Artesanal Formato Sino', desc: 'Transforme qualquer ambiente com um lustre rattan grande.', price: 300, oldPrice: 899, img: 'lustrerattansino.jpeg', cat: 'Decoração', isNew: true},
+
+
 ]
 
 const WA_NUMBER = '+5545999541641' // ← TROQUE PELO SEU NÚMERO
