@@ -77,7 +77,11 @@ const PRODUCTS: Product[] = [
 
 { id: 150, name: 'Lustre Rattan Artesanal Formato Sino', desc: 'Transforme qualquer ambiente com um lustre rattan grande.', price: 300, oldPrice: 899, img: 'lustrerattansino.jpeg', cat: 'Decoração', isNew: true},
 
+{ id: 151, name: 'Balcão Expositor de Vidro', desc: 'Visual profissional para sua loja. Balcão expositor com estrutura resistente e prateleiras em vidro', price: 450, oldPrice: null, img: 'balcaoexpositor.jpeg', cat: 'Móveis', isNew: false },
 
+{ id: 152, name: 'Estante de Metal 5 Prateleiras', desc: 'Chega de bagunça por R$ 199. Estrutura em aço resistente, 5 prateleiras reguláveis — organiza casa, loja ou depósito na hora.', price: 199, oldPrice: 400, img: 'estantemetal.jpeg', cat: 'Móveis', isNew: false },
+
+{ id: 153, name: 'Janela de Ferro Decorativa com Vidro Canelado', desc: 'Estrutura em ferro com detalhes ornamentais e vidro canelado — 1,24m x 1,50m, ideal para casas e áreas gourmet.', price: 199, oldPrice: null, img: 'janelaferro.jpeg', cat: 'Construção', isNew: false }
 
 
 ]

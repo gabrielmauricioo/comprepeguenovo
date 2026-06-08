@@ -441,6 +441,55 @@ const PRODUCTS: Record<number, Product> = {
     'Economia de mais de R$ 500 comparado às lojas',
     'Parcelamento em até 3x sem juros',
   ]
+},
+
+151: {
+  name: 'Balcão Expositor de Vidro',
+  desc: 'Sua loja merece uma apresentação profissional. Balcão expositor com estrutura resistente e prateleiras em vidro — visual moderno que valoriza qualquer produto. Ideal para lojas, conveniências e vitrines por R$ 450.',
+  price: 450, oldPrice: null, cat: 'Móveis',
+  imgs: ['balcaoexpositor.jpeg', 'balcaoexpositor2.jpeg', 'balcaoexpositor3.jpeg', 'balcaoexpositor4.jpeg'],
+  details: [
+    'Estrutura resistente e bem conservada',
+    'Prateleiras em vidro — valoriza a exposição dos produtos',
+    'Visual moderno e profissional',
+    'Ideal para lojas, conveniências e vitrines',
+    'Fácil de limpar e organizar',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+152: {
+  name: 'Estante de Metal 5 Prateleiras',
+  desc: 'Aqui você organiza tudo por R$ 199 — estrutura em aço resistente com 5 prateleiras reguláveis em altura. Garagem, depósito, cozinha, escritório ou loja. Resolve na hora.',
+  price: 199, oldPrice: null, cat: 'Móveis',
+  imgs: ['estantemetal.jpeg', 'estantemetal2.jpeg', 'estantemetal3.jpeg', 'estantemetal.jpeg'],
+  details: [
+    'Estrutura em aço — durável e super resistente',
+    '5 prateleiras espaçosas — comporta muito peso',
+    'Prateleiras reguláveis em altura',
+    'Ideal para garagem, depósito, cozinha, escritório ou loja',
+    'Economia de mais de R$ 200 vs loja',
+    'Fácil de montar e desmontar',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+153: {
+  name: 'Janela de Ferro Decorativa com Vidro Canelado',
+  desc: 'Detalhes ornamentais em ferro que ninguém mais fabrica assim por esse preço. Vidro canelado que garante privacidade sem abrir mão da luz natural — 1,24m x 1,50m, pronta para instalar. R$ 199.',
+  price: 199, oldPrice: null, cat: 'Decoração',
+  imgs: ['janelaforro.jpeg', 'janelaforro2.jpeg', 'janelaforro3.jpeg'],
+  details: [
+    'Estrutura resistente em ferro',
+    'Design trabalhado com detalhes ornamentais',
+    'Vidro canelado — privacidade sem perder luminosidade',
+    'Medidas: 1,24m x 1,50m',
+    'Ideal para casas, áreas gourmet e edículas',
+    'Pronta para instalação imediata',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
 }
 
 
