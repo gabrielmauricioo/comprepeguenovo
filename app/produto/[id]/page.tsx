@@ -22,16 +22,7 @@ interface Product {
    imgs: ['foto1.png', 'foto2.png', 'foto3.png']
 ───────────────────────────────────────────────────────────────── */
 const PRODUCTS: Record<number, Product> = {
-  117: {
-    name: 'Cama Queen Bege Completa',
-    desc: 'A cama que todo casal merece — por uma fração do preço. Estrutura sólida, colchão em estado impecável. Poucas unidades.',
-    price: 850, oldPrice: 1200, cat: 'Camas',
-    imgs: ['queen.jpeg','queen2.jpeg','queen3.jpeg','queen4.jpeg', ],
-    details: ['Colchão em ótimo estado de conservação'
-              ,'Tamanho Queen (158 x 198 cm)'
-              ,'Pronta para retirada'
-            ],
-  },
+  
   118: {
     name: 'Vaso Sanitário Completo',
     desc: 'Reforma no banheiro sem pesar no bolso. Vaso seminovo, conservado, pronto para instalar. Economize agora e resolva hoje.',
@@ -81,17 +72,6 @@ const PRODUCTS: Record<number, Product> = {
     details: ['Tecido cinza mesclado em ótimo estado'
               ,'Ideais para sala de jantar, escritório ou quarto'
               ,'Vendidas em par (2 unidades)'
-            ]
-  },
-
-  125: {
-    name: 'Cama Queen Completa',
-    desc: 'O quarto do casal merece o melhor — sem pagar caro por isso. Queen completa, box duplo, colchão acolchoado e conservado.',
-    price: 850, oldPrice: null, cat: 'Camas',
-    imgs: ['queen-1.jpeg','queen-2.jpeg', 'queen-3.jpeg', 'queen-4.jpeg'],
-    details: ['Colchão acolchoado em ótimo estado'
-              ,'Pronta para retirada'
-              ,'Box duplo — estrutura sólida e durável'
             ]
   },
 
@@ -459,23 +439,6 @@ const PRODUCTS: Record<number, Product> = {
   ]
 },
 
-152: {
-  name: 'Estante de Metal 5 Prateleiras',
-  desc: 'Aqui você organiza tudo por R$ 199 — estrutura em aço resistente com 5 prateleiras reguláveis em altura. Garagem, depósito, cozinha, escritório ou loja. Resolve na hora.',
-  price: 199, oldPrice: null, cat: 'Móveis',
-  imgs: ['estantemetal.jpeg', 'estantemetal2.jpeg', 'estantemetal3.jpeg', 'estantemetal.jpeg'],
-  details: [
-    'Estrutura em aço — durável e super resistente',
-    '5 prateleiras espaçosas — comporta muito peso',
-    'Prateleiras reguláveis em altura',
-    'Ideal para garagem, depósito, cozinha, escritório ou loja',
-    'Economia de mais de R$ 200 vs loja',
-    'Fácil de montar e desmontar',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
-
 153: {
   name: 'Janela de Ferro Decorativa com Vidro Canelado',
   desc: 'Detalhes ornamentais em ferro que ninguém mais fabrica assim por esse preço. Vidro canelado que garante privacidade sem abrir mão da luz natural — 1,24m x 1,50m, pronta para instalar. R$ 199.',
@@ -488,6 +451,52 @@ const PRODUCTS: Record<number, Product> = {
     'Medidas: 1,24m x 1,50m',
     'Ideal para casas, áreas gourmet e edículas',
     'Pronta para instalação imediata',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+154: {
+  name: 'Vaso Sanitário Azul com Caixa Acoplada',
+  desc: 'Quem disse que banheiro tem que ser branco? Vaso com caixa acoplada em louça azul resistente — conjunto completo, cor diferenciada que chama atenção. Ideal para projetos criativos, áreas externas ou reposição econômica. R$ 250.',
+  price: 250, oldPrice: null, cat: 'Construção',
+  imgs: ['vasoazul.jpeg', 'vasoazul2.jpeg', 'vasoazul3.jpeg', 'vasoazul4.jpeg'],
+  details: [
+    'Conjunto completo: vaso + caixa acoplada',
+    'Louça resistente e de ótima qualidade',
+    'Cor azul — ideal para projetos diferenciados',
+    'Perfeito para banheiros, áreas externas ou reformas',
+    'Instalação padrão — encanador resolve rápido',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+155: {
+  name: 'Janela de Ferro Trabalhada com Vidro Canelado',
+  desc: 'Maior e mais trabalhada que o modelo anterior — 2,00m x 1,50m de ferro ornamental com vidro canelado.',
+  price: 199, oldPrice: null, cat: 'Construção',
+  imgs: ['janelaforro.jpeg', 'janelaforro2.jpeg', 'janelaforro3.jpeg'],
+  details: [
+    'Estrutura reforçada em ferro',
+    'Detalhes ornamentais que valorizam o ambiente',
+    'Vidro canelado — privacidade sem perder luminosidade',
+    'Medidas: 2,00m x 1,50m — tamanho generoso',
+    'Ideal para salas, áreas gourmet, varandas e fachadas',
+    'Pronta para instalação imediata',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+156: {
+  name: 'Batedeira Elétrica',
+  desc: 'Aquela receita que você adia por não ter batedeira — resolve por R$ 80. Compacta, prática e fácil de limpar, acompanha tigela e batedor. Ideal para bolos, massas e muito mais.',
+  price: 80, oldPrice: 120, cat: 'Eletrodomésticos',
+  imgs: ['batedeira.jpeg', 'batedeira2.jpeg', 'batedeira3.jpeg'],
+  details: [
+    'Ideal para bolos, massas e receitas diversas',
+    'Acompanha tigela e batedor',
+    'Compacta — cabe em qualquer cozinha',
+    'Fácil de usar e limpar',
+    'Funcionando perfeitamente — testada antes de anunciar',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
 }

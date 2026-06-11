@@ -25,8 +25,6 @@ const PRODUCTS: Product[] = [
 
 { id: 138, name: 'Cadeira Moderna', desc: 'Peça de design moderno e elegante.', price: 200, oldPrice: 300, img: 'cadeirasshell.jpeg', cat: 'Móveis', isNew: false },
 
-{ id: 117, name: 'Cama Queen Bege Completa', desc: 'Conforto e estilo para seu quarto.', price: 850, oldPrice: 1200, img: 'queen.jpeg', cat: 'Camas', isNew: true },
-
 { id: 143, name: 'Kit Banheiro — Vaso Sanitário + Pia com Coluna', desc: 'Vaso com tampa + pia com coluna e torneira.', price: 399, oldPrice: null, img: 'kitbanheiro.jpeg', cat: 'Construção', isNew: false },
 
 { id: 127, name: 'Par de Cadeiras Estiloso', desc: 'Estrutura em madeira maciça escura.', price: 380, oldPrice: null, img: 'cadeirabranca.jpeg', cat: 'Poltronas', isNew: true },
@@ -57,8 +55,6 @@ const PRODUCTS: Product[] = [
 
 { id: 136, name: 'Arara de Madeira com Prateleiras', desc: 'Organização com estilo para seu espaço.', price: 250, oldPrice: null, img: 'arara3.jpeg', cat: 'Móveis', isNew: true },
 
-{ id: 125, name: 'Cama Queen Completa', desc: 'Tamanho Queen, 158 x 198 cm.', price: 850, oldPrice: null, img: 'queen-1.jpeg', cat: 'Camas', isNew: true },
-
 { id: 118, name: 'Vaso Sanitário Completo', desc: 'Fácil instalação, louça branca impecável.', price: 299, oldPrice: null, img: 'vaso.jpeg', cat: 'Construção', isNew: true },
 
 { id: 141, name: 'Espelho Retangular', desc: 'Moldura fina preta, estilo corpo inteiro.', price: 199, oldPrice: null, img: 'espelhor.jpeg', cat: 'Decoração', isNew: false },
@@ -79,9 +75,13 @@ const PRODUCTS: Product[] = [
 
 { id: 151, name: 'Balcão Expositor de Vidro', desc: 'Visual profissional para sua loja. Balcão expositor com estrutura resistente e prateleiras em vidro', price: 450, oldPrice: null, img: 'balcaoexpositor.jpeg', cat: 'Móveis', isNew: false },
 
-{ id: 152, name: 'Estante de Metal 5 Prateleiras', desc: 'Chega de bagunça por R$ 199. Estrutura em aço resistente, 5 prateleiras reguláveis — organiza casa, loja ou depósito na hora.', price: 199, oldPrice: 400, img: 'estantemetal.jpeg', cat: 'Móveis', isNew: false },
+{ id: 153, name: 'Janela de Ferro Decorativa com Vidro Canelado', desc: 'Estrutura em ferro com detalhes ornamentais e vidro canelado — 1,24m x 1,50m, ideal para casas e áreas gourmet.', price: 199, oldPrice: null, img: 'janelaferro.jpeg', cat: 'Construção', isNew: false },
 
-{ id: 153, name: 'Janela de Ferro Decorativa com Vidro Canelado', desc: 'Estrutura em ferro com detalhes ornamentais e vidro canelado — 1,24m x 1,50m, ideal para casas e áreas gourmet.', price: 199, oldPrice: null, img: 'janelaferro.jpeg', cat: 'Construção', isNew: false }
+{ id: 154, name: 'Vaso Sanitário Azul com Caixa Acoplada', desc: 'Conjunto completo por R$ 250. Louça resistente na cor azul — perfeito para banheiros diferenciados, áreas externas ou reforma econômica.', price: 250, oldPrice: null, img: 'vasoazul2.jpeg', cat: 'Construção', isNew: false },
+
+{ id: 155, name: 'Janela de Ferro Trabalhada com Vidro Canelado', desc: 'Ferro ornamental e vidro canelado em 2,00m x 1,50m — privacidade e charme para salas, varandas e fachadas.', price: 199, oldPrice: null, img: 'janelaforro.jpeg', cat: 'Construção', isNew: false },
+
+{ id: 156, name: 'Batedeira Elétrica', desc: 'Bolos, massas e receitas no ponto certo por R$ 80. Compacta, fácil de limpar e acompanha tigela e batedor — pronta para uso.', price: 80, oldPrice: 120, img: 'batedeira.jpeg', cat: 'Eletrodomésticos', isNew: false }
 
 
 ]
