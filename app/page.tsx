@@ -65,7 +65,7 @@ const PRODUCTS: Product[] = [
 
 { id: 137, name: 'Mesa Redonda de Pinus', desc: 'Rústica, estável e cheia de charme.', price: 450, oldPrice: null, img: 'pinus.jpeg', cat: 'Móveis', isNew: false },
 
-{ id: 126, name: 'Cama Casal Completa', desc: 'Tamanho Casal, 138 x 188 cm.', price: 450, oldPrice: null, img: 'casal.jpeg', cat: 'Camas', isNew: false },
+{ id: 126, name: 'Cama Casal Completa', desc: 'Tamanho Casal, 138 x 188 cm.', price: 650, oldPrice: 800, img: 'camacasal2.jpeg', cat: 'Camas', isNew: false },
 
 { id: 148, name: 'Maca Profissional de Madeira', desc: 'Estrutura robusta e super resistente', price: 550, oldPrice: null, img: 'maca.jpeg', cat: 'Móveis', isNew: false },
 
@@ -87,7 +87,9 @@ const PRODUCTS: Product[] = [
 
 { id: 158, name: 'Balança Digital de Vidro', desc: 'Base em vidro temperado, display digital e acionamento automático — moderna e prática.', price: 60, oldPrice: null, img: 'balanca.jpeg', cat: 'Outros', isNew: false },
 
-{ id: 159, name: 'Ferro de Passar a Vapor', desc: 'Roupas sem amasso por R$ 50. Função vapor, controle de temperatura para diferentes tecidos e design ergonômico — praticidade no dia a dia.', price: 50, oldPrice: 80, img: 'ferro.jpeg', cat: 'Eletrodomésticos', isNew: false }
+{ id: 159, name: 'Ferro de Passar a Vapor', desc: 'Roupas sem amasso por R$ 50. Função vapor, controle de temperatura para diferentes tecidos e design ergonômico — praticidade no dia a dia.', price: 50, oldPrice: 80, img: 'ferro.jpeg', cat: 'Eletrodomésticos', isNew: false },
+
+{ id: 160, name: 'Colchão de Solteiro Conservado', desc: 'Bem conservado, limpo e pronto para uso imediato. Muito abaixo do preço de um novo.', price: 350, oldPrice: 400, img: 'colchaosolteiro2.jpeg', cat: 'Camas', isNew: false }
 
 
 

@@ -78,8 +78,8 @@ const PRODUCTS: Record<number, Product> = {
    126: {
     name: 'Cama Casal Completa',
     desc: 'Precisa de uma cama de casal sem gastar muito? Colchão em bom estado, box funcional',
-    price: 450, oldPrice: null, cat: 'Camas',
-    imgs: ['casal.jpeg','casal2.jpeg', 'casal3.jpeg', 'casal4.jpeg'],
+    price: 650, oldPrice: 800, cat: 'Camas',
+    imgs: ['camacasal.jpeg','camacasal2.jpeg', 'camacasal3.jpeg', 'camacasal4.jpeg'],
     details: ['Ideal para quarto de hóspedes ou uso imediato'
               ,'Tamanho Casal (138 x 188 cm)'
               ,'Conjunto completo: box + colchão'
@@ -544,6 +544,21 @@ const PRODUCTS: Record<number, Product> = {
     'Design ergonômico e fácil de manusear',
     'Ideal para uso doméstico diário',
     'De R$ 80 por R$ 50 — aproveite o desconto',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+160: {
+  name: 'Colchão de Solteiro Conservado',
+  desc: 'Colchão de solteiro novo passa de R$ 800. Este, bem conservado e limpo, sai por R$ 350 — mesmo conforto, economia real. Pronto para uso imediato, é só chegar e dormir bem.',
+  price: 350, oldPrice: null, cat: 'Móveis',
+  imgs: ['colchaosolteiro4.jpeg', 'colchaosolteiro2.jpeg', 'colchaosolteiro3.jpeg'],
+  details: [
+    'Tamanho solteiro',
+    'Bem conservado e limpo',
+    'Pronto para uso imediato',
+    'Ideal para quarto de solteiro',
+    'Parcelo em até 3x sem juros',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
 }
