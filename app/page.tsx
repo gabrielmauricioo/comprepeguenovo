@@ -81,7 +81,14 @@ const PRODUCTS: Product[] = [
 
 { id: 155, name: 'Janela de Ferro Trabalhada com Vidro Canelado', desc: 'Ferro ornamental e vidro canelado em 2,00m x 1,50m — privacidade e charme para salas, varandas e fachadas.', price: 199, oldPrice: null, img: 'janelaforro.jpeg', cat: 'Construção', isNew: false },
 
-{ id: 156, name: 'Batedeira Elétrica', desc: 'Bolos, massas e receitas no ponto certo por R$ 80. Compacta, fácil de limpar e acompanha tigela e batedor — pronta para uso.', price: 80, oldPrice: 120, img: 'batedeira.jpeg', cat: 'Eletrodomésticos', isNew: false }
+{ id: 156, name: 'Batedeira Elétrica', desc: 'Bolos, massas e receitas no ponto certo por R$ 80. Compacta, fácil de limpar e acompanha tigela e batedor — pronta para uso.', price: 80, oldPrice: 120, img: 'batedeira.jpeg', cat: 'Eletrodomésticos', isNew: false },
+
+{ id: 157, name: 'Frigobar 60 Litros', desc: 'Bebidas geladas onde você quiser por R$ 499. Compacto, econômico e perfeito para quarto, escritório, kitnet ou área gourmet.', price: 499, oldPrice: null, img: 'frigobar.jpeg', cat: 'Eletrodomésticos', isNew: false },
+
+{ id: 158, name: 'Balança Digital de Vidro', desc: 'Base em vidro temperado, display digital e acionamento automático — moderna e prática.', price: 60, oldPrice: null, img: 'balanca.jpeg', cat: 'Outros', isNew: false },
+
+{ id: 159, name: 'Ferro de Passar a Vapor', desc: 'Roupas sem amasso por R$ 50. Função vapor, controle de temperatura para diferentes tecidos e design ergonômico — praticidade no dia a dia.', price: 50, oldPrice: 80, img: 'ferro.jpeg', cat: 'Eletrodomésticos', isNew: false }
+
 
 
 ]

@@ -499,6 +499,53 @@ const PRODUCTS: Record<number, Product> = {
     'Funcionando perfeitamente — testada antes de anunciar',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
+},
+
+157: {
+  name: 'Frigobar 60 Litros',
+  desc: 'Aquela cerveja gelada no quarto, o lanche no escritório, as bebidas na área gourmet — o frigobar de 60 litros resolve tudo isso sem ocupar espaço. Compacto, econômico e pronto para uso por R$ 499.',
+  price: 499, oldPrice: null, cat: 'Eletrodomésticos',
+  imgs: ['frigobar.jpeg', 'frigobar2.jpeg', 'frigobar3.jpeg'],
+  details: [
+    'Capacidade de 60 litros — compacto e prático',
+    'Ideal para quartos, escritórios, kitnets e áreas gourmet',
+    'Econômico no consumo de energia',
+    'Mantém bebidas, lanches e alimentos sempre gelados',
+    'Ocupa pouco espaço — cabe em qualquer canto',
+    'Funcionando perfeitamente — testado antes de anunciar',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+158: {
+  name: 'Balança Digital de Vidro',
+  desc: 'Sem desculpas para não acompanhar o peso. Balança digital com base em vidro temperado, display de fácil leitura e acionamento automático — é só subir e ver o resultado. Praticidade e estilo por R$ 60.',
+  price: 60, oldPrice: null, cat: 'Outros',
+  imgs: ['balanca.jpeg', 'balanca2.jpeg', 'balanca3.jpeg'],
+  details: [
+    'Balança digital eletrônica',
+    'Base em vidro temperado — moderna e resistente',
+    'Display digital de fácil leitura',
+    'Acionamento automático ao subir na balança',
+    'Perfeita para uso diário em casa',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+159: {
+  name: 'Ferro de Passar a Vapor',
+  desc: 'Tecido delicado, jeans grosso, camisa social — esse ferro resolve tudo com o controle de temperatura certo. Função vapor que elimina amassados difíceis sem esforço. De R$ 80 por R$ 50.',
+  price: 50, oldPrice: 80, cat: 'Eletrodomésticos',
+  imgs: ['ferro.jpeg', 'ferro2.jpeg', 'ferro3.jpeg'],
+  details: [
+    'Função vapor — remove amassados com facilidade',
+    'Controle de temperatura para diferentes tipos de tecido',
+    'Design ergonômico e fácil de manusear',
+    'Ideal para uso doméstico diário',
+    'De R$ 80 por R$ 50 — aproveite o desconto',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
 }
 
 
