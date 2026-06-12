@@ -402,6 +402,60 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── GRUPO DE OFERTAS ── */}
+      <section className="group-section">
+        <div className="group-inner">
+          <div className="group-left">
+            <div className="hero-badge reveal" style={{ marginBottom: 20 }}>
+              <span className="hero-badge-dot" />
+              Exclusivo
+            </div>
+            <h2 className="group-title reveal">
+              Receba as ofertas<br />em <em>primeira mão</em>
+            </h2>
+            <p className="group-sub reveal">
+              Entre no nosso grupo do WhatsApp e seja o primeiro a saber quando novos produtos chegam. Promoções relâmpago, peças únicas e muito mais — direto no seu celular.
+            </p>
+            <a
+              className="group-btn reveal"
+              href="https://chat.whatsapp.com/SEULINKAQUISUBSTITUA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconWA /> Entrar no Grupo de Ofertas
+            </a>
+          </div>
+          <div className="group-right reveal">
+            <div className="group-card">
+              <div className="group-card-header">
+                <div className="group-card-avatar">CP</div>
+                <div>
+                  <div className="group-card-name">Compre Pegue — Ofertas 🛋️</div>
+                  <div className="group-card-members">Grupo de WhatsApp</div>
+                </div>
+              </div>
+              <div className="group-messages">
+                <div className="group-msg">
+                  <span className="group-msg-bubble">🔥 Cama casal completa por R$ 650!</span>
+                  <span className="group-msg-time">agora</span>
+                </div>
+                <div className="group-msg">
+                  <span className="group-msg-bubble">✅ Lustre rattan disponível — R$ 300</span>
+                  <span className="group-msg-time">5 min</span>
+                </div>
+                <div className="group-msg">
+                  <span className="group-msg-bubble">📦 Novo estoque chegando hoje!</span>
+                  <span className="group-msg-time">12 min</span>
+                </div>
+              </div>
+              <div className="group-card-footer">
+                <span>💬 Ofertas todos os dias</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── CTA ── */}
       <section className="cta-section" id="contato">
         <div className="hero-grid" />
