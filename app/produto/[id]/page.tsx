@@ -194,22 +194,6 @@ const PRODUCTS: Record<number, Product> = {
   ]
 },
 
-138: {
-  name: 'Cadeira Moderna',
-  desc: 'O tipo de cadeira que vira o centro das atenções. Assento shell em couro sintético caramelo, base hairpin em metal preto — design que você encontra em lojas sofisticadas por muito mais. R$ 200.',
-  price: 200, oldPrice: 300, cat: 'Móveis',
-  imgs: ['cadeirasshell.jpeg', 'cadeirasshell2.jpeg', 'cadeirasshell3.jpeg'],
-  details: [
-    'Estilo shell — design moderno e atemporal',
-    'Assento em couro sintético caramelo',
-    'Base hairpin em metal preto — muito estilosa',
-    'Com apoio de braços — confortável e elegante',
-    'Ideal para sala, escritório ou quarto',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
-
 139: {
   name: 'Espelho Redondo com Moldura',
   desc: 'Um espelho que decora antes mesmo de refletir. Moldura fina preta, formato redondo, 69cm de diâmetro — tendência que você vê em lojas de decoração por muito mais. R$ 150.',
@@ -559,6 +543,36 @@ const PRODUCTS: Record<number, Product> = {
     'Pronto para uso imediato',
     'Ideal para quarto de solteiro',
     'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+161: {
+  name: 'Cama Solteirão Completa',
+  desc: 'O solteirão certo para quem quer mais espaço sem virar uma casal. Conjunto completo — colchão confortável + box firme e resistente, prontos para uso imediato. Ideal para quartos, apartamentos ou área de hóspedes. R$ 550.',
+  price: 550, oldPrice: null, cat: 'Camas',
+  imgs: ['solteirao.jpeg', 'solteirao2.jpeg', 'solteirao3.jpeg', 'solteirao4.jpeg'],
+  details: [
+    'Conjunto completo: colchão + box inclusos',
+    'Medida solteirão — mais espaço e conforto',
+    'Colchão confortável e pronto para uso',
+    'Estrutura firme e resistente para o dia a dia',
+    'Ideal para quartos, apartamentos ou área de hóspedes',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+162: {
+  name: 'Mesa de Madeira Rústica',
+  desc: 'Aquela mesa que aguenta o dia a dia e ainda fica bonita. Tampo em madeira de excelente aparência, estrutura resistente e estável — design rústico que combina com diversos estilos de decoração. Ideal para refeições, reuniões ou home office. R$ 299.',
+  price: 299, oldPrice: null, cat: 'Móveis',
+  imgs: ['mesamadeira.jpeg', 'mesamadeira2.jpeg', 'mesamadeira3.jpeg', 'mesamadeira4.jpeg', 'mesamadeira5.jpeg'],
+  details: [
+    'Tampo em madeira de excelente aparência',
+    'Estrutura resistente e estável',
+    'Design rústico que combina com diversos estilos',
+    'Ideal para refeições, reuniões ou uso no dia a dia',
+    'Ótimo custo-benefício',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
 }
