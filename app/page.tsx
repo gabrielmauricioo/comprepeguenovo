@@ -41,7 +41,7 @@ const PRODUCTS: Product[] = [
 
 { id: 122, name: 'Banco de Madeira Rústico', desc: 'Madeira maciça com acabamento rústico.', price: 199, oldPrice: 299, img: 'banco.jpeg', cat: 'Móveis', isNew: true },
 
-{ id: 140, name: 'Conjunto Mesa Industrial + Banco de Madeira', desc: 'Estilo loft com mesa e banco combinando.', price: 599, oldPrice: null, img: 'banco+ap.jpeg', cat: 'Móveis', isNew: true },
+{ id: 140, name: 'Conjunto Mesa Industrial + Banco de Madeira', desc: 'Estilo loft com mesa e banco combinando.', price: 599, oldPrice: null, img: 'banco+ap.jpeg', cat: 'Móveis', isNew: false },
 
 { id: 162, name: 'Mesa de Madeira Rústica', desc: 'Elegância e resistência por R$ 299.', price: 299, oldPrice: null, img: 'mesamadeira.jpeg', cat: 'Móveis', isNew: false },
 
