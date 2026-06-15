@@ -277,24 +277,6 @@ const PRODUCTS: Record<number, Product> = {
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
 },
-
-144: {
-  name: 'Conjunto Mesa Redonda + 2 Cadeiras',
-  desc: 'Conjunto assim numa loja de móveis sai por R$ 1.500+. Aqui você leva tudo — mesa redonda em madeira + 2 cadeiras com assento estofado bege — por R$ 550. Compacto, charmoso e pronto pra uso.',
-  price: 550, oldPrice: 999, cat: 'Móveis',
-  imgs: ['conjuntomesa.jpeg', 'conjuntomesa2.jpeg', 'conjuntomesa3.jpeg', 'conjuntomesa4.jpeg', 'conjuntomesa5.jpeg'],
-  details: [
-    'Conjunto completo: mesa redonda + 2 cadeiras',
-    'Mesa em madeira — tampo liso e bem conservado',
-    '2 cadeiras de madeira com assento estofado bege',
-    'Tamanho compacto — cabe em qualquer espaço',
-    'Ideal para cozinha, varanda, kitnet ou sala pequena',
-    'Economia de mais de R$ 950 vs loja de móveis',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
-
 145: {
   name: 'Conjunto Mesa Redonda + 2 Cadeiras Buenos Aires',
   desc: 'Só a mesa de madeira maciça numa loja custa R$ 800+. Aqui você leva o conjunto completo — mesa com tampo em madeira e pé central em cruz + 2 cadeiras estofadas em tecido cinza com base em metal preto — por R$ 850. Monta o espaço hoje.',

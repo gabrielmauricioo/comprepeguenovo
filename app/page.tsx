@@ -47,8 +47,6 @@ const PRODUCTS: Product[] = [
 
 { id: 132, name: 'Cobreleito Queen', desc: 'Tecido floral bordado para cama Queen.', price: 50, oldPrice: null, img: 'cobreleito4.jpeg', cat: 'Enxoval', isNew: true },
 
-{ id: 144, name: 'Conjunto Mesa Redonda + 2 Cadeiras', desc: 'Mesa redonda e 2 cadeiras estofadas.', price: 550, oldPrice: 999, img: 'conjuntomesa.jpeg', cat: 'Móveis', isNew: false },
-
 { id: 128, name: 'Espreguiçadeiras de Madeira', desc: 'Relaxe com estilo, vendida por unidade.', price: 350, oldPrice: null, img: 'espreguiçadeira.jpeg', cat: 'Poltronas', isNew: false },
 
 { id: 154, name: 'Vaso Sanitário Azul com Caixa Acoplada', desc: 'Vaso sanitário azul com caixa acoplada completa.', price: 250, oldPrice: null, img: 'vasoazul2.jpeg', cat: 'Construção', isNew: false },
@@ -418,7 +416,7 @@ export default function Home() {
             </p>
             <a
               className="group-btn reveal"
-              href="https://chat.whatsapp.com/SEULINKAQUISUBSTITUA"
+              href="https://chat.whatsapp.com/LPRrnPIepuOJadYOYlT7Z1?s=cl&p=a&mlu=2"
               target="_blank"
               rel="noopener noreferrer"
             >
