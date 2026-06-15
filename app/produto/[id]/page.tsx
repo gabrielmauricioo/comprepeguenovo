@@ -527,6 +527,54 @@ const PRODUCTS: Record<number, Product> = {
     'Ótimo custo-benefício',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
+},
+
+164: {
+  name: 'Geladeira Duplex 2 Portas Prata',
+  desc: 'Gelando perfeitamente com freezer separado e espaço de sobra para as compras do mês, sai por R$ 499. Cor prata que combina com qualquer cozinha — equipa a casa hoje.',
+  price: 499, oldPrice: null, cat: 'Eletrodomésticos',
+  imgs: ['geladeira.jpeg', 'geladeira2.jpeg', 'geladeira3.jpeg','geladeira4.jpeg'],
+  details: [
+    'Geladeira duplex 2 portas — espaço de sobra',
+    'Freezer separado na parte superior',
+    'Cor prata — elegante e combina com qualquer cozinha',
+    'Tamanho família — ideal para as compras do mês',
+    'Funcionando perfeitamente — gelando muito bem',
+    'Economia de mais de R$ 1.500 vs nova',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+165: {
+  name: 'Tanque de Lavanderia Duplo',
+  desc: 'Lavanderia organizada e funcional por R$ 350. Dois compartimentos para separar a lavagem, área lateral com frisos para esfregar roupas — estrutura resistente e durável pronta para instalar. Ideal para reformas ou novas instalações.',
+  price: 350, oldPrice: null, cat: 'Construção',
+  imgs: ['tanque.jpeg', 'tanque2.jpeg', 'tanque3.jpeg','tanque4.jpeg'],
+  details: [
+    'Estrutura resistente e durável',
+    'Dois compartimentos para maior praticidade',
+    'Área lateral com frisos para esfregar roupas',
+    'Ideal para casas, áreas de serviço e lavanderias',
+    'Ótima opção para reformas ou novas instalações',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+166: {
+  name: 'Porta de Ferro com Vidro',
+  desc: 'Segurança do ferro sem abrir mão da luz natural. Estrutura resistente com vidro que ilumina o ambiente e detalhes decorativos clássicos — 80cm x 2,10m pronta para instalação. Ideal para entradas, áreas externas ou edículas. R$ 180.',
+  price: 180, oldPrice: null, cat: 'Decoração',
+  imgs: ['portaferro.jpeg', 'portaferro2.jpeg', 'portaferro3.jpeg'],
+  details: [
+    'Estrutura de ferro resistente e durável',
+    'Vidro que proporciona claridade ao ambiente',
+    'Design clássico com detalhes decorativos',
+    'Medidas: 80cm x 2,10m',
+    'Pronta para instalação imediata',
+    'Ideal para entradas, áreas externas ou edículas',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
 }
 
 

@@ -87,6 +87,13 @@ const PRODUCTS: Product[] = [
 
 { id: 160, name: 'Colchão de Solteiro Conservado', desc: 'Colchão conservado, limpo e pronto pra uso.', price: 350, oldPrice: 400, img: 'colchaosolteiro2.jpeg', cat: 'Camas', isNew: false },
 
+{ id: 164, name: 'Geladeira Duplex 2 Portas Prata', desc: 'Duplex com freezer separado, cor prata, tamanho família — gelando perfeitamente e pronta para uso.', price: 499, oldPrice: null, img: 'geladeira.jpeg', cat: 'Eletrodomésticos', isNew: false },
+
+{ id: 165, name: 'Tanque de Lavanderia Duplo', desc: 'Dois compartimentos, área com frisos para esfregar — ideal para casas, áreas de serviço e lavanderias.', price: 350, oldPrice: null, img: 'tanque.jpeg', cat: 'Construção', isNew: false },
+
+{ id: 166, name: 'Porta de Ferro com Vidro', desc: 'Segurança e claridade por R$ 180. Estrutura em ferro resistente com vidro, design clássico decorativo — 80cm x 2,10m pronta para instalar.', price: 180, oldPrice: null, img: 'portaferro.jpeg', cat: 'Construção', isNew: false }
+
+
 ]
 
 const WA_NUMBER = '+5545999541641' // ← TROQUE PELO SEU NÚMERO
