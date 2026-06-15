@@ -33,8 +33,6 @@ const PRODUCTS: Product[] = [
 
 { id: 156, name: 'Batedeira Elétrica', desc: 'Compacta e fácil de limpar, pronta para uso.', price: 80, oldPrice: 120, img: 'batedeira.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
-{ id: 137, name: 'Mesa Redonda de Pinus', desc: 'Rústica, estável e cheia de charme.', price: 450, oldPrice: null, img: 'pinus.jpeg', cat: 'Móveis', isNew: false },
-
 { id: 146, name: 'Lustre Rattan Redondo Boho', desc: 'Rattan trançado natural, clima boho instantâneo.', price: 250, oldPrice: 600, img: 'lustrerattan.jpeg', cat: 'Decoração', isNew: true },
 
 { id: 158, name: 'Balança Digital de Vidro', desc: 'Base em vidro, display digital automático.', price: 60, oldPrice: null, img: 'balanca.jpeg', cat: 'Outros', isNew: false },
@@ -68,8 +66,6 @@ const PRODUCTS: Product[] = [
 { id: 130, name: 'TV Philips 32 Polegadas', desc: 'Imagem nítida e boa qualidade sonora.', price: 350, oldPrice: 450, img: 'tv.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
 { id: 157, name: 'Frigobar 60 Litros', desc: 'Frigobar compacto e econômico, 60 litros.', price: 499, oldPrice: null, img: 'frigobar.jpeg', cat: 'Eletrodomésticos', isNew: false },
-
-{ id: 145, name: 'Conjunto Mesa Redonda + 2 Cadeiras Buenos Aires', desc: 'Mesa maciça com pé em cruz e 2 cadeiras.', price: 850, oldPrice: 1500, img: 'conjuntobuenos.jpeg', cat: 'Móveis', isNew: false },
 
 { id: 118, name: 'Vaso Sanitário Completo', desc: 'Fácil instalação, louça branca impecável.', price: 299, oldPrice: null, img: 'vaso.jpeg', cat: 'Construção', isNew: true },
 

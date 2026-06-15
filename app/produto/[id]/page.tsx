@@ -178,21 +178,6 @@ const PRODUCTS: Record<number, Product> = {
   ]
 },
 
-137: {
-  name: 'Mesa Redonda de Pinus',
-  desc: 'Charme rústico com muita estabilidade. Tampo em madeira de pinus envernizada e pé central em cruz — o tipo de peça que todo mundo pergunta de onde veio. Sala de jantar, varanda ou cozinha. R$ 450.',
-  price: 450, oldPrice: null, cat: 'Móveis',
-  imgs: ['pinus.jpeg', 'pinus2.jpeg', 'pinus3.jpeg', 'pinus5.jpeg'],
-  details: [
-    'Madeira de pinus maciça envernizada',
-    'Pé central em cruz — super estável',
-    'Formato redondo — perfeito para espaços menores',
-    'Estilo rústico — combina com qualquer decoração',
-    'Ideal para sala de jantar, varanda ou cozinha',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
 
 139: {
   name: 'Espelho Redondo com Moldura',
@@ -277,22 +262,7 @@ const PRODUCTS: Record<number, Product> = {
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
 },
-145: {
-  name: 'Conjunto Mesa Redonda + 2 Cadeiras Buenos Aires',
-  desc: 'Só a mesa de madeira maciça numa loja custa R$ 800+. Aqui você leva o conjunto completo — mesa com tampo em madeira e pé central em cruz + 2 cadeiras estofadas em tecido cinza com base em metal preto — por R$ 850. Monta o espaço hoje.',
-  price: 850, oldPrice: 1500, cat: 'Móveis',
-  imgs: ['conjuntobuenos.jpeg', 'conjuntobuenos2.jpeg', 'conjuntobuenos3.jpeg', 'conjuntobuenos4.jpeg', 'conjuntobuenos5.jpeg'],
-  details: [
-    'Conjunto completo: mesa redonda + 2 cadeiras',
-    'Mesa em madeira maciça — tampo com pé central em cruz',
-    '2 cadeiras estofadas em tecido cinza',
-    'Base das cadeiras em metal preto — estilo contemporâneo',
-    'Combinação harmoniosa e pronta pra uso',
-    'Ideal para sala de jantar, cozinha ou varanda',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
+
 
 146: {
   name: 'Lustre Rattan Redondo Boho',
