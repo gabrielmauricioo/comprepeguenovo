@@ -93,6 +93,23 @@ const PRODUCTS: Product[] = [
 
 { id: 166, name: 'Porta de Ferro com Vidro', desc: 'Segurança e claridade por R$ 180. Estrutura em ferro resistente com vidro, design clássico decorativo — 80cm x 2,10m pronta para instalar.', price: 180, oldPrice: null, img: 'portaferro.jpeg', cat: 'Construção', isNew: false },
 
+{ id: 167, name: 'Guarda-Sol Gigante para Área Externa', desc: 'Cobertura ampla e estrutura resistente — perfeito para piscinas, jardins, bares e eventos.', price: 450, oldPrice: null, img: 'guardasol.jpeg', cat: 'Decoração', isNew: false },
+
+{ id: 168, name: 'Cuba de Banheiro Vermelha', desc: 'Cuba de sobrepor com acabamento brilhante em vermelho e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubav3.jpeg', cat: 'Construção', isNew: false },
+
+{ id: 169, name: 'Cuba de Banheiro de Sobrepor Verde', desc: 'Cuba de sobrepor com design moderno e acabamento diferenciado — valoriza qualquer bancada na hora.', price: 150, oldPrice: 270, img: 'cubaverde.jpeg', cat: 'Construção', isNew: false },
+
+{ id: 170, name: 'Cuba de Banheiro Negra', desc: 'Cuba de sobrepor com acabamento brilhante em negro e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubanegro.jpeg', cat: 'Construção', isNew: false },
+
+{ id: 171, name: 'Cuba de Banheiro Verde', desc: 'Cuba de sobrepor com acabamento brilhante em verde e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubave2.jpeg', cat: 'Construção', isNew: false },
+
+{ id: 172, name: 'Cuba de Banheiro Amarela', desc: 'Cuba de sobrepor com acabamento brilhante em amarelo e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubaamarela.jpeg', cat: 'Construção', isNew: false },
+
+{ id: 173, name: 'Cuba de Banheiro Branca Retangular', desc: 'Cuba Setga retangular em cerâmica branca — moderna, clean e combina com qualquer decoração.', price: 150, oldPrice: null, img: 'cubabranca.jpeg', cat: 'Decoração', isNew: false }
+
+
+
+
 
 
 ]

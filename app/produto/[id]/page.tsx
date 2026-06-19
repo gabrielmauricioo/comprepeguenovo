@@ -575,7 +575,122 @@ const PRODUCTS: Record<number, Product> = {
     'Ideal para entradas, áreas externas ou edículas',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
+},
+
+167: {
+  name: 'Guarda-Sol Gigante para Área Externa',
+  desc: 'Guarda-sol gigante com estrutura resistente e cobertura ampla — ideal para mesas, piscinas, jardins e áreas de lazer. Usado em bom estado e pronto para uso por R$ 450.',
+  price: 450, oldPrice: null, cat: 'Decoração',
+  imgs: ['guardasol.jpeg', 'guardasol2.jpeg', 'guardasol3.jpeg', 'guardasol4.jpeg'],
+  details: [
+    'Estrutura resistente e estável',
+    'Cobertura ampla — sombra generosa',
+    'Ideal para piscinas, jardins, mesas e áreas de lazer',
+    'Perfeito para residências, comércios, bares e eventos',
+    'Fácil de posicionar e utilizar',
+    'Usado em bom estado — pronto para uso imediato',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+168: {
+  name: 'Cuba de Banheiro Vermelho',
+  desc: 'Quem disse que banheiro tem que ser sem graça? Cuba de sobrepor com acabamento brilhante em vermelho e branco — design diferenciado que transforma lavabo ou banheiro num ambiente com personalidade. Combina com mármore, granito ou madeira. R$ 150.',
+  price: 150, oldPrice: 270, cat: 'Construção',
+  imgs: ['cubav.jpeg', 'cubav2.jpeg', 'cubav3.jpeg', 'cubav4.jpeg'],
+  details: [
+    'Cuba de sobrepor — fácil instalação sobre a bancada',
+    'Acabamento brilhante nas cores vermelho e branco',
+    'Design elegante e diferenciado',
+    'Combina com bancadas de mármore, granito ou madeira',
+    'Ideal para banheiros, lavabos e áreas gourmet',
+    'Peça que valoriza instantaneamente o ambiente',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+169: {
+  name: 'Cuba de Banheiro de Sobrepor Verde',
+  desc: 'Um detalhe que muda tudo. Cuba de sobrepor com acabamento verde diferenciado e design contemporâneo — transforma banheiro, lavabo ou área gourmet em um ambiente com identidade própria. Fácil instalação e excelente estado de conservação. R$ 150.',
+  price: 150, oldPrice: null, cat: 'Decoração',
+  imgs: ['cubaverde.jpeg', 'cubaverde2.jpeg', 'cubaverde3.jpeg'],
+  details: [
+    'Cuba de sobrepor — fácil instalação sobre a bancada',
+    'Design moderno com acabamento diferenciado em verde',
+    'Visual elegante e contemporâneo',
+    'Ideal para banheiros, lavabos e áreas gourmet',
+    'Excelente estado de conservação',
+    'Perfeita para projetos residenciais ou comerciais',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+170: {
+  name: 'Cuba de Banheiro Negra',
+  desc: 'Quem disse que banheiro tem que ser sem graça? Cuba de sobrepor com acabamento brilhante em negro e branco — design diferenciado que transforma lavabo ou banheiro num ambiente com personalidade. Combina com mármore, granito ou madeira. R$ 150.',
+  price: 150, oldPrice: 270, cat: 'Construção',
+  imgs: ['cubanegro.jpeg', 'cubanegro2.jpeg', 'cubanegro3.jpeg'],
+  details: [
+    'Cuba de sobrepor — fácil instalação sobre a bancada',
+    'Acabamento brilhante nas cores negro e branco',
+    'Design elegante e diferenciado',
+    'Combina com bancadas de mármore, granito ou madeira',
+    'Ideal para banheiros, lavabos e áreas gourmet',
+    'Peça que valoriza instantaneamente o ambiente',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+171: {
+  name: 'Cuba de Banheiro Verde',
+  desc: 'Quem disse que banheiro tem que ser sem graça? Cuba de sobrepor com acabamento brilhante em verde e branco — design diferenciado que transforma lavabo ou banheiro num ambiente com personalidade. Combina com mármore, granito ou madeira. R$ 150.',
+  price: 150, oldPrice: 270, cat: 'Construção',
+  imgs: ['cubave.jpeg', 'cubave2.jpeg', 'cubave3.jpeg'],
+  details: [
+    'Cuba de sobrepor — fácil instalação sobre a bancada',
+    'Acabamento brilhante nas cores verde e branco',
+    'Design elegante e diferenciado',
+    'Combina com bancadas de mármore, granito ou madeira',
+    'Ideal para banheiros, lavabos e áreas gourmet',
+    'Peça que valoriza instantaneamente o ambiente',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+172: {
+  name: 'Cuba de Banheiro Amarela',
+  desc: 'Quem disse que banheiro tem que ser sem graça? Cuba de sobrepor com acabamento brilhante em amarelo e branco — design diferenciado que transforma lavabo ou banheiro num ambiente com personalidade. Combina com mármore, granito ou madeira. R$ 150.',
+  price: 150, oldPrice: 270, cat: 'Construção',
+  imgs: ['cubaamarela.jpeg', 'cubaamarela2.jpeg', 'cubaamarela3.jpeg'],
+  details: [
+    'Cuba de sobrepor — fácil instalação sobre a bancada',
+    'Acabamento brilhante nas cores amarelo e branco',
+    'Design elegante e diferenciado',
+    'Combina com bancadas de mármore, granito ou madeira',
+    'Ideal para banheiros, lavabos e áreas gourmet',
+    'Peça que valoriza instantaneamente o ambiente',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+173: {
+  name: 'Cuba de Banheiro Branca Retangular ',
+  desc: 'Clean, moderna e atemporal — a cuba branca retangular nunca erra. Modelo Setga em cerâmica branca de qualidade, formato retangular que combina com qualquer estilo de banheiro, lavabo ou suíte. R$ 150 abaixo do mercado.',
+  price: 150, oldPrice: null, cat: 'Decoração',
+  imgs: ['cubabranca.jpeg', 'cubabranca2.jpeg', 'cubabranca3.jpeg'],
+  details: [
+    'Marca Setga — qualidade reconhecida',
+    'Formato retangular moderno e atemporal',
+    'Cerâmica branca — combina com qualquer decoração',
+    'Ideal para banheiro, lavabo ou suíte',
+    'Preço abaixo do mercado — oportunidade real',
+    'Parcelo em até 3x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
 }
+
+
+
 
 
 
