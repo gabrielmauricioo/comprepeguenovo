@@ -19,21 +19,19 @@ interface Product {
 const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração', 'Poltronas', 'Enxoval', 'Outros']
 
 const PRODUCTS: Product[] = [
-{ id: 150, name: 'Lustre Rattan Artesanal Formato Sino', desc: 'Lustre rattan artesanal, grande e decorativo.', price: 300, oldPrice: 899, img: 'lustrerattansino.jpeg', cat: 'Decoração', isNew: true },
 
 { id: 134, name: 'Pia de Cozinha Inox', desc: 'Inox resistente com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'inox.jpeg', cat: 'Construção', isNew: false },
 
 { id: 161, name: 'Cama Solteirão Completa', desc: 'Solteirão completo, colchão e box inclusos.', price: 550, oldPrice: null, img: 'solteirao.jpeg', cat: 'Camas', isNew: false },
 
-{ id: 119, name: 'Par de Poltronas Bege', desc: 'Conforto e charme em duas unidades.', price: 499, oldPrice: 600, img: 'poltrona.jpeg', cat: 'Poltronas', isNew: false },
 
 { id: 143, name: 'Kit Banheiro — Vaso Sanitário + Pia com Coluna', desc: 'Vaso com tampa + pia com coluna e torneira.', price: 399, oldPrice: null, img: 'kitbanheiro.jpeg', cat: 'Construção', isNew: false },
 
-{ id: 127, name: 'Par de Cadeiras Estiloso', desc: 'Estrutura em madeira maciça escura.', price: 380, oldPrice: null, img: 'cadeirabranca.jpeg', cat: 'Poltronas', isNew: true },
+
 
 { id: 156, name: 'Batedeira Elétrica', desc: 'Compacta e fácil de limpar, pronta para uso.', price: 80, oldPrice: 120, img: 'batedeira.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
-{ id: 146, name: 'Lustre Rattan Redondo Boho', desc: 'Rattan trançado natural, clima boho instantâneo.', price: 250, oldPrice: 600, img: 'lustrerattan.jpeg', cat: 'Decoração', isNew: true },
+
 
 { id: 158, name: 'Balança Digital de Vidro', desc: 'Base em vidro, display digital automático.', price: 60, oldPrice: null, img: 'balanca.jpeg', cat: 'Outros', isNew: false },
 
@@ -43,7 +41,7 @@ const PRODUCTS: Product[] = [
 
 { id: 162, name: 'Mesa de Madeira Rústica', desc: 'Elegância e resistência por R$ 299.', price: 299, oldPrice: null, img: 'mesamadeira.jpeg', cat: 'Móveis', isNew: false },
 
-{ id: 132, name: 'Cobreleito Queen', desc: 'Tecido floral bordado para cama Queen.', price: 50, oldPrice: null, img: 'cobreleito4.jpeg', cat: 'Enxoval', isNew: true },
+
 
 { id: 128, name: 'Espreguiçadeiras de Madeira', desc: 'Relaxe com estilo, vendida por unidade.', price: 350, oldPrice: null, img: 'espreguiçadeira.jpeg', cat: 'Poltronas', isNew: false },
 
@@ -53,21 +51,21 @@ const PRODUCTS: Product[] = [
 
 { id: 159, name: 'Ferro de Passar a Vapor', desc: 'Função vapor, controle de temperatura ideal.', price: 50, oldPrice: 80, img: 'ferro.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
-{ id: 136, name: 'Arara de Madeira com Prateleiras', desc: 'Organização com estilo para seu espaço.', price: 250, oldPrice: null, img: 'arara3.jpeg', cat: 'Móveis', isNew: true },
+
 
 { id: 147, name: 'Espelho de Banheiro com Moldura Cromada', desc: 'Moldura prateada, resistente à umidade.', price: 99, oldPrice: null, img: 'espelhocromado.jpeg', cat: 'Decoração', isNew: false },
 
-{ id: 124, name: 'Par de Cadeiras Estofadas Cinza', desc: 'Vendidas em par, 2 unidades estofadas.', price: 340, oldPrice: null, img: 'cadeiracinza.jpeg', cat: 'Poltronas', isNew: false },
+
 
 { id: 151, name: 'Balcão Expositor de Vidro', desc: 'Balcão expositor com estrutura e vidro.', price: 450, oldPrice: null, img: 'balcaoexpositor.jpeg', cat: 'Móveis', isNew: false },
 
-{ id: 133, name: 'Ar Condicionado Consul', desc: 'Consul Inverter 12.000 BTUs eficiente.', price: 700, oldPrice: 900, img: 'ar.jpeg', cat: 'Eletrodomésticos', isNew: false },
+
 
 { id: 130, name: 'TV Philips 32 Polegadas', desc: 'Imagem nítida e boa qualidade sonora.', price: 350, oldPrice: 450, img: 'tv.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
 { id: 157, name: 'Frigobar 60 Litros', desc: 'Frigobar compacto e econômico, 60 litros.', price: 499, oldPrice: null, img: 'frigobar.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
-{ id: 118, name: 'Vaso Sanitário Completo', desc: 'Fácil instalação, louça branca impecável.', price: 299, oldPrice: null, img: 'vaso.jpeg', cat: 'Construção', isNew: true },
+
 
 { id: 153, name: 'Janela de Ferro Decorativa com Vidro Canelado', desc: 'Janela de ferro com vidro canelado, 1,24x1,50m.', price: 199, oldPrice: null, img: 'janelaferro.jpeg', cat: 'Construção', isNew: false },
 
@@ -79,11 +77,11 @@ const PRODUCTS: Product[] = [
 
 { id: 126, name: 'Cama Casal Completa', desc: 'Tamanho Casal, 138 x 188 cm.', price: 650, oldPrice: 800, img: 'camacasal2.jpeg', cat: 'Camas', isNew: false },
 
-{ id: 141, name: 'Espelho Retangular', desc: 'Moldura fina preta, estilo corpo inteiro.', price: 199, oldPrice: null, img: 'espelhor.jpeg', cat: 'Decoração', isNew: false },
+
 
 { id: 148, name: 'Maca Profissional de Madeira', desc: 'Estrutura robusta e super resistente.', price: 550, oldPrice: null, img: 'maca.jpeg', cat: 'Móveis', isNew: false },
 
-{ id: 149, name: 'Bicicleta Milano Action Lady Aro 26', desc: 'Pedale com estilo e economize no dia a dia.', price: 299, oldPrice: 400, img: 'bicicletamilano.jpeg', cat: 'Outros', isNew: false },
+
 
 { id: 160, name: 'Colchão de Solteiro Conservado', desc: 'Colchão conservado, limpo e pronto pra uso.', price: 350, oldPrice: 400, img: 'colchaosolteiro2.jpeg', cat: 'Camas', isNew: false },
 
