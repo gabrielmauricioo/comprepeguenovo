@@ -23,26 +23,8 @@ interface Product {
 ───────────────────────────────────────────────────────────────── */
 const PRODUCTS: Record<number, Product> = {
   
-  118: {
-    name: 'Vaso Sanitário Completo',
-    desc: 'Reforma no banheiro sem pesar no bolso. Vaso seminovo, conservado, pronto para instalar. Economize agora e resolva hoje.',
-    price: 299, oldPrice: null, cat: 'Construção',
-    imgs: ['vaso.jpeg','vaso2.jpeg','vaso3.jpeg','vaso4.jpeg', ],
-    details: ['Avaliado antes de anunciar'
-              ,'Funcionamento perfeito'
-              ,'Sem trincas ou lascas'
-            ],
-  },
-  119: {
-    name: 'Par de Poltronas Bege',
-    desc: 'Aquele cantinho aconchegante que falta na sua sala — por R$ 499 o par. Design arredondado, tecido claro, elegância imediata.',
-    price: 499, oldPrice: 600, cat: 'Poltronas',
-    imgs: ['poltrona.jpeg','poltrona2.jpeg','poltrona3.jpeg','poltrona4.jpeg' ],
-    details: ['Vendidas em par (2 unidades)'
-              ,'Tecido na cor off-white conservado'
-              ,'Design barrel chair — moderno e atemporal'
-            ],
-  },
+
+
   121: {
     name: 'Cama Solteirão Completa',
     desc: 'Dormir bem não é luxo — é necessidade. Solteirão completo, colchão firme e conservado, box com rodinhas. Conforto real por R$ 599.',
@@ -64,16 +46,6 @@ const PRODUCTS: Record<number, Product> = {
             ]
   },
 
-  124: {
-    name: 'Par de Cadeiras Estofadas Cinza',
-    desc: 'Design de hotel, preço de oportunidade. Par de cadeiras estofadas com tecido cinza mesclado e pés em madeira escura.',
-    price: 340, oldPrice: null, cat: 'Poltronas',
-    imgs: ['cadeiracinza.jpeg','cadeiracinza2.jpeg', 'cadeiracinza3.jpeg', 'cadeiracinza4.jpeg'],
-    details: ['Tecido cinza mesclado em ótimo estado'
-              ,'Ideais para sala de jantar, escritório ou quarto'
-              ,'Vendidas em par (2 unidades)'
-            ]
-  },
 
    126: {
     name: 'Cama Casal Completa',
@@ -86,16 +58,7 @@ const PRODUCTS: Record<number, Product> = {
             ]
   },
 
-  127: {
-    name: 'Par de Cadeiras Estiloso',
-    desc: 'Design atemporal que nunca sai de moda. Madeira maciça, encosto ripado e assento estofado branco — o tipo de cadeira que eleva qualquer sala de jantar.',
-    price: 380, oldPrice: null, cat: 'Poltronas',
-    imgs: ['cadeirabranca.jpeg','cadeirabranca2.jpeg', 'cadeirabranca3.jpeg', 'cadeirabranca4.jpeg'],
-    details: ['Estilo escandinavo — combina com tudo'
-              ,'Assento estofado confortável'
-              ,'Conservadas e prontas para uso'
-            ]
-  },
+  
 
   128: {
     name: 'Espreguiçadeiras de Madeira',
@@ -120,32 +83,9 @@ const PRODUCTS: Record<number, Product> = {
   },
 
 
-   132: {
-    name: 'Cobreleito Queen',
-    desc: 'Ideal para quem precisa de uma opção funcional sem gastar.',
-    price: 50, oldPrice: null, cat: 'Enxoval',
-    imgs: ['cobreleito.jpeg','cobreleito2.jpeg', 'cobreleito3.jpeg', 'cobreleito4.jpeg'],
-    details: ['Tamanho Queen'
-              ,'Funcional e lavável'
-              ,'Pronto para retirada em Foz do Iguaçu'
-            ]
-  },
+ 
 
-  133: {
-  name: 'Ar Condicionado Consul Inverter 12.000 BTUs',
-  desc: 'Consul Inverter — tecnologia que resfria rápido e economiza energia. 12.000 BTUs, conjunto completo com evaporadora e condensadora. Controle remoto original incluso. Oportunidade real por R$ 700.',
-  price: 700, oldPrice: null, cat: 'Eletrodomésticos',
-  imgs: ['ar.jpeg', 'ar2.jpeg', 'ar3.jpeg', 'ar4.jpeg', 'ar5.jpeg'],
-  details: [
-    'Marca Consul — referência em climatização',
-    'Tecnologia Inverter — economia de energia',
-    '12.000 BTUs — ideal para ambientes médios',
-    'Conjunto completo: evaporadora + condensadora',
-    'Controle remoto original incluso',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
+
 
 134: {
   name: 'Pia de Cozinha Inox com Escorredor',
@@ -162,21 +102,7 @@ const PRODUCTS: Record<number, Product> = {
   ]
 },
 
-136: {
-  name: 'Arara de Madeira com Prateleiras',
-  desc: 'Chega de quarto bagunçado. Arara em madeira resistente com barra de metal para roupas e 2 prateleiras para sapatos e acessórios — organização completa por R$ 250.',
-  price: 250, oldPrice: null, cat: 'Móveis',
-  imgs: ['arara.jpeg', 'arara2.jpeg', 'arara3.jpeg', 'arara4.jpeg' ],
-  details: [
-    'Estrutura em madeira resistente',
-    'Barra de metal para pendurar roupas',
-    '2 prateleiras — ideal para sapatos e acessórios',
-    'Perfeita para quarto, closet ou loja',
-    'Funcional e bem conservada',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
+
 
 
 139: {
@@ -212,22 +138,7 @@ const PRODUCTS: Record<number, Product> = {
   ]
 },
 
-141: {
-  name: 'Espelho Retangular',
-  desc: 'Moldura fina preta e sem nenhuma trinca, sai por R$ 199. É só levar e apoiar — seu look nunca mais vai errar.',
-  price: 199, oldPrice: null, cat: 'Decoração',
-  imgs: ['espelhor.jpeg', 'espelhor2.jpeg', 'espelhor3.jpeg', 'espelhor4.jpeg' ],
-  details: [
-    'Espelho corpo inteiro — veja o look completo',
-    'Moldura fina preta — minimalista e sofisticado',
-    'Sem trincas ou defeitos — conservado',
-    'Amplia o ambiente e dá sensação de espaço',
-    'Ideal para quarto, closet, hall ou sala',
-    'Fácil de apoiar ou pendurar',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
+
 
 142: {
   name: 'Kit 3 Luminárias de Chão Industrial',
@@ -264,22 +175,7 @@ const PRODUCTS: Record<number, Product> = {
 },
 
 
-146: {
-  name: 'Lustre Rattan Redondo Boho',
-  desc: 'Lustres rattan assim em loja de decoração custam R$ 600, R$ 800+. Aqui você transforma sua casa por R$ 250 — rattan trançado natural escuro, luz que atravessa o trançado criando sombras incríveis nas paredes. É só levar e pendurar.',
-  price: 250, oldPrice: 600, cat: 'Decoração',
-  imgs: ['lustrerattan.jpeg', 'lustrerattan2.jpeg', 'lustrerattan3.jpeg','lustrerattan4.jpeg'],
-  details: [
-    'Rattan artesanal trançado natural escuro',
-    'Formato redondo — design boho atemporal',
-    'Luz que cria sombras incríveis nas paredes',
-    'Já instalado e funcionando — só levar e pendurar',
-    'Ideal para sala de jantar, cozinha, varanda ou quarto',
-    'Economia de mais de R$ 350 vs loja de decoração',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
+
 
 147: {
   name: 'Espelho de Banheiro com Moldura Cromada',
@@ -311,53 +207,9 @@ const PRODUCTS: Record<number, Product> = {
   ]
 },
 
-149: {
-  name: 'Bicicleta Milano Action Lady Aro 26',
-  desc: 'Chega de trânsito, combustível caro e ônibus lotado. Essa Milano Action Lady aro 26 entrega conforto, estilo e economia por apenas R$ 299.',
-  price: 299,
-  oldPrice: 400,
-  cat: 'Outros',
-  imgs: [
-    'bicicletamilano.jpeg',
-    'bicicletamilano3.jpeg',
-    'bicicletamilano4.jpeg',
-    'bicicletamilano5.jpeg',
-    'bicicletamilano6.jpeg',
-  ],
-  details: [
-    'Bicicleta feminina Milano Action Lady',
-    'Quadro feminino rosa — moderno e estiloso',
-    'Aro 26 resistente com pneus todo-terreno',
-    'Câmbio traseiro ideal para diferentes terrenos',
-    'Freios dianteiro e traseiro para mais segurança',
-    'Bike revisada e pronta pra uso'
-  ]
-},
 
-150: {
-  name: 'Lustre Rattan Artesanal Formato Sino',
-  desc: 'Lustres rattan grandes como esse passam fácil dos R$ 700 nas lojas de decoração. Aqui você leva uma peça artesanal sofisticada, com iluminação aconchegante e visual de revista por apenas R$ 300.',
-  price: 300,
-  oldPrice: 899,
-  cat: 'Decoração',
-  imgs: [
-    'lustrerattansino.jpeg',
-    'lustrerattansino2.jpeg',
-    'lustrerattansino3.jpeg',
-    'lustrerattansino4.jpeg',
-  ],
-  details: [
-    'Lustre artesanal em rattan formato sino',
-    'Tamanho grande e visual imponente',
-    'Trançado natural dourado sofisticado',
-    'Iluminação aconchegante com efeito decorativo incrível',
-    'Ideal para sala de jantar, cozinha, varanda ou quarto',
-    'Estilo boho chic moderno e elegante',
-    'Já instalado e funcionando — pronto pra uso',
-    'Economia de mais de R$ 500 comparado às lojas',
-    'Parcelamento em até 3x sem juros',
-  ]
-},
+
+
 
 151: {
   name: 'Balcão Expositor de Vidro',
@@ -422,20 +274,7 @@ const PRODUCTS: Record<number, Product> = {
   ]
 },
 
-156: {
-  name: 'Batedeira Elétrica',
-  desc: 'Aquela receita que você adia por não ter batedeira — resolve por R$ 80. Compacta, prática e fácil de limpar, acompanha tigela e batedor. Ideal para bolos, massas e muito mais.',
-  price: 80, oldPrice: 120, cat: 'Eletrodomésticos',
-  imgs: ['batedeira.jpeg', 'batedeira2.jpeg', 'batedeira3.jpeg'],
-  details: [
-    'Ideal para bolos, massas e receitas diversas',
-    'Acompanha tigela e batedor',
-    'Compacta — cabe em qualquer cozinha',
-    'Fácil de usar e limpar',
-    'Funcionando perfeitamente — testada antes de anunciar',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
+
 
 157: {
   name: 'Frigobar 60 Litros',
@@ -469,20 +308,6 @@ const PRODUCTS: Record<number, Product> = {
   ]
 },
 
-159: {
-  name: 'Ferro de Passar a Vapor',
-  desc: 'Tecido delicado, jeans grosso, camisa social — esse ferro resolve tudo com o controle de temperatura certo. Função vapor que elimina amassados difíceis sem esforço. De R$ 80 por R$ 50.',
-  price: 50, oldPrice: 80, cat: 'Eletrodomésticos',
-  imgs: ['ferro.jpeg', 'ferro2.jpeg', 'ferro3.jpeg'],
-  details: [
-    'Função vapor — remove amassados com facilidade',
-    'Controle de temperatura para diferentes tipos de tecido',
-    'Design ergonômico e fácil de manusear',
-    'Ideal para uso doméstico diário',
-    'De R$ 80 por R$ 50 — aproveite o desconto',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
 
 160: {
   name: 'Colchão de Solteiro Conservado',
@@ -687,8 +512,52 @@ const PRODUCTS: Record<number, Product> = {
     'Parcelo em até 3x sem juros',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
-}
+},
 
+174: {
+  name: 'Aparador Industrial em Madeira e Ferro',
+  desc: 'Um aparador industrial e slim assim nas lojas custa muito mais. Tampo em madeira de tom claro com estrutura em ferro preto — design alongado que valoriza corredores, salas, recepções e halls de entrada. Em ótimo estado e pronto para uso. R$ 400.',
+  price: 400, oldPrice: null, cat: 'Móveis',
+  imgs: ['aparadorindustrial.jpeg', 'aparadorindustrial2.jpeg', 'aparadorindustrial3.jpeg'],
+  details: [
+    'Estilo industrial moderno e atemporal',
+    'Tampo em madeira de tom claro — resistente e elegante',
+    'Estrutura slim em ferro preto — alta durabilidade',
+    'Design alongado — perfeito para corredores e halls',
+    'Ideal para salas, recepções ou comércios',
+    'Ótimo estado de conservação — pronto para uso',
+    'Parcelo em até 3x sem juros',
+  ]
+},
+
+175: {
+  name: 'Par de Cadeiras Acapulco',
+  desc: 'A cadeira Acapulco é um ícone do design moderno — e esse par sai por R$ 199. Estrutura metálica resistente, visual que eleva qualquer ambiente e em ótimo estado de conservação. Sala, varanda, área gourmet ou recepção — combina com tudo.',
+  price: 199, oldPrice: null, cat: 'Móveis',
+  imgs: ['cadeirasacapulco.jpg', 'cadeirasacapulco2.jpg', 'cadeirasacapulco3.jpg'],
+  details: [
+    'Par de cadeiras Acapulco — 2 unidades inclusas',
+    'Design icônico moderno e sofisticado',
+    'Estrutura metálica resistente',
+    'Em ótimo estado de conservação',
+    'Ideal para sala, varanda, área gourmet ou recepção',
+  ]
+},
+
+176: {
+  name: 'Forno Industrial Metalmaq 3 Câmaras',
+  desc: 'Forno industrial Metalmaq novo passa de R$ 8.000. Este, com 3 câmaras independentes em aço inox e capacidade para alta produção, sai por R$ 2.500. Ideal para quem quer montar ou expandir padaria, pizzaria, lanchonete ou cozinha industrial gastando pouco.',
+  price: 2500, oldPrice: null, cat: 'Eletrodomésticos',
+  imgs: ['fornoindustrial.jpeg', 'fornoindustrial2.jpeg', 'fornoindustrial3.jpeg', 'fornoindustrial4.jpeg'],
+  details: [
+    'Marca Metalmaq — referência em equipamentos industriais',
+    '3 câmaras independentes — asse diferentes produtos ao mesmo tempo',
+    'Estrutura em aço inox — resistente e fácil de limpar',
+    'Excelente capacidade para alta produção',
+    'Ideal para padarias, pizzarias, lanchonetes e cozinhas industriais',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+}
 
 
 

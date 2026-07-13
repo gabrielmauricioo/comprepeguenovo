@@ -20,16 +20,18 @@ const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móv
 
 const PRODUCTS: Product[] = [
 
+{ id: 176, name: 'Forno Industrial Metalmaq 3 Câmaras', desc: 'Alta produção por R$ 2.500. Metalmaq com 3 câmaras independentes em aço inox — ideal para padarias, pizzarias, lanchonetes e cozinhas industriais.', price: 2500, oldPrice: null, img: 'fornoindustrial5.jpeg', cat: 'Eletrodomésticos', isNew: false },
+
+{ id: 175, name: 'Par de Cadeiras Acapulco', desc: 'Design icônico por R$ 199 o par. Estrutura metálica resistente, visual moderno e sofisticado — perfeitas para sala, varanda ou área gourmet.', price: 199, oldPrice: null, img: 'cadeirasacapulco.jpg', cat: 'Móveis', isNew: false },
+
+{ id: 174, name: 'Aparador Industrial em Madeira e Ferro', desc: 'Tampo em madeira clara, estrutura slim em ferro preto — perfeito para corredores, salas e halls de entrada.', price: 400, oldPrice: null, img: 'aparadorindustrial.jpeg', cat: 'Móveis', isNew: false },
+
 { id: 134, name: 'Pia de Cozinha Inox', desc: 'Inox resistente com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'inox.jpeg', cat: 'Construção', isNew: false },
 
 { id: 161, name: 'Cama Solteirão Completa', desc: 'Solteirão completo, colchão e box inclusos.', price: 550, oldPrice: null, img: 'solteirao.jpeg', cat: 'Camas', isNew: false },
 
 
 { id: 143, name: 'Kit Banheiro — Vaso Sanitário + Pia com Coluna', desc: 'Vaso com tampa + pia com coluna e torneira.', price: 399, oldPrice: null, img: 'kitbanheiro.jpeg', cat: 'Construção', isNew: false },
-
-
-
-{ id: 156, name: 'Batedeira Elétrica', desc: 'Compacta e fácil de limpar, pronta para uso.', price: 80, oldPrice: 120, img: 'batedeira.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
 
 
@@ -49,7 +51,7 @@ const PRODUCTS: Product[] = [
 
 { id: 121, name: 'Cama Solteirão Completa', desc: 'Tamanho Solteirão, 96 x 203 cm.', price: 599, oldPrice: null, img: 'solteirão.jpeg', cat: 'Camas', isNew: false },
 
-{ id: 159, name: 'Ferro de Passar a Vapor', desc: 'Função vapor, controle de temperatura ideal.', price: 50, oldPrice: 80, img: 'ferro.jpeg', cat: 'Eletrodomésticos', isNew: false },
+
 
 
 
