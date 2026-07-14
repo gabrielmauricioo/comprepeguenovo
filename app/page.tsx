@@ -16,17 +16,18 @@ interface Product {
 }
 
 /* ─── DATA ─── */
-const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração', 'Poltronas', 'Enxoval', 'Outros']
+const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração', 'Poltronas']
 
 const PRODUCTS: Product[] = [
+{ id: 178, name: 'Fogão Brastemp 4 Bocas', desc: 'Qualidade que dispensa apresentação. 4 bocas, forno espaçoso e mesa em vidro temperado. Funcionando e pronto para usar.', price: 399, oldPrice: null, img: 'fogao.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
-{ id: 176, name: 'Forno Industrial Metalmaq 3 Câmaras', desc: 'Alta produção por R$ 2.500. Metalmaq com 3 câmaras independentes em aço inox — ideal para padarias, pizzarias, lanchonetes e cozinhas industriais.', price: 2500, oldPrice: null, img: 'fornoindustrial5.jpeg', cat: 'Eletrodomésticos', isNew: false },
+{ id: 177, name: 'Pia de Mármore com Cuba Embutida', desc: 'Mármore resistente 90x55cm com cuba embutida inclusa — pronta para instalar no banheiro ou lavabo.', price: 270, oldPrice: null, img: 'piamarmore.jpeg', cat: 'Construção', isNew: false },
+
+{ id: 176, name: 'Forno Industrial Metalmaq 3 Câmaras', desc: 'Alta produção por R$ 2.500. Metalmaq com 3 câmaras independentes em aço inox — ideal para padarias, pizzarias, lanchonetes e cozinhas industriais.', price: 2500, oldPrice: null, img: 'fornonew2.jpg', cat: 'Eletrodomésticos', isNew: false },
 
 { id: 175, name: 'Par de Cadeiras Acapulco', desc: 'Design icônico por R$ 199 o par. Estrutura metálica resistente, visual moderno e sofisticado — perfeitas para sala, varanda ou área gourmet.', price: 199, oldPrice: null, img: 'cadeirasacapulco.jpg', cat: 'Móveis', isNew: false },
 
-{ id: 174, name: 'Aparador Industrial em Madeira e Ferro', desc: 'Tampo em madeira clara, estrutura slim em ferro preto — perfeito para corredores, salas e halls de entrada.', price: 400, oldPrice: null, img: 'aparadorindustrial.jpeg', cat: 'Móveis', isNew: false },
-
-{ id: 134, name: 'Pia de Cozinha Inox', desc: 'Inox resistente com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'inox.jpeg', cat: 'Construção', isNew: false },
+{ id: 134, name: 'Pia de Cozinha Inox', desc: 'Inox resistente com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'pianew.jpg', cat: 'Construção', isNew: false },
 
 { id: 161, name: 'Cama Solteirão Completa', desc: 'Solteirão completo, colchão e box inclusos.', price: 550, oldPrice: null, img: 'solteirao.jpeg', cat: 'Camas', isNew: false },
 
@@ -34,68 +35,32 @@ const PRODUCTS: Product[] = [
 { id: 143, name: 'Kit Banheiro — Vaso Sanitário + Pia com Coluna', desc: 'Vaso com tampa + pia com coluna e torneira.', price: 399, oldPrice: null, img: 'kitbanheiro.jpeg', cat: 'Construção', isNew: false },
 
 
-
-{ id: 158, name: 'Balança Digital de Vidro', desc: 'Base em vidro, display digital automático.', price: 60, oldPrice: null, img: 'balanca.jpeg', cat: 'Outros', isNew: false },
-
 { id: 122, name: 'Banco de Madeira Rústico', desc: 'Madeira maciça com acabamento rústico.', price: 199, oldPrice: 299, img: 'banco.jpeg', cat: 'Móveis', isNew: true },
 
-{ id: 140, name: 'Conjunto Mesa Industrial + Banco de Madeira', desc: 'Estilo loft com mesa e banco combinando.', price: 599, oldPrice: null, img: 'banco+ap.jpeg', cat: 'Móveis', isNew: false },
-
 { id: 162, name: 'Mesa de Madeira Rústica', desc: 'Elegância e resistência por R$ 299.', price: 299, oldPrice: null, img: 'mesamadeira.jpeg', cat: 'Móveis', isNew: false },
-
-
-
-{ id: 128, name: 'Espreguiçadeiras de Madeira', desc: 'Relaxe com estilo, vendida por unidade.', price: 350, oldPrice: null, img: 'espreguiçadeira.jpeg', cat: 'Poltronas', isNew: false },
 
 { id: 154, name: 'Vaso Sanitário Azul com Caixa Acoplada', desc: 'Vaso sanitário azul com caixa acoplada completa.', price: 250, oldPrice: null, img: 'vasoazul2.jpeg', cat: 'Construção', isNew: false },
 
 { id: 121, name: 'Cama Solteirão Completa', desc: 'Tamanho Solteirão, 96 x 203 cm.', price: 599, oldPrice: null, img: 'solteirão.jpeg', cat: 'Camas', isNew: false },
 
-
-
-
-
 { id: 147, name: 'Espelho de Banheiro com Moldura Cromada', desc: 'Moldura prateada, resistente à umidade.', price: 99, oldPrice: null, img: 'espelhocromado.jpeg', cat: 'Decoração', isNew: false },
-
-
-
-{ id: 151, name: 'Balcão Expositor de Vidro', desc: 'Balcão expositor com estrutura e vidro.', price: 450, oldPrice: null, img: 'balcaoexpositor.jpeg', cat: 'Móveis', isNew: false },
-
 
 
 { id: 130, name: 'TV Philips 32 Polegadas', desc: 'Imagem nítida e boa qualidade sonora.', price: 350, oldPrice: 450, img: 'tv.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
-{ id: 157, name: 'Frigobar 60 Litros', desc: 'Frigobar compacto e econômico, 60 litros.', price: 499, oldPrice: null, img: 'frigobar.jpeg', cat: 'Eletrodomésticos', isNew: false },
-
-
-
-{ id: 153, name: 'Janela de Ferro Decorativa com Vidro Canelado', desc: 'Janela de ferro com vidro canelado, 1,24x1,50m.', price: 199, oldPrice: null, img: 'janelaferro.jpeg', cat: 'Construção', isNew: false },
-
-{ id: 142, name: 'Kit 3 Luminárias de Chão Industrial', desc: 'Kit com 3 luminárias em metal preto.', price: 550, oldPrice: 600, img: 'luminaria.jpeg', cat: 'Decoração', isNew: false },
-
-{ id: 139, name: 'Espelho Redondo com Moldura', desc: 'Tendência em decoração para sua casa.', price: 169, oldPrice: 250, img: 'espelho.jpeg', cat: 'Decoração', isNew: true },
-
-{ id: 155, name: 'Janela de Ferro Trabalhada com Vidro Canelado', desc: 'Janela de ferro com vidro canelado, 2,00x1,50m.', price: 199, oldPrice: null, img: 'janelaforro.jpeg', cat: 'Construção', isNew: false },
-
-{ id: 126, name: 'Cama Casal Completa', desc: 'Tamanho Casal, 138 x 188 cm.', price: 650, oldPrice: 800, img: 'camacasal2.jpeg', cat: 'Camas', isNew: false },
-
-
+{ id: 157, name: 'Frigobar 60 Litros', desc: 'Frigobar compacto e econômico, 60 litros.', price: 499, oldPrice: null, img: 'frigonew.jpg', cat: 'Eletrodomésticos', isNew: false },
 
 { id: 148, name: 'Maca Profissional de Madeira', desc: 'Estrutura robusta e super resistente.', price: 550, oldPrice: null, img: 'maca.jpeg', cat: 'Móveis', isNew: false },
 
-
-
 { id: 160, name: 'Colchão de Solteiro Conservado', desc: 'Colchão conservado, limpo e pronto pra uso.', price: 350, oldPrice: 400, img: 'colchaosolteiro2.jpeg', cat: 'Camas', isNew: false },
-
-{ id: 164, name: 'Geladeira Duplex 2 Portas Prata', desc: 'Duplex com freezer separado, cor prata, tamanho família — gelando perfeitamente e pronta para uso.', price: 499, oldPrice: null, img: 'geladeira.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
 { id: 165, name: 'Tanque de Lavanderia Duplo', desc: 'Dois compartimentos, área com frisos para esfregar — ideal para casas, áreas de serviço e lavanderias.', price: 350, oldPrice: null, img: 'tanque.jpeg', cat: 'Construção', isNew: false },
 
 { id: 166, name: 'Porta de Ferro com Vidro', desc: 'Segurança e claridade por R$ 180. Estrutura em ferro resistente com vidro, design clássico decorativo — 80cm x 2,10m pronta para instalar.', price: 180, oldPrice: null, img: 'portaferro.jpeg', cat: 'Construção', isNew: false },
 
-{ id: 167, name: 'Guarda-Sol Gigante para Área Externa', desc: 'Cobertura ampla e estrutura resistente — perfeito para piscinas, jardins, bares e eventos.', price: 450, oldPrice: null, img: 'guardasol.jpeg', cat: 'Decoração', isNew: false },
+{ id: 167, name: 'Guarda-Sol Gigante para Área Externa', desc: 'Cobertura ampla e estrutura resistente — perfeito para piscinas, jardins, bares e eventos.', price: 450, oldPrice: null, img: 'guardanew.jpg', cat: 'Decoração', isNew: false },
 
-{ id: 168, name: 'Cuba de Banheiro Vermelha', desc: 'Cuba de sobrepor com acabamento brilhante em vermelho e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubav3.jpeg', cat: 'Construção', isNew: false },
+{ id: 168, name: 'Bancade de Banheiro Completa', desc: 'Bancada com cuba de sobrepor com acabamento brilhante em vermelho e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 300, oldPrice: 570, img: 'cubav3.jpeg', cat: 'Construção', isNew: false },
 
 { id: 169, name: 'Cuba de Banheiro de Sobrepor Verde', desc: 'Cuba de sobrepor com design moderno e acabamento diferenciado — valoriza qualquer bancada na hora.', price: 150, oldPrice: 270, img: 'cubaverde.jpeg', cat: 'Construção', isNew: false },
 

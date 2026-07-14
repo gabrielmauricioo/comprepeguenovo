@@ -24,8 +24,7 @@ interface Product {
 const PRODUCTS: Record<number, Product> = {
   
 
-
-  121: {
+121: {
     name: 'Cama Solteirão Completa',
     desc: 'Dormir bem não é luxo — é necessidade. Solteirão completo, colchão firme e conservado, box com rodinhas. Conforto real por R$ 599.',
     price: 599, oldPrice: null, cat: 'Camas',
@@ -35,7 +34,7 @@ const PRODUCTS: Record<number, Product> = {
               ,'Pronto para retirada'
             ]
   },
-   122: {
+122: {
     name: 'Banco de Madeira Rústico',
     desc: 'Aquele toque natural que transforma qualquer ambiente. Banco rústico em madeira maciça — perfeito para varanda, jardim ou entrada de casa.',
     price: 199, oldPrice: 299, cat: 'Móveis',
@@ -45,33 +44,8 @@ const PRODUCTS: Record<number, Product> = {
               ,'Peça artesanal — design exclusivo'
             ]
   },
-
-
-   126: {
-    name: 'Cama Casal Completa',
-    desc: 'Precisa de uma cama de casal sem gastar muito? Colchão em bom estado, box funcional',
-    price: 650, oldPrice: 800, cat: 'Camas',
-    imgs: ['camacasal.jpeg','camacasal2.jpeg', 'camacasal3.jpeg', 'camacasal4.jpeg'],
-    details: ['Ideal para quarto de hóspedes ou uso imediato'
-              ,'Tamanho Casal (138 x 188 cm)'
-              ,'Conjunto completo: box + colchão'
-            ]
-  },
-
   
-
-  128: {
-    name: 'Espreguiçadeiras de Madeira',
-    desc: 'Estrutura sólida de madeira maciça.  Ótima oportunidade',
-    price: 350, oldPrice: null, cat: 'Poltronas',
-    imgs: ['espreguiçadeira.jpeg','espreguiçadeira2.jpeg', 'espreguiçadeira3.jpeg', 'espreguiçadeira4.jpeg'],
-    details: ['Madeira maciça em ripas — estrutura firme'
-              ,'Ideais para piscina, quintal ou varanda'
-              ,'Pronta para retirada'
-            ]
-  },
-  
-  130: {
+130: {
     name: 'TV Philips 32 Polegadas',
     desc: 'Ligada, funcionando, imagem perfeita — a foto já prova. TV Philips 32" com controle original incluso. Resolve a sala, o quarto ou a cozinha.',
     price: 350, oldPrice: 450, cat: 'Eletrodomésticos',
@@ -81,11 +55,6 @@ const PRODUCTS: Record<number, Product> = {
               ,'Entrada HDMI'
             ]
   },
-
-
- 
-
-
 
 134: {
   name: 'Pia de Cozinha Inox com Escorredor',
@@ -103,60 +72,6 @@ const PRODUCTS: Record<number, Product> = {
 },
 
 
-
-
-139: {
-  name: 'Espelho Redondo com Moldura',
-  desc: 'Um espelho que decora antes mesmo de refletir. Moldura fina preta, formato redondo, 69cm de diâmetro — tendência que você vê em lojas de decoração por muito mais. R$ 150.',
-  price: 169, oldPrice: 250, cat: 'Decoração',
-  imgs: ['espelho.jpeg', 'espelho2.jpeg', 'espelho3.jpeg', 'espelho4.jpeg'],
-  details: [
-    'Moldura fina preta — design moderno e atemporal',
-    '69cm de diâmetro — tamanho ideal para qualquer cômodo',
-    'Perfeito para sala, quarto, hall ou banheiro',
-    'Tendência em decoração — muito procurado',
-    'Leve e fácil de instalar',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
-
-140: {
-  name: 'Mesa Industrial + Banco de Madeira',
-  desc: 'Só a mesa industrial assim numa loja de design custa R$ 1.200+. Aqui você leva o conjunto completo — mesa com estrutura em ferro preto e tampo em madeira + banco ripado rústico — por R$ 599. Decora hoje, gasta pouco.',
-  price: 599, oldPrice: null, cat: 'Móveis',
-  imgs: ['banco+ap.jpeg', 'banco+ap2.jpeg', 'banco+ap3.jpeg', 'banco+ap4.jpeg'],
-  details: [
-    'Conjunto completo: mesa + banco inclusos',
-    'Mesa estilo industrial — tampo em madeira com estrutura em ferro preto',
-    'Banco de madeira ripado — rústico e charmoso',
-    'Design industrial — tendência que não sai de moda',
-    'Ideal para sala de jantar, escritório, varanda ou home office',
-    'Economia de mais de R$ 600 vs loja de design',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
-
-
-
-142: {
-  name: 'Kit 3 Luminárias de Chão Industrial',
-  desc: 'Cada luminária dessa em loja de decoração sai por R$ 300+. Aqui você leva as 3 por R$ 550 — menos do que custaria uma única nova. Base e haste em metal preto, cúpula direcional. O ambiente que você sempre quis por muito menos.',
-  price: 550, oldPrice: 600, cat: 'Decoração',
-  imgs: ['luminaria.jpeg', 'luminaria2.jpeg', 'luminaria3.jpeg', 'luminaria4.jpeg'],
-  details: [
-    'Kit completo com 3 luminárias inclusas',
-    'Base e haste em metal preto — estilo industrial moderno',
-    'Cúpula direcional — ilumina onde você quiser',
-    'Ideal para sala, quarto, escritório ou varanda',
-    'Economia de mais de R$ 350 vs comprar novas',
-    'Ambiente sofisticado na hora',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
-
 143: {
   name: 'Kit Banheiro — Vaso Sanitário + Pia com Coluna',
   desc: 'Cada peça separada numa loja de materiais sai por R$ 300, R$ 400+. Aqui você leva o kit completo — vaso com tampa cinza moderna e pia com coluna e torneira — por R$ 399. Louça branca impecável, reforma hoje.',
@@ -173,9 +88,6 @@ const PRODUCTS: Record<number, Product> = {
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
 },
-
-
-
 
 147: {
   name: 'Espelho de Banheiro com Moldura Cromada',
@@ -208,41 +120,6 @@ const PRODUCTS: Record<number, Product> = {
 },
 
 
-
-
-
-151: {
-  name: 'Balcão Expositor de Vidro',
-  desc: 'Sua loja merece uma apresentação profissional. Balcão expositor com estrutura resistente e prateleiras em vidro — visual moderno que valoriza qualquer produto. Ideal para lojas, conveniências e vitrines por R$ 450.',
-  price: 450, oldPrice: null, cat: 'Móveis',
-  imgs: ['balcaoexpositor.jpeg', 'balcaoexpositor2.jpeg', 'balcaoexpositor3.jpeg', 'balcaoexpositor4.jpeg'],
-  details: [
-    'Estrutura resistente e bem conservada',
-    'Prateleiras em vidro — valoriza a exposição dos produtos',
-    'Visual moderno e profissional',
-    'Ideal para lojas, conveniências e vitrines',
-    'Fácil de limpar e organizar',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
-
-153: {
-  name: 'Janela de Ferro Decorativa com Vidro Canelado',
-  desc: 'Detalhes ornamentais em ferro que ninguém mais fabrica assim por esse preço. Vidro canelado que garante privacidade sem abrir mão da luz natural — 1,24m x 1,50m, pronta para instalar. R$ 199.',
-  price: 199, oldPrice: null, cat: 'Decoração',
-  imgs: ['janelaforro.jpeg', 'janelaforro2.jpeg', 'janelaforro3.jpeg'],
-  details: [
-    'Estrutura resistente em ferro',
-    'Design trabalhado com detalhes ornamentais',
-    'Vidro canelado — privacidade sem perder luminosidade',
-    'Medidas: 1,24m x 1,50m',
-    'Ideal para casas, áreas gourmet e edículas',
-    'Pronta para instalação imediata',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
-
 154: {
   name: 'Vaso Sanitário Azul com Caixa Acoplada',
   desc: 'Quem disse que banheiro tem que ser branco? Vaso com caixa acoplada em louça azul resistente — conjunto completo, cor diferenciada que chama atenção. Ideal para projetos criativos, áreas externas ou reposição econômica. R$ 250.',
@@ -257,23 +134,6 @@ const PRODUCTS: Record<number, Product> = {
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
 },
-
-155: {
-  name: 'Janela de Ferro Trabalhada com Vidro Canelado',
-  desc: 'Maior e mais trabalhada que o modelo anterior — 2,00m x 1,50m de ferro ornamental com vidro canelado.',
-  price: 199, oldPrice: null, cat: 'Construção',
-  imgs: ['janelaforro.jpeg', 'janelaforro2.jpeg', 'janelaforro3.jpeg'],
-  details: [
-    'Estrutura reforçada em ferro',
-    'Detalhes ornamentais que valorizam o ambiente',
-    'Vidro canelado — privacidade sem perder luminosidade',
-    'Medidas: 2,00m x 1,50m — tamanho generoso',
-    'Ideal para salas, áreas gourmet, varandas e fachadas',
-    'Pronta para instalação imediata',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
-
 
 
 157: {
@@ -291,23 +151,6 @@ const PRODUCTS: Record<number, Product> = {
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
 },
-
-158: {
-  name: 'Balança Digital de Vidro',
-  desc: 'Sem desculpas para não acompanhar o peso. Balança digital com base em vidro temperado, display de fácil leitura e acionamento automático — é só subir e ver o resultado. Praticidade e estilo por R$ 60.',
-  price: 60, oldPrice: null, cat: 'Outros',
-  imgs: ['balanca.jpeg', 'balanca2.jpeg', 'balanca3.jpeg'],
-  details: [
-    'Balança digital eletrônica',
-    'Base em vidro temperado — moderna e resistente',
-    'Display digital de fácil leitura',
-    'Acionamento automático ao subir na balança',
-    'Perfeita para uso diário em casa',
-    'Parcelo em até 3x sem juros',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
-
 
 160: {
   name: 'Colchão de Solteiro Conservado',
@@ -350,23 +193,6 @@ const PRODUCTS: Record<number, Product> = {
     'Design rústico que combina com diversos estilos',
     'Ideal para refeições, reuniões ou uso no dia a dia',
     'Ótimo custo-benefício',
-    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
-  ]
-},
-
-164: {
-  name: 'Geladeira Duplex 2 Portas Prata',
-  desc: 'Gelando perfeitamente com freezer separado e espaço de sobra para as compras do mês, sai por R$ 499. Cor prata que combina com qualquer cozinha — equipa a casa hoje.',
-  price: 499, oldPrice: null, cat: 'Eletrodomésticos',
-  imgs: ['geladeira.jpeg', 'geladeira2.jpeg', 'geladeira3.jpeg','geladeira4.jpeg'],
-  details: [
-    'Geladeira duplex 2 portas — espaço de sobra',
-    'Freezer separado na parte superior',
-    'Cor prata — elegante e combina com qualquer cozinha',
-    'Tamanho família — ideal para as compras do mês',
-    'Funcionando perfeitamente — gelando muito bem',
-    'Economia de mais de R$ 1.500 vs nova',
-    'Parcelo em até 3x sem juros',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
 },
@@ -419,9 +245,9 @@ const PRODUCTS: Record<number, Product> = {
 },
 
 168: {
-  name: 'Cuba de Banheiro Vermelho',
+  name: 'Bancade de Banheiro Completa',
   desc: 'Quem disse que banheiro tem que ser sem graça? Cuba de sobrepor com acabamento brilhante em vermelho e branco — design diferenciado que transforma lavabo ou banheiro num ambiente com personalidade. Combina com mármore, granito ou madeira. R$ 150.',
-  price: 150, oldPrice: 270, cat: 'Construção',
+  price: 300, oldPrice: 570, cat: 'Construção',
   imgs: ['cubav.jpeg', 'cubav2.jpeg', 'cubav3.jpeg', 'cubav4.jpeg'],
   details: [
     'Cuba de sobrepor — fácil instalação sobre a bancada',
@@ -514,22 +340,6 @@ const PRODUCTS: Record<number, Product> = {
   ]
 },
 
-174: {
-  name: 'Aparador Industrial em Madeira e Ferro',
-  desc: 'Um aparador industrial e slim assim nas lojas custa muito mais. Tampo em madeira de tom claro com estrutura em ferro preto — design alongado que valoriza corredores, salas, recepções e halls de entrada. Em ótimo estado e pronto para uso. R$ 400.',
-  price: 400, oldPrice: null, cat: 'Móveis',
-  imgs: ['aparadorindustrial.jpeg', 'aparadorindustrial2.jpeg', 'aparadorindustrial3.jpeg'],
-  details: [
-    'Estilo industrial moderno e atemporal',
-    'Tampo em madeira de tom claro — resistente e elegante',
-    'Estrutura slim em ferro preto — alta durabilidade',
-    'Design alongado — perfeito para corredores e halls',
-    'Ideal para salas, recepções ou comércios',
-    'Ótimo estado de conservação — pronto para uso',
-    'Parcelo em até 3x sem juros',
-  ]
-},
-
 175: {
   name: 'Par de Cadeiras Acapulco',
   desc: 'A cadeira Acapulco é um ícone do design moderno — e esse par sai por R$ 199. Estrutura metálica resistente, visual que eleva qualquer ambiente e em ótimo estado de conservação. Sala, varanda, área gourmet ou recepção — combina com tudo.',
@@ -555,6 +365,37 @@ const PRODUCTS: Record<number, Product> = {
     'Estrutura em aço inox — resistente e fácil de limpar',
     'Excelente capacidade para alta produção',
     'Ideal para padarias, pizzarias, lanchonetes e cozinhas industriais',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+177: {
+  name: 'Pia de Mármore com Cuba Embutida',
+  desc: 'Mármore em banheiro é luxo que todo mundo quer e poucos pagam. Pia 90 cm x 55cm com cuba embutida inclusa — resistente, elegante e pronta para instalar. Transforma qualquer banheiro ou lavabo na hora. R$ 270.',
+  price: 270, oldPrice: null, cat: 'Decoração',
+  imgs: ['piamarmore.jpeg', 'piamarmore2.jpeg', 'piamarmore3.jpeg'],
+  details: [
+    'Mármore resistente e durável',
+    'Medidas: 90cm x 55cm',
+    'Cuba embutida inclusa',
+    'Ideal para banheiro ou lavabo',
+    'Pronta para instalação imediata',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+178: {
+  name: 'Fogão Brastemp 4 Bocas',
+  desc: 'Brastemp não precisa de apresentação — é a marca que todo mundo conhece e confia. Fogão 4 bocas com forno espaçoso e mesa em vidro temperado, funcionando perfeitamente por R$ 399. Ideal para casa, apartamento, kitnet ou imóvel de aluguel.',
+  price: 399, oldPrice: null, cat: 'Eletrodomésticos',
+  imgs: ['fogao.jpeg', 'fogao2.jpeg', 'fogao3.jpeg'],
+  details: [
+    'Marca Brastemp — referência em qualidade',
+    '4 bocas — ideal para o dia a dia',
+    'Forno espaçoso incluso',
+    'Mesa em vidro temperado — moderna e fácil de limpar',
+    'Funcionando perfeitamente — pronto para usar',
+    'Ideal para casa, apartamento, kitnet ou aluguel',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
 }
