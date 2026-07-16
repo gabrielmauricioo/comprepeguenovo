@@ -16,12 +16,19 @@ interface Product {
 }
 
 /* ─── DATA ─── */
-const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração', 'Poltronas']
+const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração', 'Poltronas', 'Pias']
 
 const PRODUCTS: Product[] = [
+{ id: 181, name: 'Cama King Completa com Colchão High Support', desc: 'Conjunto completo com cama King, colchão High Support e box duplo robusto. Muito conforto por apenas R$ 800.', price: 800, oldPrice: 1400, img: 'camaking.jpeg', cat: 'Camas', isNew: false },
+
+{ id: 180, name: 'Mesa de Madeira com Tampo de Vidro', desc: 'Clássico que nunca sai de moda por R$ 200. Estrutura em madeira maciça com tampo de vidro — elegante, resistente e pronta para uso.', price: 200, oldPrice: null, img: 'mesavidro.jpg', cat: 'Móveis', isNew: false },
+
+
 { id: 178, name: 'Fogão Brastemp 4 Bocas', desc: 'Qualidade que dispensa apresentação. 4 bocas, forno espaçoso e mesa em vidro temperado. Funcionando e pronto para usar.', price: 399, oldPrice: null, img: 'fogao.jpeg', cat: 'Eletrodomésticos', isNew: false },
 
-{ id: 177, name: 'Pia de Mármore com Cuba Embutida', desc: 'Mármore resistente 90x55cm com cuba embutida inclusa — pronta para instalar no banheiro ou lavabo.', price: 270, oldPrice: null, img: 'piamarmore.jpeg', cat: 'Construção', isNew: false },
+{ id: 179, name: 'Conjunto Porta de Correr em Vidro Fumê', desc: 'Elegância e privacidade por R$ 1.000. Conjunto completo com 4 painéis em vidro fumê — 2 fixas + 2 de correr. Ideal para sala, varanda gourmet ou escritório.', price: 1000, oldPrice: null, img: 'cportacorrer.jpeg', cat: 'Construção', isNew: false },
+
+{ id: 177, name: 'Pia de Mármore com Cuba Embutida', desc: 'Mármore resistente 90x55cm com cuba embutida inclusa — pronta para instalar no banheiro ou lavabo.', price: 270, oldPrice: null, img: 'piamarmore.jpeg', cat: 'Pias', isNew: false },
 
 { id: 176, name: 'Forno Industrial Metalmaq 3 Câmaras', desc: 'Alta produção por R$ 2.500. Metalmaq com 3 câmaras independentes em aço inox — ideal para padarias, pizzarias, lanchonetes e cozinhas industriais.', price: 2500, oldPrice: null, img: 'fornonew2.jpg', cat: 'Eletrodomésticos', isNew: false },
 
@@ -60,17 +67,17 @@ const PRODUCTS: Product[] = [
 
 { id: 167, name: 'Guarda-Sol Gigante para Área Externa', desc: 'Cobertura ampla e estrutura resistente — perfeito para piscinas, jardins, bares e eventos.', price: 450, oldPrice: null, img: 'guardanew.jpg', cat: 'Decoração', isNew: false },
 
-{ id: 168, name: 'Bancade de Banheiro Completa', desc: 'Bancada com cuba de sobrepor com acabamento brilhante em vermelho e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 300, oldPrice: 570, img: 'cubav3.jpeg', cat: 'Construção', isNew: false },
+{ id: 168, name: 'Bancade de Banheiro Completa', desc: 'Bancada com cuba de sobrepor com acabamento brilhante em vermelho e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 300, oldPrice: 570, img: 'cubav3.jpeg', cat: 'Pias', isNew: false },
 
-{ id: 169, name: 'Cuba de Banheiro de Sobrepor Verde', desc: 'Cuba de sobrepor com design moderno e acabamento diferenciado — valoriza qualquer bancada na hora.', price: 150, oldPrice: 270, img: 'cubaverde.jpeg', cat: 'Construção', isNew: false },
+{ id: 169, name: 'Cuba de Banheiro de Sobrepor Verde', desc: 'Cuba de sobrepor com design moderno e acabamento diferenciado — valoriza qualquer bancada na hora.', price: 150, oldPrice: 270, img: 'cubaverde.jpeg', cat: 'Pias', isNew: false },
 
-{ id: 170, name: 'Cuba de Banheiro Negra', desc: 'Cuba de sobrepor com acabamento brilhante em negro e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubanegro.jpeg', cat: 'Construção', isNew: false },
+{ id: 170, name: 'Cuba de Banheiro Negra', desc: 'Cuba de sobrepor com acabamento brilhante em negro e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubanegro.jpeg', cat: 'Pias', isNew: false },
 
-{ id: 171, name: 'Cuba de Banheiro Verde', desc: 'Cuba de sobrepor com acabamento brilhante em verde e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubave2.jpeg', cat: 'Construção', isNew: false },
+{ id: 171, name: 'Cuba de Banheiro Verde', desc: 'Cuba de sobrepor com acabamento brilhante em verde e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubave2.jpeg', cat: 'Pias', isNew: false },
 
-{ id: 172, name: 'Cuba de Banheiro Amarela', desc: 'Cuba de sobrepor com acabamento brilhante em amarelo e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubaamarela.jpeg', cat: 'Construção', isNew: false },
+{ id: 172, name: 'Cuba de Banheiro Amarela', desc: 'Cuba de sobrepor com acabamento brilhante em amarelo e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubaamarela.jpeg', cat: 'Pias', isNew: false },
 
-{ id: 173, name: 'Cuba de Banheiro Branca Retangular', desc: 'Cuba Setga retangular em cerâmica branca — moderna, clean e combina com qualquer decoração.', price: 150, oldPrice: null, img: 'cubabranca.jpeg', cat: 'Decoração', isNew: false }
+{ id: 173, name: 'Cuba de Banheiro Branca Retangular', desc: 'Cuba Setga retangular em cerâmica branca — moderna, clean e combina com qualquer decoração.', price: 150, oldPrice: null, img: 'cubabranca.jpeg', cat: 'Pias', isNew: false }
 
 
 

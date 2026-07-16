@@ -398,7 +398,56 @@ const PRODUCTS: Record<number, Product> = {
     'Ideal para casa, apartamento, kitnet ou aluguel',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
+},
+
+179: {
+  name: 'Conjunto Porta de Correr em Vidro Fumê',
+  desc: 'Conjunto completo de porta de correr em vidro fumê — o tipo de acabamento que transforma qualquer ambiente em algo sofisticado. 4 painéis no total, medidas generosas e pronto para instalar. Sala, varanda gourmet, escritório ou fachada. R$ 1.000.',
+  price: 1000, oldPrice: null, cat: 'Decoração',
+  imgs: ['cportacorrer.jpeg', 'cportacorrer2.jpeg', 'cportacorrer3.jpeg'],
+  details: [
+    'Conjunto completo: 2 folhas fixas + 2 folhas de correr',
+    'Vidro fumê — elegante, moderno e com privacidade',
+    'Folhas fixas: 94cm x 2,04m cada',
+    'Folhas de correr: 98cm x 2,08m cada',
+    'Ideal para sala, varanda gourmet, escritório ou fachada',
+    'Pronto para instalação imediata',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+180: {
+  name: 'Mesa de Madeira com Tampo de Vidro',
+  desc: 'A combinação de madeira maciça com tampo de vidro é um clássico do design que nunca sai de moda — e por R$ 200 você leva hoje. Resistente, fácil de limpar e pronta para uso em sala de jantar, cozinha ou área gourmet.',
+  price: 200, oldPrice: null, cat: 'Móveis',
+  imgs: ['mesavidro.jpeg', 'mesavidro2.jpeg', 'mesavidro3.jpeg'],
+  details: [
+    'Estrutura em madeira maciça — resistente e durável',
+    'Tampo de vidro — fácil de limpar e elegante',
+    'Design clássico que combina com qualquer decoração',
+    'Ideal para sala de jantar, cozinha ou área gourmet',
+    'Pronta para uso imediato',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
+},
+
+181: {
+  name: 'Cama King Completa com Colchão High Support',
+  desc: 'Dormir bem faz diferença, e essa cama King entrega espaço, conforto e excelente suporte. Conjunto completo com colchão High Support e box duplo robusto, pronto para uso por apenas R$ 800.',
+  price: 800, oldPrice: 1400, cat: 'Camas',
+  imgs: ['camaking.jpeg', 'camaking2.jpeg', 'camaking3.jpeg'],
+  details: [
+    'Conjunto completo: colchão + box inclusos',
+    'Colchão High Support — tecnologia de suporte superior',
+    'Box duplo robusto — firme e bem conservado',
+    'Tamanho King — máximo conforto para casal',
+    'Pronta para uso — é só montar e dormir',
+    'Parcelo em até 2x sem juros',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
 }
+
+
 
 
 
