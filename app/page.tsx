@@ -34,7 +34,7 @@ const PRODUCTS: Product[] = [
 
 { id: 175, name: 'Par de Cadeiras Acapulco', desc: 'Design icônico por R$ 199 o par. Estrutura metálica resistente, visual moderno e sofisticado — perfeitas para sala, varanda ou área gourmet.', price: 199, oldPrice: null, img: 'cadeirasacapulco.jpg', cat: 'Móveis', isNew: false },
 
-{ id: 134, name: 'Pia de Cozinha Inox', desc: 'Inox resistente com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'pianew.jpg', cat: 'Construção', isNew: false },
+{ id: 134, name: 'Pia de Cozinha Inox', desc: 'Inox resistente com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'Pianew.jpg', cat: 'Construção', isNew: false },
 
 { id: 161, name: 'Cama Solteirão Completa', desc: 'Solteirão completo, colchão e box inclusos.', price: 550, oldPrice: null, img: 'solteirao.jpeg', cat: 'Camas', isNew: false },
 
