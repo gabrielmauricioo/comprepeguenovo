@@ -445,6 +445,21 @@ const PRODUCTS: Record<number, Product> = {
     'Parcelo em até 2x sem juros',
     'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
   ]
+},
+
+182: {
+  name: 'Vaso Sanitário com Caixa Acoplada',
+  desc: 'Sem mistério — vaso branco com caixa acoplada inclusa, estrutura resistente e pronto para instalar. Resolve o banheiro ou lavabo por R$ 270 sem precisar comprar peças separadas.',
+  price: 270, oldPrice: null, cat: 'Eletrodomésticos',
+  imgs: ['vaso.jpeg', 'vaso2.jpeg', 'vaso3.jpeg'],
+  details: [
+    'Conjunto completo: vaso + caixa acoplada',
+    'Cor branca — combina com qualquer banheiro',
+    'Estrutura resistente e durável',
+    'Ideal para banheiros e lavabos',
+    'Pronto para instalação imediata',
+    'Retirada: Rua Centenário, 538 – Parque Morumbi 2',
+  ]
 }
 
 

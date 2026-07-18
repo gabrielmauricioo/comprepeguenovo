@@ -19,12 +19,15 @@ interface Product {
 const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração', 'Poltronas', 'Pias']
 
 const PRODUCTS: Product[] = [
+
 { id: 181, name: 'Cama King Completa com Colchão High Support', desc: 'Conjunto completo com cama King, colchão High Support e box duplo robusto. Muito conforto por apenas R$ 800.', price: 800, oldPrice: 1400, img: 'camaking.jpeg', cat: 'Camas', isNew: false },
 
 { id: 180, name: 'Mesa de Madeira com Tampo de Vidro', desc: 'Clássico que nunca sai de moda por R$ 200. Estrutura em madeira maciça com tampo de vidro — elegante, resistente e pronta para uso.', price: 200, oldPrice: null, img: 'mesavidro.jpg', cat: 'Móveis', isNew: false },
 
 
 { id: 178, name: 'Fogão Brastemp 4 Bocas', desc: 'Qualidade que dispensa apresentação. 4 bocas, forno espaçoso e mesa em vidro temperado. Funcionando e pronto para usar.', price: 399, oldPrice: null, img: 'fogao.jpeg', cat: 'Eletrodomésticos', isNew: false },
+
+{ id: 182, name: 'Vaso Sanitário com Caixa Acoplada', desc: 'Reforma o banheiro por R$ 270. Vaso branco com caixa acoplada inclusa — estrutura resistente e pronto para instalação imediata.', price: 270, oldPrice: null, img: 'vaso.jpeg', cat: 'Construção', isNew: false },
 
 { id: 179, name: 'Conjunto Porta de Correr em Vidro Fumê', desc: 'Elegância e privacidade por R$ 1.000. Conjunto completo com 4 painéis em vidro fumê — 2 fixas + 2 de correr. Ideal para sala, varanda gourmet ou escritório.', price: 1000, oldPrice: null, img: 'cportacorrer.jpeg', cat: 'Construção', isNew: false },
 
