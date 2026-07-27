@@ -2,103 +2,26 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { client, urlFor } from '../sanity/client' // Importamos nosso cliente
 
 /* ─── TYPES ─── */
 interface Product {
-  id: number
+  _id: string // ← O Sanity usa _id (string)
   name: string
   desc: string
   price: number
   oldPrice: number | null
-  img: string
+  imgs: any[] // ← O Sanity retorna um array de objetos de imagem
   cat: string
   isNew: boolean
 }
 
-/* ─── DATA ─── */
 const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração', 'Poltronas', 'Pias']
-
-const PRODUCTS: Product[] = [
-
-{ id: 181, name: 'Cama King Completa com Colchão High Support', desc: 'Conjunto completo com cama King, colchão High Support e box duplo robusto. Muito conforto por apenas R$ 800.', price: 800, oldPrice: 1400, img: 'camaking.jpeg', cat: 'Camas', isNew: false },
-
-{ id: 180, name: 'Mesa de Madeira com Tampo de Vidro', desc: 'Clássico que nunca sai de moda por R$ 200. Estrutura em madeira maciça com tampo de vidro — elegante, resistente e pronta para uso.', price: 200, oldPrice: null, img: 'mesavidro.jpg', cat: 'Móveis', isNew: false },
-
-
-{ id: 178, name: 'Fogão Brastemp 4 Bocas', desc: 'Qualidade que dispensa apresentação. 4 bocas, forno espaçoso e mesa em vidro temperado. Funcionando e pronto para usar.', price: 399, oldPrice: null, img: 'fogao.jpeg', cat: 'Eletrodomésticos', isNew: false },
-
-{ id: 182, name: 'Vaso Sanitário com Caixa Acoplada', desc: 'Reforma o banheiro por R$ 270. Vaso branco com caixa acoplada inclusa — estrutura resistente e pronto para instalação imediata.', price: 270, oldPrice: null, img: 'vaso.jpeg', cat: 'Construção', isNew: false },
-
-{ id: 179, name: 'Conjunto Porta de Correr em Vidro Fumê', desc: 'Elegância e privacidade por R$ 1.000. Conjunto completo com 4 painéis em vidro fumê — 2 fixas + 2 de correr. Ideal para sala, varanda gourmet ou escritório.', price: 1000, oldPrice: null, img: 'cportacorrer.jpeg', cat: 'Construção', isNew: false },
-
-{ id: 177, name: 'Pia de Mármore com Cuba Embutida', desc: 'Mármore resistente 90x55cm com cuba embutida inclusa — pronta para instalar no banheiro ou lavabo.', price: 270, oldPrice: null, img: 'piamarmore.jpeg', cat: 'Pias', isNew: false },
-
-{ id: 176, name: 'Forno Industrial Metalmaq 3 Câmaras', desc: 'Alta produção por R$ 2.500. Metalmaq com 3 câmaras independentes em aço inox — ideal para padarias, pizzarias, lanchonetes e cozinhas industriais.', price: 2500, oldPrice: null, img: 'fornonew2.jpg', cat: 'Eletrodomésticos', isNew: false },
-
-{ id: 175, name: 'Par de Cadeiras Acapulco', desc: 'Design icônico por R$ 199 o par. Estrutura metálica resistente, visual moderno e sofisticado — perfeitas para sala, varanda ou área gourmet.', price: 199, oldPrice: null, img: 'cadeirasacapulco.jpg', cat: 'Móveis', isNew: false },
-
-{ id: 134, name: 'Pia de Cozinha Inox', desc: 'Inox resistente com escorredor dos dois lados.', price: 150, oldPrice: null, img: 'Pianew.jpg', cat: 'Construção', isNew: false },
-
-{ id: 161, name: 'Cama Solteirão Completa', desc: 'Solteirão completo, colchão e box inclusos.', price: 550, oldPrice: null, img: 'solteirao.jpeg', cat: 'Camas', isNew: false },
-
-
-{ id: 143, name: 'Kit Banheiro — Vaso Sanitário + Pia com Coluna', desc: 'Vaso com tampa + pia com coluna e torneira.', price: 399, oldPrice: null, img: 'kitbanheiro.jpeg', cat: 'Construção', isNew: false },
-
-
-{ id: 122, name: 'Banco de Madeira Rústico', desc: 'Madeira maciça com acabamento rústico.', price: 199, oldPrice: 299, img: 'banco.jpeg', cat: 'Móveis', isNew: true },
-
-{ id: 162, name: 'Mesa de Madeira Rústica', desc: 'Elegância e resistência por R$ 299.', price: 299, oldPrice: null, img: 'mesamadeira.jpeg', cat: 'Móveis', isNew: false },
-
-{ id: 154, name: 'Vaso Sanitário Azul com Caixa Acoplada', desc: 'Vaso sanitário azul com caixa acoplada completa.', price: 250, oldPrice: null, img: 'vasoazul2.jpeg', cat: 'Construção', isNew: false },
-
-{ id: 121, name: 'Cama Solteirão Completa', desc: 'Tamanho Solteirão, 96 x 203 cm.', price: 599, oldPrice: null, img: 'solteirão.jpeg', cat: 'Camas', isNew: false },
-
-{ id: 147, name: 'Espelho de Banheiro com Moldura Cromada', desc: 'Moldura prateada, resistente à umidade.', price: 99, oldPrice: null, img: 'espelhocromado.jpeg', cat: 'Decoração', isNew: false },
-
-
-{ id: 130, name: 'TV Philips 32 Polegadas', desc: 'Imagem nítida e boa qualidade sonora.', price: 350, oldPrice: 450, img: 'tv.jpeg', cat: 'Eletrodomésticos', isNew: false },
-
-{ id: 157, name: 'Frigobar 60 Litros', desc: 'Frigobar compacto e econômico, 60 litros.', price: 499, oldPrice: null, img: 'frigonew.jpg', cat: 'Eletrodomésticos', isNew: false },
-
-{ id: 148, name: 'Maca Profissional de Madeira', desc: 'Estrutura robusta e super resistente.', price: 550, oldPrice: null, img: 'maca.jpeg', cat: 'Móveis', isNew: false },
-
-{ id: 160, name: 'Colchão de Solteiro Conservado', desc: 'Colchão conservado, limpo e pronto pra uso.', price: 350, oldPrice: 400, img: 'colchaosolteiro2.jpeg', cat: 'Camas', isNew: false },
-
-{ id: 165, name: 'Tanque de Lavanderia Duplo', desc: 'Dois compartimentos, área com frisos para esfregar — ideal para casas, áreas de serviço e lavanderias.', price: 350, oldPrice: null, img: 'tanque.jpeg', cat: 'Construção', isNew: false },
-
-{ id: 166, name: 'Porta de Ferro com Vidro', desc: 'Segurança e claridade por R$ 180. Estrutura em ferro resistente com vidro, design clássico decorativo — 80cm x 2,10m pronta para instalar.', price: 180, oldPrice: null, img: 'portaferro.jpeg', cat: 'Construção', isNew: false },
-
-{ id: 167, name: 'Guarda-Sol Gigante para Área Externa', desc: 'Cobertura ampla e estrutura resistente — perfeito para piscinas, jardins, bares e eventos.', price: 450, oldPrice: null, img: 'guardanew.jpg', cat: 'Decoração', isNew: false },
-
-{ id: 168, name: 'Bancade de Banheiro Completa', desc: 'Bancada com cuba de sobrepor com acabamento brilhante em vermelho e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 300, oldPrice: 570, img: 'cubav3.jpeg', cat: 'Pias', isNew: false },
-
-{ id: 169, name: 'Cuba de Banheiro de Sobrepor Verde', desc: 'Cuba de sobrepor com design moderno e acabamento diferenciado — valoriza qualquer bancada na hora.', price: 150, oldPrice: 270, img: 'cubaverde.jpeg', cat: 'Pias', isNew: false },
-
-{ id: 170, name: 'Cuba de Banheiro Negra', desc: 'Cuba de sobrepor com acabamento brilhante em negro e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubanegro.jpeg', cat: 'Pias', isNew: false },
-
-{ id: 171, name: 'Cuba de Banheiro Verde', desc: 'Cuba de sobrepor com acabamento brilhante em verde e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubave2.jpeg', cat: 'Pias', isNew: false },
-
-{ id: 172, name: 'Cuba de Banheiro Amarela', desc: 'Cuba de sobrepor com acabamento brilhante em amarelo e branco — peça que valoriza instantaneamente qualquer ambiente.', price: 150, oldPrice: 270, img: 'cubaamarela.jpeg', cat: 'Pias', isNew: false },
-
-{ id: 173, name: 'Cuba de Banheiro Branca Retangular', desc: 'Cuba Setga retangular em cerâmica branca — moderna, clean e combina com qualquer decoração.', price: 150, oldPrice: null, img: 'cubabranca.jpeg', cat: 'Pias', isNew: false }
-
-
-
-
-
-
-]
-
-const WA_NUMBER = '+5545999541641' // ← TROQUE PELO SEU NÚMERO
+const WA_NUMBER = '+5545999541641' // ← SEU NÚMERO
 
 /* ─── HELPERS ─── */
 function fmt(v: number) {
   return v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
-}
-
-function imgSrc(filename: string) {
-  // Busca direto da pasta /public do projeto
-  return `/${filename}`
 }
 
 /* ─── ICONS ─── */
@@ -128,7 +51,6 @@ const IconWA = () => (
 /* ─── SCROLL REVEAL HOOK ─── */
 function useReveal(deps: unknown[] = []) {
   useEffect(() => {
-    // pequeno delay para garantir que o DOM atualizou
     const timer = setTimeout(() => {
       const els = document.querySelectorAll('.reveal')
       const obs = new IntersectionObserver(
@@ -136,24 +58,33 @@ function useReveal(deps: unknown[] = []) {
         { threshold: 0.05 }
       )
       els.forEach(el => {
-        // se já está visível, não precisa re-observar
         if (!el.classList.contains('in')) obs.observe(el)
       })
       return () => obs.disconnect()
     }, 30)
     return () => clearTimeout(timer)
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, deps)
 }
 
 /* ─── COMPONENT ─── */
 export default function Home() {
+  const [products, setProducts] = useState<Product[]>([])
+  const [loading, setLoading] = useState(true) // ← Estado de carregamento
+
   const [cat, setCat]       = useState('Todos')
   const [search, setSearch] = useState('')
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
-  useReveal([cat, search])
+  // Busca os dados do Sanity assim que a página carrega
+  useEffect(() => {
+    client.fetch(`*[_type == "product"] | order(_createdAt desc)`).then(data => {
+      setProducts(data)
+      setLoading(false)
+    })
+  }, [])
+
+  useReveal([cat, search, products])
 
   useEffect(() => {
     const fn = () => setScrolled(window.scrollY > 50)
@@ -161,10 +92,10 @@ export default function Home() {
     return () => window.removeEventListener('scroll', fn)
   }, [])
 
-  const filtered = PRODUCTS.filter(p => {
+  const filtered = products.filter(p => {
     const matchCat = cat === 'Todos' || p.cat === cat
     const q = search.toLowerCase()
-    const matchQ = !q || p.name.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q) || p.cat.toLowerCase().includes(q)
+    const matchQ = !q || p.name.toLowerCase().includes(q) || (p.desc && p.desc.toLowerCase().includes(q)) || (p.cat && p.cat.toLowerCase().includes(q))
     return matchCat && matchQ
   })
 
@@ -225,21 +156,17 @@ export default function Home() {
         <div className="hero-glow" />
 
         <div className="hero-inner">
-          {/* left col */}
           <div>
             <div className="hero-badge anim-fade-up">
               <span className="hero-badge-dot" />
               Foz do Iguaçu — PR
             </div>
-
             <h1 className="hero-title anim-fade-up d2">
               Móveis que<br />contam <em>histórias</em>
             </h1>
-
             <p className="hero-sub anim-fade-up d3">
               Sofás, eletrodomésticos e muito mais com preços justos e qualidade garantida. Sustentabilidade começa em casa.
             </p>
-
             <div className="hero-btns anim-fade-up d4">
               <a href="#produtos" className="btn-primary">
                 Ver catálogo <IconArrow />
@@ -252,7 +179,6 @@ export default function Home() {
                 Falar no WhatsApp
               </a>
             </div>
-
             <div className="hero-stats anim-fade-up d5">
               <div className="hero-stat">
                 <div className="hero-stat-num">500+</div>
@@ -269,7 +195,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* right col — visual */}
           <div className="hero-visual anim-slide-l d2">
             <div className="hero-visual-box">
               <div className="hero-visual-emoji float-a">🛋️</div>
@@ -346,9 +271,9 @@ export default function Home() {
                 onClick={() => setCat(c)}
               >
                 {c}
-                {c !== 'Todos' && (
+                {c !== 'Todos' && !loading && (
                   <span style={{ marginLeft: 5, opacity: .5, fontSize: '.7rem' }}>
-                    ({PRODUCTS.filter(p => p.cat === c).length})
+                    ({products.filter(p => p.cat === c).length})
                   </span>
                 )}
               </button>
@@ -356,7 +281,12 @@ export default function Home() {
           </div>
 
           {/* grid */}
-          {filtered.length === 0 ? (
+          {loading ? (
+             <div className="empty-state">
+               <div className="empty-state-icon">⏳</div>
+               <p>Carregando catálogo...</p>
+             </div>
+          ) : filtered.length === 0 ? (
             <div className="empty-state">
               <div className="empty-state-icon">🔍</div>
               <p>Nenhum produto encontrado para &quot;{search}&quot;</p>
@@ -364,16 +294,12 @@ export default function Home() {
           ) : (
             <div className="product-grid">
               {filtered.map((p, i) => (
-                <Link key={`${p.id}-${i}`} href={`/produto/${p.id}`} style={{ textDecoration: 'none' }}>
+                <Link key={p._id} href={`/produto/${p._id}`} style={{ textDecoration: 'none' }}>
                   <article className="product-card product-card-anim" style={{ animationDelay: `${(i % 6) * 0.05}s` }}>
                     <div className="product-img-wrap">
                       <img
-                        src={imgSrc(p.img)}
+                        src={p.imgs && p.imgs[0] ? urlFor(p.imgs[0]).width(400).url() : `https://placehold.co/400x300/e8f8e8/2d7a2d?text=${encodeURIComponent(p.name)}`}
                         alt={p.name}
-                        onError={e => {
-                          (e.target as HTMLImageElement).src =
-                            `https://placehold.co/400x300/e8f8e8/2d7a2d?text=${encodeURIComponent(p.name)}`
-                        }}
                       />
                       {p.isNew    && <span className="badge-new">Novo</span>}
                       {p.oldPrice && <span className="badge-sale">Oferta</span>}
@@ -395,9 +321,6 @@ export default function Home() {
           )}
         </div>
       </section>
-
-      {/* ── GRUPO DE OFERTAS ── */}
-      
 
       {/* ── CTA ── */}
       <section className="cta-section" id="contato">
