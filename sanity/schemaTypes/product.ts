@@ -46,7 +46,7 @@ export const productType = defineType({
       title: 'Categoria',
       type: 'string',
       options: {
-        list: ['Sofás', 'Camas', 'Eletrodomésticos', 'Eletrônicos', 'Móveis', 'Decoração'],
+        list: ['Sofás', 'Camas', 'Eletrodomésticos', 'Eletrônicos', 'Móveis', 'Decoração', 'Construção'],
       },
     }),
     defineField({
