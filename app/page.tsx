@@ -298,7 +298,7 @@ export default function Home() {
                   <article className="product-card product-card-anim" style={{ animationDelay: `${(i % 6) * 0.05}s` }}>
                     <div className="product-img-wrap">
                       <img
-                        src={p.imgs && p.imgs[0] ? urlFor(p.imgs[0]).width(400).url() : `https://placehold.co/400x300/e8f8e8/2d7a2d?text=${encodeURIComponent(p.name)}`}
+                        src={p.imgs && p.imgs[0] ? urlFor(p.imgs[0]).width(800).url() : `https://placehold.co/800x600/e8f8e8/2d7a2d?text=${encodeURIComponent(p.name)}`}
                         alt={p.name}
                       />
                       {p.isNew    && <span className="badge-new">Novo</span>}
