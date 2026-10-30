@@ -16,7 +16,7 @@ interface Product {
   isNew: boolean
 }
 
-const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis', 'Decoração']
+const CATEGORIES = ['Todos', 'Camas','Geladeira','Fogão e Chapas','Construção', 'Móveis', 'Decoração']
 const WA_NUMBER = '+5545999541641' // ← SEU NÚMERO
 
 /* ─── HELPERS ─── */
