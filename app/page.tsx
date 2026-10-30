@@ -34,7 +34,7 @@ function fmt(v: number) {
   return v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
 }
 
-export function trackWhatsAppLead(productName?: string) {
+function trackWhatsAppLead(productName?: string) {
   if (typeof window !== 'undefined' && (window as any).fbq) {
     (window as any).fbq('track', 'Lead', {
       content_name: productName || 'Contato Geral WhatsApp',
