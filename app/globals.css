@@ -630,3 +630,144 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   body { padding-bottom: 76px; } /* espaço pra barra sticky */
 }
 
+/* Skeletons de Carregamento */
+.product-skeleton {
+  aspect-ratio: 4/3;
+  background: linear-gradient(90deg, #ece8de 25%, #f5f2eb 50%, #ece8de 75%);
+  background-size: 200% 100%;
+  animation: skeletonPulse 1.5s infinite;
+  border-radius: 9px;
+  height: 380px;
+}
+
+@keyframes skeletonPulse {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Tipografia com CSS Variables do Next Fonts */
+body {
+  font-family: var(--font-dm-sans), sans-serif;
+}
+h1, h2, h3, h4, h5, .hero-title, .section-title, .nav-logo-text {
+  font-family: var(--font-cormorant), serif;
+}
+
+/* ─── BOTÕES DE VOLTAR NA PÁGINA DE PRODUTO ─── */
+.detail-top-nav {
+  background: var(--g800);
+  height: 68px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.btn-back-header {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-back-header:hover {
+  background: var(--g400);
+  border-color: var(--g300);
+  color: #fff;
+}
+
+/* Botão de voltar flutuante sobre a imagem (visível especialmente em mobile) */
+.btn-floating-back {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(7, 20, 7, 0.85);
+  color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.btn-floating-back:hover {
+  background: var(--g700);
+  transform: translateY(-1px);
+}
+
+/* Breadcrumb */
+.detail-breadcrumb {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 14px 40px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--ink-3);
+}
+
+.detail-breadcrumb a {
+  color: var(--g500);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.detail-breadcrumb .current {
+  color: var(--ink-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Botão grande de voltar abaixo do WhatsApp */
+.detail-back-main-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--cream-2);
+  border: 1px solid var(--cream-3);
+  color: var(--ink-2);
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.detail-back-main-btn:hover {
+  background: var(--cream-3);
+  color: var(--ink);
+}
+
+@media (max-width: 768px) {
+  .detail-top-nav {
+    padding: 0 16px;
+  }
+  .btn-back-header span {
+    font-size: 0.78rem;
+  }
+  .detail-breadcrumb {
+    padding: 12px 20px 0;
+  }
+}

@@ -1,16 +1,46 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
+import { Cormorant_Garamond, DM_Sans } from 'next/font/google'
 import './globals.css'
 
+const cormorant = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-cormorant',
+  display: 'swap',
+})
+
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-dm-sans',
+  display: 'swap',
+})
+
 export const metadata: Metadata = {
-  title: 'Compre Pegue | Móveis Usados em Foz do Iguaçu',
-  description: 'Encontre móveis usados e seminovos com preços incríveis em Foz do Iguaçu. Transforme sua casa com estilo e economia!',
-  keywords: 'móveis usados, loja de móveis, Foz do Iguaçu, móveis baratos, seminovos',
+  metadataBase: new URL('https://www.comprepeguefoz.com.br'),
+  title: {
+    default: 'Compre Pegue | Móveis Usados em Foz do Iguaçu',
+    template: '%s | Compre Pegue',
+  },
+  description:
+    'Móveis seminovos, eletros e utilidades com preços justos em Foz do Iguaçu. Economia circular e qualidade para sua casa.',
+  keywords: [
+    'móveis usados',
+    'Foz do Iguaçu',
+    'bazar de móveis',
+    'eletrodomésticos seminovos',
+    'sofá usado',
+    'compre e pegue',
+  ],
+  authors: [{ name: 'Compre Pegue' }],
   openGraph: {
     title: 'Compre Pegue | Móveis Usados em Foz do Iguaçu',
-    description: 'Encontre móveis usados e seminovos com preços incríveis em Foz do Iguaçu.',
-    type: 'website',
+    description: 'Encontre móveis usados e seminovos revisados com o melhor custo-benefício da região.',
     url: 'https://www.comprepeguefoz.com.br',
+    siteName: 'Compre Pegue',
+    locale: 'pt_BR',
+    type: 'website',
   },
 }
 
@@ -20,17 +50,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html lang="pt-BR" className={`${cormorant.variable} ${dmSans.variable}`}>
       <body>
-        {/* Meta Pixel Code */}
+        {/* Meta Pixel */}
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
@@ -54,7 +76,6 @@ export default function RootLayout({
             alt=""
           />
         </noscript>
-        {/* End Meta Pixel Code */}
 
         {children}
       </body>
