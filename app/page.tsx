@@ -21,10 +21,12 @@ const CATEGORIES = [
   'Todos',
   'Sofás',
   'Camas',
+  'Geladeira e Freezer',
   'Eletrodomésticos',
   'Móveis',
   'Decoração',
   'Construção',
+  'Fogão e Chapas'
 ]
 
 const WA_NUMBER = '5545999541641'
