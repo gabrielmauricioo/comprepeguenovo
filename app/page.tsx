@@ -16,7 +16,11 @@ interface Product {
   isNew: boolean
 }
 
+<<<<<<< HEAD
 const CATEGORIES = ['Todos', 'Camas','Geladeira','Fogão e Chapas','Construção', 'Móveis', 'Decoração']
+=======
+const CATEGORIES = ['Todos', 'Camas', 'Eletrodomésticos', 'Construção', 'Móveis','Sofá', 'Decoração']
+>>>>>>> b66a7f952ee32cf0c1b13ea7b5c832329f011d44
 const WA_NUMBER = '+5545999541641' // ← SEU NÚMERO
 
 /* ─── HELPERS ─── */
