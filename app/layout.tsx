@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import './globals.css'
 
+// ── COLOQUE SEU ID DO GOOGLE ANALYTICS AQUI ──
+const GA_TRACKING_ID = 'G-TN4BG9QK7F' // Exemplo: G-1234567890
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.comprepeguefoz.com.br'),
   title: 'Compre Pegue | Móveis Usados em Foz do Iguaçu',
@@ -31,7 +34,23 @@ export default function RootLayout({
         />
       </head>
       <body>
-        {/* Meta Pixel Code */}
+        {/* ── GOOGLE ANALYTICS 4 (GA4) ── */}
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
+
+        {/* ── META PIXEL CODE ── */}
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)

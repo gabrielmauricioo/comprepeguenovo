@@ -37,12 +37,23 @@ function fmt(v: number) {
 }
 
 function trackWhatsAppLead(productName?: string) {
+  // Envia para o Meta Pixel (Facebook/Instagram)
   if (typeof window !== 'undefined' && (window as any).fbq) {
     (window as any).fbq('track', 'Lead', {
       content_name: productName || 'Contato Geral WhatsApp',
     })
   }
+
+  // Envia para o Google Analytics 4 (GA4)
+  if (typeof window !== 'undefined' && (window as any).gtag) {
+    (window as any).gtag('event', 'generate_lead', {
+      event_category: 'WhatsApp',
+      event_label: productName || 'Contato Geral WhatsApp',
+    })
+  }
 }
+
+
 
 /* ─── ICONS ─── */
 const IconSofa = () => (
