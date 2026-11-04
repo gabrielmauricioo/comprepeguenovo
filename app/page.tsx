@@ -36,19 +36,20 @@ function fmt(v: number) {
   return v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
 }
 
-function trackWhatsAppLead(productName?: string) {
-  // Envia para o Meta Pixel (Facebook/Instagram)
-  if (typeof window !== 'undefined' && (window as any).fbq) {
-    (window as any).fbq('track', 'Lead', {
-      content_name: productName || 'Contato Geral WhatsApp',
+function trackWhatsAppLead(locationOrProduct?: string) {
+  // 1. Disparo para o Google Analytics 4 (GA4) com o evento click_whatsapp
+  if (typeof window !== 'undefined' && (window as any).gtag) {
+    (window as any).gtag('event', 'click_whatsapp', {
+      event_category: 'Contato',
+      event_label: locationOrProduct || 'Geral',
+      button_location: locationOrProduct || 'Geral',
     })
   }
 
-  // Envia para o Google Analytics 4 (GA4)
-  if (typeof window !== 'undefined' && (window as any).gtag) {
-    (window as any).gtag('event', 'generate_lead', {
-      event_category: 'WhatsApp',
-      event_label: productName || 'Contato Geral WhatsApp',
+  // 2. Disparo para o Meta Pixel (Facebook / Instagram)
+  if (typeof window !== 'undefined' && (window as any).fbq) {
+    (window as any).fbq('track', 'Lead', {
+      content_name: locationOrProduct || 'Contato Geral WhatsApp',
     })
   }
 }

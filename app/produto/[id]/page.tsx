@@ -346,9 +346,22 @@ export default function ProductPage() {
     }
   }
 
-  const trackWhatsApp = () => {
+ const trackWhatsApp = () => {
+    // 1. Disparo para o Google Analytics 4 (GA4) com o produto e valor
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'click_whatsapp', {
+        event_category: 'Conversao_Produto',
+        event_label: p?.name || 'Produto',
+        product_name: p?.name,
+        product_category: p?.cat,
+        value: p?.price,
+        currency: 'BRL',
+      })
+    }
+
+    // 2. Disparo para o Meta Pixel (Facebook / Instagram)
     if (typeof window !== 'undefined' && (window as any).fbq) {
-      ;(window as any).fbq('track', 'Lead', {
+      (window as any).fbq('track', 'Lead', {
         content_name: p?.name,
         value: p?.price,
         currency: 'BRL',
